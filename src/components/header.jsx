@@ -1,9 +1,13 @@
 import React, { Fragment } from 'react'
 
+import '../css/header.css';
+
 const Header = () => {
     return (
         <Fragment>
-            <h1>Este es el header</h1>
+            <header className="principal">
+                <h1>JETS</h1>
+            </header>
         </Fragment>
     );
 }

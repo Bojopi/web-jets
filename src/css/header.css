@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.principal{
+    background-color: brown;
+    color: white;
+    height: 150px;
+}
+
+.principal h1{
+    text-align: center;
+}
