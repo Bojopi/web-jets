@@ -7,8 +7,10 @@ const Header = () => {
         <Fragment>
             <div className="header">
                 <div className="titulo">
-                    <div className="icono">
-                        <img src="" alt="" />
+                    <div className="logo">
+                        <div className="icono">
+                            <img src="" alt="" />
+                        </div>
                     </div>
                     <div className="tit-jets">
                         <h1>JETS</h1>

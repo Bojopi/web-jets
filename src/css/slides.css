@@ -3,8 +3,10 @@
     padding: 0;
 }
 
-.slide {
-    width: 100%;
-    height: 520px;
-    background-color: darkgoldenrod;
+.slide .each-slide {
+   height: 55vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: aquamarine;
 }
