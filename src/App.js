@@ -4,6 +4,8 @@ import Header from './components/header'
 import Slides from './components/slides'
 import Empresas from './components/empresas'
 import Footer from './components/footer'
+import Informacion from './components/info_jets'
+import Galeria from './components/galeria'
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
         <Header/>
         <Slides/>
         <Empresas/>
+        <Informacion/>
+        <Galeria/>
         <Footer/>
       </div>
       <div></div>

@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.galeria {
+    width: 100%;
+    height: 80vh;
+}
+
+.galeria h1 {
+    margin: 20px;
+    height: 5%;
+}
+
+.galeria .cont-galeria {
+    padding: 20px;
+    background-color: yellow;
+}
+
+.galeria .cont-galeria .grupo-galeria {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    background-color: tomato;
+}
+
+.galeria .cont-galeria .grupo-galeria .card-galeria {
+    background-color: teal;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    margin: 0 20px;
+}
