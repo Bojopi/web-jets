@@ -5,8 +5,10 @@
 
 .header{
     overflow: hidden;
-    background-color: #cf0a2c;
-    color: white;
+    /* background-color: #cf0a2c; */
+    background-color:white;
+    /* color: white; */
+    color: black;
     width: 100%;
     position: fixed;
     top: 0;
@@ -74,7 +76,10 @@
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 35px;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    padding: 0px 35px;
     text-decoration: none;
     font-size: 17px;
     transition: 0.5s;

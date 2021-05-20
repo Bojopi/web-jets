@@ -1,17 +1,17 @@
 import React, { Fragment } from "react";
-import { Slide } from 'react-slideshow-image'
+import { Slide } from "react-slideshow-image";
 
 import "../css/info_jets.css";
-import 'react-slideshow-image/dist/styles.css'
+import "react-slideshow-image/dist/styles.css";
 
 const properties = {
-    duration: 3000,
-    transitionDuration: 500,
-    infinite: true,
-    indicators: true,
-    arrows: true,
-}
-
+  duration: 3000,
+  transitionDuration: 500,
+  infinite: true,
+  indicators: true,
+  arrows: true,
+  autoplay: true,
+};
 
 const Informacion = () => {
   return (
@@ -38,54 +38,39 @@ const Informacion = () => {
             malesuada. Donec luctus erat quis leo suscipit, vel mattis sapien
             tempus. Nulla lobortis, tortor non laoreet volutpat, sapien lectus
             blandit mi, eu pharetra mauris urna id ante. Nunc at pretium odio.
-            Integer malesuada ante vel imperdiet aliquam. Aliquam quam libero,
-            condimentum sed risus quis, porttitor pharetra nunc. Suspendisse
-            elementum eros interdum ante auctor, eu varius nibh venenatis.
-            Aliquam velit lectus, accumsan non rhoncus ut, ullamcorper id
-            sapien. Vestibulum venenatis pulvinar tristique. Sed sit amet metus
-            non ligula venenatis consequat. Nullam mauris magna, imperdiet vitae
-            tellus vitae, vulputate dapibus justo. Cras et neque a lacus pretium
-            fringilla eget et elit. Cras sed aliquam ante, et dapibus urna. Cras
-            posuere feugiat sapien, vitae dictum ligula laoreet vel. Nunc
-            molestie turpis metus, a bibendum elit convallis eget. Mauris
-            lobortis metus sed imperdiet eleifend. Duis ut arcu non quam mattis
-            lacinia. Maecenas tincidunt ipsum felis, vitae egestas velit semper
-            a. Nulla facilisi. Etiam elementum, purus nec faucibus aliquet,
-            justo erat porttitor augue, et lacinia felis nulla vel leo. Maecenas
-            egestas ligula enim, in malesuada turpis dignissim sed. In hac
-            habitasse platea dictumst. Mauris ultrices nibh at bibendum cursus.
-            Quisque purus nulla, sollicitudin ac ex a, eleifend ullamcorper
-            augue. Quisque non maximus libero.{" "}
+            Integer malesuada ante vel imperdiet aliquam.
           </p>
         </div>
-        <div className="cronograma">
-          <div className="tabla">
-            <Slide {...properties}>
-              <div className="dias">
-                <div>
-                  <h1>COSA 1</h1>
+        <div className="cont-info">
+          <div className="cronograma">
+            <div className="tabla">
+              <Slide {...properties}>
+                <div className="dias">
+                  <div>
+                    <h1>IMAGEN 1</h1>
+                  </div>
                 </div>
-              </div>
-              <div className="dias">
-                <div>
-                  <h1>COSA 2</h1>
+                <div className="dias">
+                  <div>
+                    <h1>IMAGEN 2</h1>
+                  </div>
                 </div>
-              </div>
-              <div className="dias">
-                <div>
-                  <h1>COSA 3</h1>
+                <div className="dias">
+                  <div>
+                    <h1>IMAGEN 3</h1>
+                  </div>
                 </div>
-              </div>
-              <div className="dias">
-                <div>
-                  <h1>COSA 4</h1>
+                <div className="dias">
+                  <div>
+                    <h1>IMAGEN 4</h1>
+                  </div>
                 </div>
-              </div>
-            </Slide>
+              </Slide>
+            </div>
           </div>
           <div className="buttons">
-              <button>MEMORIAS</button>
-              <button>CERTIFICADOS</button>
+            <button className="memorias">MEMORIAS</button>
+            <button className="certificados">CERTIFICADOS</button>
           </div>
         </div>
       </div>
