@@ -10,3 +10,14 @@
    justify-content: center;
    background-color: aquamarine;
 }
+
+.indicators {
+    position: absolute;
+    bottom: 0;
+    left: 48%;
+}
+
+.slide {
+    position: relative;
+    margin-top: 4.8%;
+}

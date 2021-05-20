@@ -5,12 +5,12 @@ import '../css/slides.css';
 import 'react-slideshow-image/dist/styles.css'
 
 const properties = {
-    duration: 3000,
+    duration: 2000,
     transitionDuration: 500,
     infinite: true,
-    // indicators: true,
+    indicators: true,
     arrows: true,
-    autoplay: true
+    autoplay: true,
 }
 
 const Slides = () => {
@@ -32,22 +32,13 @@ const Slides = () => {
                         <h1>COSA 3</h1>
                     </div>
                 </div>
+                <div className="each-slide">
+                    <div>
+                        <h1>COSA 4</h1>
+                    </div>
+                </div>
             </Slide>
         </div>
-
-        // <Fragment>
-        //     <div className="slide">
-        //         <div className="imagen">
-        //             <h1>COSA 1</h1>
-        //         </div>
-        //         <div className="imagen">
-        //             <h1>COSA 2</h1>
-        //         </div>
-        //         <div className="imagen">
-        //             <h1>COSA 3</h1>
-        //         </div>
-        //     </div>
-        // </Fragment>
     );
 }
 

@@ -8,30 +8,37 @@
         transform: translateX(0);
     }
     100% {
-        transform: translateX(calc(-300px * 5));
+        transform: translateX(calc(-250px * 5));
     }
 }
 
 .contenedor {
     width: 100%;
-    height: 25vh;
-    background-color: darkolivegreen;
+    height: 20vh;
+    /* background-color: darkolivegreen; */
 }
 
-.contenedor h1 {
+.contenedor .tit-empresas {
     height: 30%;
+    display: flex;
+    align-items: center;
+    /* background-color: darkolivegreen; */
+}
+
+.contenedor .tit-empresas h2 {
+    margin-left: 50px;
 }
 
 .contenedor .slider {
     height: 65%;
-    width: 90%;
-    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+    width: 80%;
+    /* box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125); */
     margin: auto;
     overflow: hidden;
     position: relative;
 }
 
-.contenedor .slider::before, .slider::after {
+/* .contenedor .slider::before, .slider::after {
     background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
     content: "";
     height: 100%;
@@ -49,16 +56,15 @@
 .contenedor .slider::before {
     left: 0;
     top: 0;
-}
+} */
 
 .contenedor .slider .slider-track {
-    animation: scroll 20s linear infinite;
+    animation: scroll 10s linear infinite;
     display: flex;
-    width: 100%
 }
 
 .contenedor .slider .slider-track .listas img {
-    height: 150px;
-    width: 300px;
+    height: 100px;
+    width: 250px;
 }
 
