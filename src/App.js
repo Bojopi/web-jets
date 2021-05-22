@@ -6,6 +6,7 @@ import Empresas from './components/empresas'
 import Footer from './components/footer'
 import Informacion from './components/info_jets'
 import Galeria from './components/galeria'
+import Speakers from './components/speakers'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Empresas/>
         <Informacion/>
         <Galeria/>
+        <Speakers/>
         <Footer/>
       </div>
       <div></div>

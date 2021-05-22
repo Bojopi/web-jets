@@ -5,10 +5,10 @@
 
 .header{
     overflow: hidden;
-    /* background-color: #cf0a2c; */
-    background-color:white;
-    /* color: white; */
-    color: black;
+    background-color: #cf0a2c;
+    /* background-color:white; */
+    color: white;
+    /* color: black; */
     width: 100%;
     position: fixed;
     top: 0;
@@ -34,6 +34,12 @@
     width: 100px;
     height: 100px;
     background-color: cornsilk;
+    border-radius: 50%;
+}
+
+.header .titulo .logo .icono img {
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
 }
 

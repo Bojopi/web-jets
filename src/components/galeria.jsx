@@ -10,7 +10,7 @@ const Galeria = () => {
   return (
     <Fragment>
       <div className="galeria">
-        <h1>Esta es la galeria</h1>
+        <h1>GALERIA DE IMAGENES</h1>
         <div className="cont-galeria">
           <div className="grupo-galeria" id="ganadores">
             <p className="tit-categoria">GANADORES DE LOS CONCURSOS</p>

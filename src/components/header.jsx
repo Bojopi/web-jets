@@ -2,6 +2,10 @@ import React, { Fragment } from 'react'
 
 import '../css/header.css';
 
+//imagenes
+import timon_blanco from '../images/timon_fondo_blanco.jpeg'
+import timon_rojo from '../images/timon_fondo_rojo.jpeg'
+
 const Header = () => {
     return (
         <Fragment>
@@ -9,7 +13,7 @@ const Header = () => {
                 <div className="titulo">
                     <div className="logo">
                         <div className="icono">
-                            <img src="" alt="" />
+                            <img src={timon_blanco} alt="" />
                         </div>
                     </div>
                     <div className="tit-jets">

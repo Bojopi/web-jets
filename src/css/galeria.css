@@ -26,13 +26,17 @@
     grid-template-columns: 100%;
     grid-template-rows: 10% 90%;
     align-items: center;
-    /* background-color: tomato; */
 }
 
 .galeria .cont-galeria .grupo-galeria .tit-categoria {
     padding: 0 50px;
     font-size: 20px;
     font-weight: 600;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color:  #555759;
+    color: white;
 }
 
 .galeria .cont-galeria .grupo-galeria .cont-cards {
@@ -86,8 +90,8 @@
 }
 
 .galeria .cont-galeria .grupo-galeria .cont-cards .card-galeria:hover span {
-    width: 100%;
-    left: 0;
+    width: 60%;
+    left: 40%;
 }
 
 .galeria .cont-galeria .grupo-galeria .cont-cards .card-galeria span h3 {

@@ -14,11 +14,11 @@ const Footer = () => {
         <Fragment>
             <div className="footer">
                 <div className="redes-sociales">
-                    <img src={facebook} alt="" />
-                    <img src={instagram} alt="" />
-                    <img src={linkedin} alt="" />
-                    <img src={twitter} alt="" />
-                    <img src={youtube} alt="" />
+                    <img className="img-redes" src={facebook} alt="" />
+                    <img className="img-redes" src={instagram} alt="" />
+                    <img className="img-redes" src={linkedin} alt="" />
+                    <img className="img-redes" src={twitter} alt="" />
+                    <img className="img-redes" src={youtube} alt="" />
                 </div>
                 <div className="copyright">
                     <p>Copyright &copy; CDTE Utepsa</p>
