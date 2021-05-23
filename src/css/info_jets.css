@@ -5,21 +5,25 @@
 
 .info-jets {
     width: 100%;
-    height: 80vh;
+    height: 600px;
     display: grid;
     grid-template-columns: repeat(2, 50%);
+    box-sizing: border-box;
 }
 
 .info-jets .historia {
-    padding: 40px 100px;
+    width: 100%;
+    height: 100%;
+    /* padding: 40px 50px; */
     /* background-color: wheat; */
 }
 
 .info-jets .historia h1 {
-    margin-bottom: 20px;
+    padding: 40px 0 20px 50px;
 }
 
 .info-jets .historia p {
+    padding: 0 60px;
     text-align: justify;
 }
 
@@ -27,47 +31,33 @@
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 85% 15%;
-    justify-items: center;
-    align-items: center;
 }
 
 .info-jets .cont-info .cronograma {
     width: 100%;
-    height: 95%;
+    height: 100%;
 }
 
 .info-jets .cont-info .cronograma .tabla {
-    height: 100%;
+    position: relative;
 }
 
-/* .info-jets .cont-info .cronograma .tabla div {
-    height: 100%;
+/* .react-slideshow-container .nav {
+    z-index: 9;
 } */
 
-.react-slideshow-container .nav {
-    z-index: 9;
-}
-
 .info-jets .cont-info .cronograma .tabla .dias {
-    width: 90%;
-    height: 500px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   margin: auto;
-   background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+    height: 200px;
 }
 
 .indicators {
     position: absolute;
     bottom: 0;
     left: 48%;
-}
-
-.tabla {
-    position: relative;
 }
 
 .info-jets .cont-info .cronograma .tabla .slide {

@@ -18,17 +18,18 @@
     position: fixed;
     top: 0;
     z-index: 10;
-    height: 20vh;
+    height: 150px;
 }
 
 .header .titulo{
     width: 100%;
     height: 70%;
+    display: grid;
+    grid-template-columns: 20% 80%;
 }
 
 .header .titulo .logo {
-    float: left;
-    width: 10%;
+    width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -41,41 +42,40 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: cornsilk;
-    border-radius: 50%; */
 }
 
 .header .titulo .logo .icono img {
     width: 90%;
     height: 90%;
-    border-radius: 50%;
 }
 
-.header .titulo .tit-jets {
-    float: right;
-    height: 60%;
-    width: 90%;
+.header .titulo .cont-tit {
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+
+.header .titulo .cont-tit .tit-jets {
+    height: 100%;
+    width: 100%;
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
+    align-items: center;
 }
 
-.header .titulo .tit-jets h1 {
-    width: 20%;
+.header .titulo .cont-tit .tit-jets h1 {
     font-family: 'NFL RedZone';
+    margin: 0 0 0 30%;
 }
 
-.header .titulo .tit-texto {
-    float: right;
-    height: 40%;
-    width: 90%;
+.header .titulo .cont-tit .tit-texto {
+    height: 100%;
+    width: 100%;
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    align-items: center;
 }
 
 .header .titulo .tit-texto h3 {
-    width: 38%;
+    margin: 0 0 0 21%;
 }
 
 .header .navbar {

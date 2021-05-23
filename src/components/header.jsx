@@ -16,11 +16,13 @@ const Header = () => {
                             <img src={timon_rojo} alt="" />
                         </div>
                     </div>
-                    <div className="tit-jets">
-                        <h1>JETS</h1>
-                    </div>
-                    <div className="tit-texto">
-                        <h3>Jornadas Empresariales, Tecnológicas y Sociales</h3>
+                    <div className="cont-tit">
+                        <div className="tit-jets">
+                            <h1>JETS</h1>
+                        </div>
+                        <div className="tit-texto">
+                            <h3>Jornadas Empresariales, Tecnológicas y Sociales</h3>
+                        </div>
                     </div>
                 </div>
                 <div className="navbar">

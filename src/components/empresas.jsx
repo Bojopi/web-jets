@@ -7,7 +7,7 @@ const Empresas = () => {
         <Fragment>
             <div className="contenedor">
                 <div className="tit-empresas">
-                    <h2>EMPRESAS INVITADAS</h2>
+                    <h1>EMPRESAS INVITADAS</h1>
                 </div>
                 <div className="slider">
                     <div className="slider-track">

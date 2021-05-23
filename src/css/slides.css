@@ -3,8 +3,13 @@
     padding: 0;
 }
 
+.slide {
+    position: relative;
+    margin-top: 4.9%;
+}
+
 .slide .each-slide {
-   height: 55vh;
+   height: 400px;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -15,9 +20,4 @@
     position: absolute;
     bottom: 0;
     left: 48%;
-}
-
-.slide {
-    position: relative;
-    margin-top: 4.9%;
 }
