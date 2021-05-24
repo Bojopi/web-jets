@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor-contacto {
+    width: 100%;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.contenedor-contacto .info-contacto {
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+
+.contenedor-contacto .info-contacto h1 {
+    margin: 0 50px;
+    height: 150px;
+    border-left: 10px solid #555759;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 70px;
+}
+
+.contenedor-contacto .info-contacto img {
+    width: 70%;
+    margin-left: 50px;
+}
+
+.contenedor-contacto .info-contacto .info-texto {
+    width: 80%;
+    margin-left: 60px;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    align-items: center;
+}
+
+.contenedor-contacto .form-contacto {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+
+.contenedor-contacto .form-contacto .text-info {
+    width: 50%;
+    height: 20%;
+    margin: 50px auto;
+}
+
+.contenedor-contacto .form-contacto .form-info {
+    width: 60%;
+    height: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-contacto .form-contacto .form-info input {
+    width: 70%;
+    margin: 0 auto 20px auto;
+    border-radius: 20px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.contenedor-contacto .form-contacto .form-info #mensaje {
+    height: 100px;
+}
+
+.contenedor-contacto .form-contacto .form-info button {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    align-self: flex-end;
+    margin-right: 80px;
+    border: none;
+    box-shadow: 1px 1px 1px 1px black;
+    background-color: #cf0a2c;
+    color: white;
+}

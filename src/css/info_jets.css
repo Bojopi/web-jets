@@ -15,7 +15,6 @@
     width: 100%;
     height: 100%;
     /* padding: 40px 50px; */
-    /* background-color: wheat; */
 }
 
 .info-jets .historia h1 {
@@ -30,12 +29,13 @@
 .info-jets .cont-info {
     width: 100%;
     height: 100%;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .info-jets .cont-info .cronograma {
     width: 100%;
-    height: 100%;
+    height: 80%;
 }
 
 .info-jets .cont-info .cronograma .tabla {
@@ -51,14 +51,16 @@
     align-items: center;
     justify-content: center;
     background-color: aquamarine;
-    height: 200px;
+    height: 450px;
+    width: 90%;
+    margin: 0 auto;
 }
 
-.indicators {
+/* .indicators {
     position: absolute;
     bottom: 0;
     left: 48%;
-}
+} */
 
 .info-jets .cont-info .cronograma .tabla .slide {
     margin: 0;
@@ -66,7 +68,7 @@
 
 .info-jets .cont-info .buttons {
     width: 100%;
-    height: 100%;
+    height: 20%;
     display: flex;
     align-items: center;
     justify-content: center;

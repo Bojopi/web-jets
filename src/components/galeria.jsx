@@ -5,7 +5,6 @@ import "../css/galeria.css";
 //imagenes
 import img1 from "../images/img1.jpg";
 
-
 const Galeria = () => {
   return (
     <Fragment>
@@ -15,39 +14,39 @@ const Galeria = () => {
           <div className="grupo-galeria" id="ganadores">
             <p className="tit-categoria">GANADORES DE LOS CONCURSOS</p>
             <div className="cont-cards">
-              <div className="card-galeria">
-                <div className="img">
-                  <img src={img1} alt="" />
+                <div className="card-galeria">
+                  <div className="img">
+                    <img src={img1} alt="" />
+                  </div>
+                  <span>
+                    <h3>Este es el titulo</h3>
+                    <p>Aqui va la descripción de la imagen</p>
+                  </span>
                 </div>
-                <span>
-                  <h3>Este es el titulo</h3>
-                  <p>Aqui va la descripción de la imagen</p>
-                </span>
-              </div>
-              <div className="card-galeria">
-                <div className="img">
-                  <img src={img1} alt="" />
+                <div className="card-galeria">
+                  <div className="img">
+                    <img src={img1} alt="" />
+                  </div>
+                  <span>
+                    <h3>Este es el titulo</h3>
+                    <p>Aqui va la descripción de la imagen</p>
+                  </span>
                 </div>
-                <span>
-                  <h3>Este es el titulo</h3>
-                  <p>Aqui va la descripción de la imagen</p>
-                </span>
-              </div>
-              <div className="card-galeria">
-                <div className="img">
-                  <img src={img1} alt="" />
+                <div className="card-galeria">
+                  <div className="img">
+                    <img src={img1} alt="" />
+                  </div>
+                  <span>
+                    <h3>Este es el titulo</h3>
+                    <p>Aqui va la descripción de la imagen</p>
+                  </span>
                 </div>
-                <span>
-                  <h3>Este es el titulo</h3>
-                  <p>Aqui va la descripción de la imagen</p>
-                </span>
-              </div>
             </div>
           </div>
           <div className="grupo-galeria" id="proyectos">
             <p className="tit-categoria">FERIA PROYECTOS</p>
             <div className="cont-cards">
-            <div className="card-galeria">
+              <div className="card-galeria">
                 <div className="img">
                   <img src={img1} alt="" />
                 </div>
@@ -79,7 +78,7 @@ const Galeria = () => {
           <div className="grupo-galeria" id="concursos">
             <p className="tit-categoria">CONCURSOS</p>
             <div className="cont-cards">
-            <div className="card-galeria">
+              <div className="card-galeria">
                 <div className="img">
                   <img src={img1} alt="" />
                 </div>
@@ -111,7 +110,7 @@ const Galeria = () => {
           <div className="grupo-galeria" id="conferencias">
             <p className="tit-categoria">CONFERENCIAS</p>
             <div className="cont-cards">
-            <div className="card-galeria">
+              <div className="card-galeria">
                 <div className="img">
                   <img src={img1} alt="" />
                 </div>

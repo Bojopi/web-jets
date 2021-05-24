@@ -7,6 +7,7 @@ import Footer from './components/footer'
 import Informacion from './components/info_jets'
 import Galeria from './components/galeria'
 import Speakers from './components/speakers'
+import Contacto from './components/contacto'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Informacion/>
         <Galeria/>
         <Speakers/>
+        <Contacto/>
         <Footer/>
       </div>
       <div></div>
