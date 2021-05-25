@@ -16,10 +16,14 @@ function App() {
         <Header/>
         <Slides/>
         <Empresas/>
-        <Informacion/>
-        <Galeria/>
-        <Speakers/>
-        <Contacto/>
+        <Informacion
+        id="info"/>
+        <Galeria
+        id="galeria"/>
+        <Speakers
+        id="expo"/>
+        <Contacto
+        id="contacto"/>
         <Footer/>
       </div>
       <div></div>
