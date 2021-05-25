@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react'
-import { Link, animateScroll as scroll } from "react-scroll";
 
 import '../css/header.css';
 
@@ -27,64 +26,6 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="navbar">
-                    {/* <Link
-                    className="nav-item"
-                    activeClass="active"
-                    to="#"
-                    spy={true}
-                    smooth={true}
-                    duration={500}>
-                        INICIO
-                    </Link>
-                    <Link
-                    className="nav-item"
-                    activeClass="active"
-                    to="info"
-                    spy={true}
-                    smooth={true}
-                    offset={20}
-                    duration={500}>
-                        ¿QUÉ ES JETS?
-                    </Link>
-                    <Link
-                    className="nav-item"
-                    activeClass="active"
-                    to="galeria"
-                    spy={true}
-                    smooth={true}
-                    offset={20}
-                    duration={500}>
-                        GALERÍA
-                    </Link>
-                    <Link
-                    className="nav-item"
-                    activeClass="active"
-                    to="expo"
-                    spy={true}
-                    smooth={true}
-                    offset={20}
-                    duration={500}>
-                        EXPOSITORES
-                    </Link>
-                    <Link
-                    className="nav-item"
-                    activeClass="active"
-                    to="contacto"
-                    spy={true}
-                    smooth={true}
-                    offset={20}
-                    duration={500}>
-                        CONTÁCTANOS
-                    </Link>
-                    <Link
-                    className="nav-item"
-                    activeClass="active"
-                    to="#"
-                    spy={true}
-                    smooth={true}
-                    duration={500}>
-                        EVENTO ONLINE
-                    </Link> */}
                     <a href="#" className="activo nav-item">INICIO</a>
                     <a href="#info" className="nav-item">¿QUÉ ES JETS?</a>
                     <a href="#galeria" className="nav-item">GALERÍA</a>

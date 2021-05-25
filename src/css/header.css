@@ -65,6 +65,7 @@
 .header .titulo .cont-tit .tit-jets h1 {
     font-family: 'NFL RedZone';
     margin: 0 0 0 30%;
+    /* font-size: 32px; */
 }
 
 .header .titulo .cont-tit .tit-texto {
@@ -104,4 +105,49 @@
     background-color: #fff;
     color: #cf0a2c;
     border-radius: 10px;
+}
+
+
+/* responsive laptop 960 */
+@media screen and (max-width: 960px) {
+    .header .titulo .cont-tit .tit-jets h1 {
+        font-size: 25px;
+    }
+    .header .titulo .cont-tit .tit-texto {
+        font-size: 12px;
+    }
+    .header a{
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        padding: 0px 35px;
+        text-decoration: none;
+        font-size: 12px;
+        transition: 0.5s;
+    }
+}
+
+/* responsive movil 768 */
+@media screen and (max-width: 768px) {
+    .header .titulo .cont-tit .tit-jets h1 {
+        font-size: 20px;
+    }
+    .header .titulo .cont-tit .tit-texto {
+        font-size: 12px;
+    }
+    .header a{
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        padding: 0px 35px;
+        text-decoration: none;
+        font-size: 12px;
+        transition: 0.5s;
+    }
 }
