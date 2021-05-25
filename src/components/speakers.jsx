@@ -11,7 +11,159 @@ const Speakers = () => {
       <div className="cont-speakers">
         <h1>SPEAKERS</h1>
         <div className="speakers">
-            <div className="card">
+          <ul className="grid style">
+            <li>
+              <figure>
+                <img className="imagen-speaker" src={user} />
+                <figcaption>
+                  <h3>Nombre</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quasi corrupti saepe pariatur aut debitis culpa porro unde
+                    repellendus voluptas, deserunt suscipit, tenetur laborum
+                    optio nemo neque reiciendis quo nulla eaque hic velit, totam
+                    magnam at.
+                  </p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img className="imagen-speaker" src={user} />
+                <figcaption>
+                  <h3>Nombre</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quasi corrupti saepe pariatur aut debitis culpa porro unde
+                    repellendus voluptas, deserunt suscipit, tenetur laborum
+                    optio nemo neque reiciendis quo nulla eaque hic velit, totam
+                    magnam at.
+                  </p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img className="imagen-speaker" src={user} />
+                <figcaption>
+                  <h3>Nombre</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quasi corrupti saepe pariatur aut debitis culpa porro unde
+                    repellendus voluptas, deserunt suscipit, tenetur laborum
+                    optio nemo neque reiciendis quo nulla eaque hic velit, totam
+                    magnam at.
+                  </p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img className="imagen-speaker" src={user} />
+                <figcaption>
+                  <h3>Nombre</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quasi corrupti saepe pariatur aut debitis culpa porro unde
+                    repellendus voluptas, deserunt suscipit, tenetur laborum
+                    optio nemo neque reiciendis quo nulla eaque hic velit, totam
+                    magnam at.
+                  </p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img className="imagen-speaker" src={user} />
+                <figcaption>
+                  <h3>Nombre</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quasi corrupti saepe pariatur aut debitis culpa porro unde
+                    repellendus voluptas, deserunt suscipit, tenetur laborum
+                    optio nemo neque reiciendis quo nulla eaque hic velit, totam
+                    magnam at.
+                  </p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img className="imagen-speaker" src={user} />
+                <figcaption>
+                  <h3>Nombre</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quasi corrupti saepe pariatur aut debitis culpa porro unde
+                    repellendus voluptas, deserunt suscipit, tenetur laborum
+                    optio nemo neque reiciendis quo nulla eaque hic velit, totam
+                    magnam at.
+                  </p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img className="imagen-speaker" src={user} />
+                <figcaption>
+                  <h3>Nombre</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quasi corrupti saepe pariatur aut debitis culpa porro unde
+                    repellendus voluptas, deserunt suscipit, tenetur laborum
+                    optio nemo neque reiciendis quo nulla eaque hic velit, totam
+                    magnam at.
+                  </p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img className="imagen-speaker" src={user} />
+                <figcaption>
+                  <h3>Nombre</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quasi corrupti saepe pariatur aut debitis culpa porro unde
+                    repellendus voluptas, deserunt suscipit, tenetur laborum
+                    optio nemo neque reiciendis quo nulla eaque hic velit, totam
+                    magnam at.
+                  </p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img className="imagen-speaker" src={user} />
+                <figcaption>
+                  <h3>Nombre</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quasi corrupti saepe pariatur aut debitis culpa porro unde
+                    repellendus voluptas, deserunt suscipit, tenetur laborum
+                    optio nemo neque reiciendis quo nulla eaque hic velit, totam
+                    magnam at.
+                  </p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img className="imagen-speaker" src={user} />
+                <figcaption>
+                  <h3>Nombre</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quasi corrupti saepe pariatur aut debitis culpa porro unde
+                    repellendus voluptas, deserunt suscipit, tenetur laborum
+                    optio nemo neque reiciendis quo nulla eaque hic velit, totam
+                    magnam at.
+                  </p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+          {/* <div className="card">
                 <div className="contenido-speaker">
                     <figure className="container-image">
                         <img className="imagen-speaker" src={user} />
@@ -87,8 +239,7 @@ const Speakers = () => {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi corrupti saepe pariatur aut debitis culpa porro unde repellendus voluptas, deserunt suscipit, tenetur laborum optio nemo neque reiciendis quo nulla eaque hic velit, totam magnam at. Sunt odit doloribus placeat voluptatem autem numquam. Dignissimos, molestias nisi! Accusantium corporis praesentium commodi cum itaque recusandae eligendi suscipit non accusamus magnam, illum in laudantium reprehenderit facilis pariatur fugiat deleniti molestiae libero qui repellat saepe eius maxime eaque? Eaque voluptas modi, officiis veritatis, tempora animi hic deleniti ducimus sapiente eveniet vitae dolor aliquid, saepe blanditiis ab odio suscipit voluptates alias totam. Voluptas voluptates necessitatibus pariatur?</p>
                     </div>
                 </div>
-            </div>
-         
+            </div> */}
         </div>
       </div>
     </Fragment>

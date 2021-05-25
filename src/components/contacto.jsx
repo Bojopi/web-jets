@@ -6,7 +6,7 @@ import { MdEmail } from "react-icons/md";
 import { CgWebsite } from "react-icons/cg";
 
 import "../css/contacto.css";
-import ubicacion from "../images/utepsa_ubicacion.png";
+import ubicacion from "../images/MAPA-UTEPSA.png";
 
 const Contacto = () => {
   return (

@@ -26,7 +26,7 @@
 
 .info-jets .historia h1 {
     height: 10%;
-    padding: 40px 0 20px 50px;
+    padding: 40px 0 20px 90px;
 }
 
 .info-jets .historia p {
@@ -92,7 +92,21 @@
     border-radius: 20px;
     border: none;
     background-color: #cf0a2c;
+    box-shadow: 5px 6px 10px 1px #f0637a;
     color: white;
     font-size: 15px;
     font-weight: bold;
+    transition: .3s;
+}
+
+.info-jets .cont-info .buttons button:hover {
+    background-color: white;
+    color: #cf0a2c;
+    transform: scale(1.1);
+}
+
+.info-jets .cont-info .buttons button:active {
+    background-color: #cf0a2c;
+    color: white;
+    transform: scale(0.8);
 }
