@@ -22,7 +22,6 @@ function App() {
         <Contacto/>
         <Footer/>
       </div>
-      <div></div>
     </Fragment>
   );
 }

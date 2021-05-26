@@ -3,7 +3,8 @@ import React, { Fragment } from "react";
 import "../css/speakers.css";
 
 //imagenes
-import user from "../images/user.png";
+import javier from "../images/user.png";
+import user1 from "../images/CAROL ILIEVSKI.png"
 
 const Speakers = () => {
   return (
@@ -14,15 +15,15 @@ const Speakers = () => {
           <ul className="grid style">
             <li>
               <figure>
-                <img className="imagen-speaker" src={user} />
+                <img className="imagen-speaker" src={user1} />
                 <figcaption>
                   <h3>Nombre</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    {/* Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Quasi corrupti saepe pariatur aut debitis culpa porro unde
                     repellendus voluptas, deserunt suscipit, tenetur laborum
                     optio nemo neque reiciendis quo nulla eaque hic velit, totam
-                    magnam at.
+                    magnam at. */}
                   </p>
                 </figcaption>
               </figure>
