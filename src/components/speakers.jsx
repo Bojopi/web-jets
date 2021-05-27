@@ -3,8 +3,8 @@ import React, { Fragment } from "react";
 import "../css/speakers.css";
 
 //imagenes
-import javier from "../images/user.png";
-import user1 from "../images/CAROL ILIEVSKI.png"
+import javier from "../images/speakers/JAVIER DE LA FUENTE.png";
+// import user1 from "../images/CAROL ILIEVSKI.png"
 
 const Speakers = () => {
   return (
@@ -15,22 +15,25 @@ const Speakers = () => {
           <ul className="grid style">
             <li>
               <figure>
-                <img className="imagen-speaker" src={user1} />
+                <img className="imagen-speaker" src={javier} />
                 <figcaption>
-                  <h3>Nombre</h3>
+                  <h3>JAVIER DE LA FUENTE</h3>
                   <p>
-                    {/* Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Quasi corrupti saepe pariatur aut debitis culpa porro unde
                     repellendus voluptas, deserunt suscipit, tenetur laborum
                     optio nemo neque reiciendis quo nulla eaque hic velit, totam
-                    magnam at. */}
+                    magnam at.
                   </p>
+                  <div className="ver-mas">
+                    <p>VER MÁS</p>
+                  </div>
                 </figcaption>
               </figure>
             </li>
             <li>
               <figure>
-                <img className="imagen-speaker" src={user} />
+                <img className="imagen-speaker" src={javier} />
                 <figcaption>
                   <h3>Nombre</h3>
                   <p>
@@ -45,7 +48,7 @@ const Speakers = () => {
             </li>
             <li>
               <figure>
-                <img className="imagen-speaker" src={user} />
+                <img className="imagen-speaker" src={javier} />
                 <figcaption>
                   <h3>Nombre</h3>
                   <p>
@@ -60,7 +63,7 @@ const Speakers = () => {
             </li>
             <li>
               <figure>
-                <img className="imagen-speaker" src={user} />
+                <img className="imagen-speaker" src={javier} />
                 <figcaption>
                   <h3>Nombre</h3>
                   <p>
@@ -75,7 +78,7 @@ const Speakers = () => {
             </li>
             <li>
               <figure>
-                <img className="imagen-speaker" src={user} />
+                <img className="imagen-speaker" src={javier} />
                 <figcaption>
                   <h3>Nombre</h3>
                   <p>
@@ -90,7 +93,7 @@ const Speakers = () => {
             </li>
             <li>
               <figure>
-                <img className="imagen-speaker" src={user} />
+                <img className="imagen-speaker" src={javier} />
                 <figcaption>
                   <h3>Nombre</h3>
                   <p>
@@ -105,7 +108,7 @@ const Speakers = () => {
             </li>
             <li>
               <figure>
-                <img className="imagen-speaker" src={user} />
+                <img className="imagen-speaker" src={javier} />
                 <figcaption>
                   <h3>Nombre</h3>
                   <p>
@@ -120,7 +123,7 @@ const Speakers = () => {
             </li>
             <li>
               <figure>
-                <img className="imagen-speaker" src={user} />
+                <img className="imagen-speaker" src={javier} />
                 <figcaption>
                   <h3>Nombre</h3>
                   <p>
@@ -135,7 +138,7 @@ const Speakers = () => {
             </li>
             <li>
               <figure>
-                <img className="imagen-speaker" src={user} />
+                <img className="imagen-speaker" src={javier} />
                 <figcaption>
                   <h3>Nombre</h3>
                   <p>
@@ -150,7 +153,7 @@ const Speakers = () => {
             </li>
             <li>
               <figure>
-                <img className="imagen-speaker" src={user} />
+                <img className="imagen-speaker" src={javier} />
                 <figcaption>
                   <h3>Nombre</h3>
                   <p>
