@@ -32,7 +32,10 @@ const Header = () => {
                     <a href="#galeria" className="nav-item">GALERÍA</a>
                     <a href="#expo" className="nav-item">EXPOSITORES</a>
                     <a href="#contacto" className="nav-item">CONTÁCTANOS</a>
-                    <a href="#" className="nav-item">EVENTO ONLINE</a>
+                    <Link to={'login-juego'} className="entrar-juego">
+                        EVENTO ONLINE
+                    </Link>
+                    {/* <a href="#" className="nav-item">EVENTO ONLINE</a> */}
                 </div>
             </div>
         </Fragment>
