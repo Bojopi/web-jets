@@ -119,7 +119,7 @@ const Speakers = () => {
                 </figcaption>
               </figure>
             </li>
-            {/* <li>
+            <li>
               <figure>
                 <img className="imagen-speaker" src={monica} />
                 <figcaption>
@@ -135,7 +135,7 @@ const Speakers = () => {
                 </figcaption>
               </figure>
             </li>
-            <li>
+            {/* <li>
               <figure>
                 <img className="imagen-speaker" src={javier} />
                 <figcaption>
