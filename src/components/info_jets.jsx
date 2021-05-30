@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { Link } from 'react-router-dom';
 import { Slide } from "react-slideshow-image";
 
 import "../css/info_jets.css";
@@ -69,7 +70,9 @@ const Informacion = () => {
             </div>
           </div>
           <div className="buttons">
-            <button className="memorias">MEMORIAS</button>
+            <button className="memorias">
+              <Link to="/memorias">MEMORIAS</Link>
+            </button>
             <button className="certificados">CERTIFICADOS</button>
           </div>
         </div>

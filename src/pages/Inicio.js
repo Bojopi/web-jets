@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 
 import Header from '../components/header'
+import Navbar from '../components/navbar'
 import Slides from '../components/slides'
 import Empresas from '../components/empresas'
 import Footer from '../components/footer'
@@ -14,6 +15,7 @@ function Inicio() {
     <Fragment>
       <div className="container">
         <Header/>
+        <Navbar/>
         <Slides/>
         <Empresas/>
         <Informacion/>

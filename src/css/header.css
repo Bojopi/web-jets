@@ -11,19 +11,17 @@
 .header{
     overflow: hidden;
     background-color: #cf0a2c;
-    /* background-color:white; */
     color: white;
-    /* color: black; */
     width: 100%;
     position: fixed;
     top: 0;
     z-index: 15;
-    height: 150px;
+    height: 100px;
 }
 
 .header .titulo{
     width: 100%;
-    height: 70%;
+    height: 100%;
     display: grid;
     grid-template-columns: 20% 80%;
 }
@@ -79,34 +77,6 @@
     margin: 0 0 0 21%;
 }
 
-.header .navbar {
-    width: 100%;
-    height: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #000;
-}
-
-.header a{
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    height: 90%;
-    display: flex;
-    align-items: center;
-    padding: 0px 35px;
-    text-decoration: none;
-    font-size: 17px;
-    transition: 0.5s;
-}
-
-.header a:hover {
-    background-color: #fff;
-    color: #cf0a2c;
-    border-radius: 10px;
-}
-
 
 /* responsive laptop 960 */
 @media screen and (max-width: 960px) {
@@ -116,7 +86,7 @@
     .header .titulo .cont-tit .tit-texto {
         font-size: 12px;
     }
-    .header a{
+    /* .header a{
         float: left;
         color: #f2f2f2;
         text-align: center;
@@ -127,7 +97,7 @@
         text-decoration: none;
         font-size: 12px;
         transition: 0.5s;
-    }
+    } */
 }
 
 /* responsive movil 768 */
@@ -138,7 +108,7 @@
     .header .titulo .cont-tit .tit-texto {
         font-size: 12px;
     }
-    .header a{
+    /* .header a{
         float: left;
         color: #f2f2f2;
         text-align: center;
@@ -149,5 +119,5 @@
         text-decoration: none;
         font-size: 12px;
         transition: 0.5s;
-    }
+    } */
 }
