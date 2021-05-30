@@ -70,10 +70,11 @@ const Informacion = () => {
             </div>
           </div>
           <div className="buttons">
-            <button className="memorias">
-              <Link to="/memorias">MEMORIAS</Link>
-            </button>
-            <button className="certificados">CERTIFICADOS</button>
+            {/* <button className="memorias"> */}
+            {/* </button> */}
+            {/* <button className="certificados">CERTIFICADOS</button> */}
+              <Link to="/memorias" className="memorias btn">MEMORIAS</Link>
+              <Link to="/cetificados" className="certificados btn">CERTIFICADOS</Link>
           </div>
         </div>
       </div>

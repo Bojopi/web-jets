@@ -74,15 +74,16 @@
     border: none;
     border-bottom: 2px solid #555759;
     /* border-bottom: 2px solid #cf0a2c; */
-    border-radius: 20px;
-    padding-left: 10px;
+    /* border-radius: 20px; */
+    /* padding: 10px; */
     transition: .5s;
 }
 
 .contenedor-contacto .form-contacto .form-info input:focus {
     width: 75%;
     height: 45px;
-    border-color:  #a9acac;
+    border-bottom: 3px solid #a9acac;
+    /* border-color:  #a9acac; */
     outline: none;
 
 }
