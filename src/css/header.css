@@ -45,6 +45,11 @@
 .header .titulo .logo .icono img {
     width: 90%;
     height: 90%;
+    transition: .5s;
+}
+
+.header .titulo .logo .icono img:hover {
+    transform: rotate(180deg);
 }
 
 .header .titulo .cont-tit {
