@@ -4,9 +4,14 @@ import { Slide } from "react-slideshow-image";
 import "../css/slides.css";
 import "react-slideshow-image/dist/styles.css";
 
+//imagenes
+import slide1 from '../images/slides/slide1.jpeg'
+import slide2 from '../images/slides/slide2.jpeg'
+import slide3 from '../images/slides/slide3.jpeg'
+
 const properties = {
-  duration: 2000,
-  transitionDuration: 500,
+  duration: 3000,
+  transitionDuration: 600,
   infinite: true,
   indicators: true,
   arrows: true,
@@ -20,22 +25,17 @@ const Slides = () => {
         <Slide {...properties}>
           <div className="each-slide">
             <div>
-              <h1>COSA 1</h1>
+              <img src={slide1} alt="" />
             </div>
           </div>
           <div className="each-slide">
             <div>
-              <h1>COSA 2</h1>
+            <img src={slide2} alt="" />
             </div>
           </div>
           <div className="each-slide">
             <div>
-              <h1>COSA 3</h1>
-            </div>
-          </div>
-          <div className="each-slide">
-            <div>
-              <h1>COSA 4</h1>
+            <img src={slide3} alt="" />
             </div>
           </div>
         </Slide>
