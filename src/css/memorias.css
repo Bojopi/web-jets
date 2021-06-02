@@ -6,7 +6,7 @@
 .memorias {
   margin-top: 100px;
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   background-color: blanchedalmond;
@@ -26,7 +26,7 @@
 .memoria {
   width: 100%;
   height: 100%;
-  background-color: blanchedalmond;
+  /* background-color: blanchedalmond; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,6 +50,9 @@
     top: 0;
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     /* background: rgba(0, 0, 0, 0.6); */
     transition: all .5s ease-out;
     opacity: 0;
@@ -60,15 +63,19 @@
 .memorias .memoria figure:hover > .capa {
     opacity: 1;
     visibility: visible;
+    display: flex;
+    justify-content: center;
 }
 
 .memorias .memoria figure:hover > img {
-    filter: blur(6px);
+    filter: blur(3px);
 }
 
 .memorias .memoria figure .capa h1 {
-    margin-top: 10%;
+    /* margin-top: 10%; */
+    width: 100%;
     color: white;
+    text-shadow: 5px 5px 8px black;
 }
 
 .memorias .memoria figure .capa .btn {
@@ -80,10 +87,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 5px 5px 10px -2px black;
+    cursor: pointer;
 }
 
-.memorias .memoria figure .capa .btn p {
+.memorias .memoria figure .capa .btn a {
     color: white;
+    text-decoration: none;
 }
 
 .memorias .card {
@@ -91,42 +101,79 @@
   height: 100%;
 }
 
-/* .memorias .siete {
-  background: url("../images/memorias/jets\ 2017/presentacion_cienciasempresariales.PNG");
-  background-size: cover;
+
+
+/*----------  MEMORIAS POR SEPARADO  ----------*/
+
+.memo-17 {
+  width: 100%;
 }
 
-.memorias .ocho {
-  background: url("../images/memorias/jets\ 2018/fondo_atrapasueños.PNG");
-  background-size: cover;
-  background-position: center;
+.memo-17 .presentacion {
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 
-.memorias .nueve {
-  background: url("../images/memorias/jets\ 2019/entrada_casadepapel.JPG");
-  background-size: cover;
-} */
-
-/* .memorias .card span {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.memo-17 .presentacion h1 {
+  width: 40%;
+  text-align: center;
 }
 
-.memorias .card span h1 {
-    color: white;
+.memo-17 .presentacion img {
+  width: 60%;
 }
 
-.memorias .card span .btn {
-    background-color: #cf0a2c;
-    border-radius: 20px;   
-    padding: 10px;
+.memo-17 .cont-estadistica {
+  width: 100%;
 }
 
-.memorias .card span .btn p {
-    color: white;
-    font-weight: bolder;
-} */
+.memo-17 .cont-estadistica .card-cont {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.memo-17 .cont-estadistica .card-cont .cont-titu {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  background: linear-gradient(
+    to right, #eb2626, #a01e21
+  );
+}
+
+.memo-17 .cont-estadistica .card-cont .cont-titu .react-icons {
+  color: white;
+  font-size: 40px;
+  width: 5%;
+}
+
+.memo-17 .cont-estadistica .card-cont .cont-titu p {
+  width: 95%;
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+}
+
+.memo-17 .cont-estadistica .card-cont .textos {
+  width: 80%;
+  display: flex;
+  margin: 10px auto;
+}
+
+.memo-17 .cont-estadistica .card-cont .textos p {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.memo-17 .cont-estadistica .card-cont .textos .cont-opcion {
+  width: 60%;
+  padding-left: 50px;
+}
+
+.memo-17 .cont-estadistica .card-cont .textos .cont-cant {
+  width: 40%;
+}
