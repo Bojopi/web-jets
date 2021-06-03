@@ -15,7 +15,8 @@ import jets18 from "../images/memorias/jets 2018/fondo_atrapasueños.PNG";
 import jets19 from "../images/memorias/jets 2019/entrada_casadepapel.JPG";
 
 //jets 2017
-import presentacion from '../images/memorias/jets 2017/presentacion_jets17.PNG'
+import presentacion from "../images/memorias/jets 2017/presentacion_jets17.PNG";
+import conferencias from "../images/memorias/jets 2017/participacion masiva de los estudiantes.PNG";
 
 const Memorias = () => {
   return (
@@ -59,8 +60,29 @@ const Memorias = () => {
       </div>
       <div className="memo-17" id="memo-17">
         <div className="presentacion">
-          <h1>MEMORIA JETS 2017</h1>
-          <img src={ presentacion } alt="" />
+          <div className="texto">
+            <h1>
+              MEMORIA <span>JETS 2017</span>
+            </h1>
+            <p>
+              Del 24 de abril al 5 de mayo del 2017, UTEPSA vivió la décima
+              versión de las Jornadas Empresariales Tecnológicas y Sociales
+              “JETS 2017”. La agenda del evento incluyó 50 actividades entre
+              conferencias y talleres impartidos por autoridades y destacados
+              profesionales, concursos y exposiciones, con una participación de
+              4342 estudiantes.
+            </p>
+          </div>
+          <img src={presentacion} alt="" />
+        </div>
+        <div className="conferencias">
+          <div className="presentacion-tit">
+            <p>CONFERENCIAS Y FOROS</p>
+            <img src={conferencias} alt="" />
+          </div>
+          <div className="contenedor">
+
+          </div>
         </div>
         <div className="cont-estadistica">
           <div className="card-cont">

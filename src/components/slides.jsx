@@ -10,8 +10,8 @@ import slide2 from '../images/slides/slide2.jpeg'
 import slide3 from '../images/slides/slide3.jpeg'
 
 const properties = {
-  duration: 3000,
-  transitionDuration: 600,
+  duration: 5000,
+  transitionDuration: 800,
   infinite: true,
   indicators: true,
   arrows: true,

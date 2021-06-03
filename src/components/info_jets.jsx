@@ -11,7 +11,7 @@ const properties = {
   infinite: true,
   indicators: true,
   arrows: true,
-  autoplay: true,
+  autoplay: false,
 };
 
 const Informacion = () => {
