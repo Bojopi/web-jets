@@ -1,4 +1,6 @@
 import React, { Fragment } from 'react'
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 
 import Header from '../components/header'
 import Navbar from '../components/navbar'
@@ -13,7 +15,6 @@ import Contacto from '../components/contacto'
 function Inicio() {
   return (
     <Fragment>
-      <div className="container">
         <Header/>
         <Navbar/>
         <Slides/>
@@ -23,7 +24,6 @@ function Inicio() {
         <Speakers/>
         <Contacto/>
         <Footer/>
-      </div>
     </Fragment>
   );
 }

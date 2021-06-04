@@ -49,32 +49,72 @@
 	display: block;
 	position: relative;
     border-radius: 50%;
+    box-shadow: 5px 5px 10px -2px black;
+    z-index: 11;
+    transition: .5s;
 }
 
 .cont-speakers .speakers .grid figcaption {
     position: absolute;
 	top: 0;
 	left: 0;
-	/* padding: 20px; */
-	/* background: #c7c9cc; */
-	background: #d1e6ee;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+	background-color: #d1e6ee;
+    background: url('../images/fondo_speaker.jpeg') #d1e6ee;
+    background-size: cover;
 	color: black;
     box-sizing: border-box;
+    opacity: 0;
+    backface-visibility: hidden;
+    box-shadow: 0 0 0 0px #d1e6ee;
+    transition: opacity 0.3s, height 0.3s, box-shadow 0.3s;
 }
 
 .cont-speakers .speakers .grid figcaption h3 {
-    width: 80%;
+    width: 100%;
+    height: 60%;
     text-align: center;
-    margin: 0 auto;
-	padding: 0;
 	color: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 .cont-speakers .speakers .grid figcaption p {
-    width: 90%;
-    margin: 0 auto;
+    width: 100%;
+    height: 30%;
+    padding: 0 30px;
     text-align: justify;
+    font-size: 12px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
 }
+
+.cont-speakers .speakers .style figcaption .ver-mas {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.cont-speakers .speakers .grid figcaption .ver-mas p {
+    width: 110px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #cf0a2c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-right: 20px;
+}
+
 
 /* posicionar los indices de cada imagen */
 .cont-speakers .speakers .style li:first-child {
@@ -108,67 +148,20 @@
     z-index: 1;
 }
 
-
-.cont-speakers .speakers .style figure img {
-    z-index: 11;
-    transition: .5s;
-}
-
-.cont-speakers .speakers .style figcaption {
-    height: 100%;
-	width: 100%;
-    display: flex;
-    flex-direction: column;
-	opacity: 0;
-	backface-visibility: hidden;
-	/* box-shadow: 0 0 0 0px #c7c9cc; */
-	box-shadow: 0 0 0 0px #d1e6ee;
-	transition: opacity 0.3s, height 0.3s, box-shadow 0.3s;
-}
-
 .cont-speakers .speakers .style figure:hover figcaption {
     opacity: 1;
     height: 160%;
     border-radius: 20px;
-    /* box-shadow: 0 0 0 5px #c7c9cc; */
     box-shadow: 0 0 0 5px #d1e6ee;
 }
 
 .cont-speakers .speakers .style figure:hover img {
     transform: scale(0.7);
-    /* border: 5px solid #f4f3f3; */
     top: -30px;
     border: 5px solid #fff;
     box-shadow: 0px 8px 15px -5px #000;
 }
 
-.cont-speakers .speakers .style figcaption h3 {
-    margin-top: 65%;
-    height: 10%;
-}
-
-.cont-speakers .speakers .style figcaption p {
-    height: 30%;
-    font-size: 12px;
-}
-
-.cont-speakers .speakers .style figcaption .ver-mas {
-    width: 100%;
-    height: 20%;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.cont-speakers .speakers .grid figcaption .ver-mas p {
-    width: 100px;
-    height: 30px;
-    border-radius: 20px;
-    background-color: blueviolet;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
 
 .cont-speakers .speakers .style figcaption h3,
 .style figcaption p,

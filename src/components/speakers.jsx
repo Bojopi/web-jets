@@ -12,6 +12,8 @@ import dennis from "../images/speakers/DENNIS NAKAMURA.png";
 import pedro from "../images/speakers/Pedro López Sáez.png";
 import monica from "../images/speakers/Monica Isabel Martinez.png";
 
+import fondo from '../images/fondo_speaker.jpeg'
+
 const Speakers = () => {
   return (
     <Fragment>

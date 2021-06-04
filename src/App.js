@@ -22,19 +22,6 @@ function App() {
         <Route path="/" component={Inicio}></Route>
       </Switch>
     </Router>
-
-    // <Fragment>
-    //   <div className="container">
-    //     <Header/>
-    //     <Slides/>
-    //     <Empresas/>
-    //     <Informacion/>
-    //     <Galeria/>
-    //     <Speakers/>
-    //     <Contacto/>
-    //     <Footer/>
-    //   </div>
-    // </Fragment>
   );
 }
 

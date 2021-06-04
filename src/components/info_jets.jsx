@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import { Slide } from "react-slideshow-image";
 
 import "../css/info_jets.css";
@@ -21,25 +21,19 @@ const Informacion = () => {
         <div className="historia">
           <h1>¿QUÉ ES JETS?</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-            pharetra neque ac velit lobortis, non aliquet arcu iaculis. Vivamus
-            dapibus ultricies nisi, vitae venenatis diam finibus in. Fusce
-            maximus ipsum non neque porttitor gravida. Vivamus ultricies dapibus
-            suscipit. Fusce ornare sit amet sapien a pulvinar. Suspendisse
-            vehicula posuere ligula in pharetra. Vestibulum et pulvinar felis.
-            Cras luctus libero odio, quis dignissim urna faucibus sit amet.
-            Aenean id finibus diam. Donec viverra id lorem eget auctor.
-            Suspendisse vulputate tincidunt justo nec sodales. Curabitur ac
-            tellus porta, fringilla velit ut, posuere nibh. Nulla quis justo
-            iaculis, aliquam magna sit amet, suscipit libero. Quisque sed
-            interdum nulla. Sed egestas dolor arcu, ut tristique orci
-            pellentesque dictum. Interdum et malesuada fames ac ante ipsum
-            primis in faucibus. Proin nec ornare eros, in ornare nunc.
-            Vestibulum at dui lectus. Duis pellentesque sit amet mauris vitae
-            malesuada. Donec luctus erat quis leo suscipit, vel mattis sapien
-            tempus. Nulla lobortis, tortor non laoreet volutpat, sapien lectus
-            blandit mi, eu pharetra mauris urna id ante. Nunc at pretium odio.
-            Integer malesuada ante vel imperdiet aliquam.
+            La Universidad Tecnológica Privada de Santa Cruz – UTEPSA, organiza
+            desde hace doce años, las “JORNADAS EMPRESARIALES, TECNOLÓGICAS
+            SOCIALES Y HUMANÍSTICAS - JETS”. Éste es un evento de orden
+            internacional que promueve actividades complementarias para la
+            formación integral de nuestros estudiantes y la comunidad a través
+            de espacios académicos como conferencias, debates, exposiciones,
+            concursos, ferias, foros y actividades culturales. Alrededor de 4000
+            estudiantes y miembros de la comunidad participan activamente de
+            este evento generando espacios para compartir experiencias y
+            proyecciones de crecimiento. El evento de este año se ha denominado
+            “Formando para Emprender y Servir” y se realizará del 19 al 23 de
+            agosto. Lo invitamos a participar de las actividades en este año
+            especial en el que UTEPSA cumple 25 años.
           </p>
         </div>
         <div className="cont-info">
@@ -70,11 +64,12 @@ const Informacion = () => {
             </div>
           </div>
           <div className="buttons">
-            {/* <button className="memorias"> */}
-            {/* </button> */}
-            {/* <button className="certificados">CERTIFICADOS</button> */}
-              <Link to="/memorias" className="memorias btn">MEMORIAS</Link>
-              <Link to="/cetificados" className="certificados btn">CERTIFICADOS</Link>
+            <Link to="/memorias" className="memorias btn">
+              MEMORIAS
+            </Link>
+            <Link to="/cetificados" className="certificados btn">
+              CERTIFICADOS
+            </Link>
           </div>
         </div>
       </div>
