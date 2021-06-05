@@ -41,9 +41,9 @@ const Speakers = () => {
                   </p>
                   <div className="ver-mas">
                     <div className="uni">
-                      <img src={TecnologicoDeMonterrey} alt="" />
+                      {/* <img src={TecnologicoDeMonterrey} alt="" /> */}
                       <p>Tecnológico de Monterrey</p>
-                      <img src={UniversidadDeCantabria} alt="" />
+                      {/* <img src={UniversidadDeCantabria} alt="" /> */}
                       <p>Universidad de Cantabria</p>
                     </div>
                     <div className="img">
@@ -64,9 +64,9 @@ const Speakers = () => {
                   </p>
                   <div className="ver-mas">
                     <div className="uni">
-                      <img src={AuraMineralsInc} alt="" />
+                      {/* <img src={AuraMineralsInc} alt="" /> */}
                       <p>Aura Minerals Inc.</p>
-                      <img src={UniversityOfSouthernCalifornia} alt="" />
+                      {/* <img src={UniversityOfSouthernCalifornia} alt="" /> */}
                       <p>
                         Universiy of Southern California - Marshall School of
                         Business
@@ -91,7 +91,7 @@ const Speakers = () => {
                   </p>
                   <div className="ver-mas">
                     <div className="uni">
-                      <img src={UniversidadComplutenseMadrid} alt="" />
+                      {/* <img src={UniversidadComplutenseMadrid} alt="" /> */}
                       <p>Universidad Complutense de Madrid</p>
                     </div>
                     <div className="img">
