@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+// import { Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 
 import "../css/speakers.css";
 
@@ -25,19 +26,22 @@ import YaleSchoolOfManagement from "../images/universidades/YaleSchoolOfManageme
 const Speakers = () => {
   return (
     <Fragment>
-      <div className="cont-speakers">
+      <div className="cont-speakers" id="speakers">
         <h1>SPEAKERS</h1>
         <div className="speakers">
           <ul className="grid style">
             <li>
               <figure>
-                <img className="imagen-speaker" src={javier} />
+                <img
+                  className="imagen-speaker"
+                  src="https://res.cloudinary.com/utepsajets/image/upload/v1622950865/jets/speakers/JAVIER_DE_LA_FUENTE_qkvkbu.png"
+                />
                 <figcaption>
                   <h3>JAVIER DE LA FUENTE</h3>
                   <p>
                     Director Regional del Departamento de Emprendimiento Región
                     Norte en Tecnológico de Monterrey.
-                    <span>...Leer más</span>
+                    <a href="#javier">...Leer más</a>
                   </p>
                   <div className="ver-mas">
                     <div className="uni">
@@ -199,6 +203,50 @@ const Speakers = () => {
               </figure>
             </li>
           </ul>
+        </div>
+      </div>
+
+      {/* ventanas modales */}
+      <div id="javier" className="modal">
+        <div className="modal-contenido">
+          <a href="#speakers">X</a>
+          <img src="https://res.cloudinary.com/utepsajets/image/upload/v1623096382/jets/modals/JAVIER_DE_LA_FUENTE_aglgpz.png" alt="" />
+        </div>
+      </div>
+      <div id="rodrigo" className="modal">
+        <div className="modal-contenido">
+          <a href="#speakers">X</a>
+          <h2>primer modal</h2>
+        </div>
+      </div>
+      <div id="ignacio" className="modal">
+        <div className="modal-contenido">
+          <a href="#speakers">X</a>
+          <h2>primer modal</h2>
+        </div>
+      </div>
+      <div id="leonardo" className="modal">
+        <div className="modal-contenido">
+          <a href="#speakers">X</a>
+          <h2>primer modal</h2>
+        </div>
+      </div>
+      <div id="dennis" className="modal">
+        <div className="modal-contenido">
+          <a href="#speakers">X</a>
+          <h2>primer modal</h2>
+        </div>
+      </div>
+      <div id="pedro" className="modal">
+        <div className="modal-contenido">
+          <a href="#speakers">X</a>
+          <h2>primer modal</h2>
+        </div>
+      </div>
+      <div id="monica" className="modal">
+        <div className="modal-contenido">
+          <a href="#speakers">X</a>
+          <h2>primer modal</h2>
         </div>
       </div>
     </Fragment>
