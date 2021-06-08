@@ -20,7 +20,7 @@ const properties = {
 
 const Slides = () => {
   return (
-    <div className="cont-slide">
+    <div className="cont-slide" id="inicio">
       <div className="slide">
         <Slide {...properties}>
           <div className="each-slide">

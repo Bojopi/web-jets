@@ -1,19 +1,25 @@
 import React, { Fragment } from 'react'
+import { Link, animateScroll as scroll } from 'react-scroll'
 
 import '../css/header.css';
 
 //imagenes
-import timon_blanco from '../images/timon_fondo_blanco.jpeg'
+// import timon_blanco from '../images/timon_fondo_blanco.jpeg'
 import timon_rojo from '../images/timon_fondo_rojo.jpeg'
 
 const Header = () => {
+
+    const scrollToTop = () => {
+        scroll.scrollToTop()
+    }
+
     return (
         <Fragment>
             <div className="header">
                 <div className="titulo">
                     <div className="logo">
                         <div className="icono">
-                            <img src={timon_rojo} alt="" />
+                            <img src={timon_rojo} alt="" onClick={scrollToTop}/>
                         </div>
                     </div>
                     <div className="cont-tit">

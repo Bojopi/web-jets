@@ -43,11 +43,11 @@
 .login-juego .contenedor-login .top .logo {
     width: 55px;
     margin: auto;
-    transition: .5s;
+    transition: 1s;
 }
 
 .login-juego .contenedor-login .top .logo:hover {
-    transform: rotate(180deg);
+    transform: rotate(360deg);
 }
 
 .login-juego .contenedor-login .top h1{

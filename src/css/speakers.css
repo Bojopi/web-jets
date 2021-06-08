@@ -192,14 +192,27 @@
   opacity: 1;
 }
 
-
 /* ventana modal */
 .modal-contenido {
-  background-color: aqua;
-  width: 600px;
-  padding: 10px 20px;
-  margin: 20% auto;
+  /* background-color: aqua; */
+  width: 60%;
+  /* padding: 10px 20px; */
+  margin: 0 auto;
   position: relative;
+}
+
+.modal-contenido img {
+  width: 100%;
+}
+
+.modal-contenido a {
+  text-decoration: none;
+  /* font-weight: 500; */
+  position: absolute;
+  font-size: 30px;
+  top: 5px;
+  right: 10px;
+  color: #000;
 }
 
 .modal {
@@ -211,11 +224,19 @@
   left: 0;
   opacity: 0;
   pointer-events: none;
-  transition: all 1s;
+  transition: all .5s;
   z-index: 20;
+  display: flex;
+  align-items: center;
 }
 
-#javier:target {
+#javier:target,
+#rodrigo:target,
+#ignacio:target,
+#leonardo:target,
+#dennis:target,
+#pedro:target,
+#monica:target {
   opacity: 1;
   pointer-events: auto;
 }

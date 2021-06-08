@@ -17,7 +17,7 @@ const properties = {
 const Informacion = () => {
   return (
     <Fragment>
-      <div className="info-jets">
+      <div className="info-jets" id="info">
         <div className="historia">
           <h1>¿QUÉ ES JETS?</h1>
           <p>

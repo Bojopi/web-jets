@@ -1,27 +1,21 @@
 import React, { Fragment } from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
+
+import { IoMdCloseCircle } from "react-icons/io";
 // import { Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 
 import "../css/speakers.css";
 
 //imagenes
-import javier from "../images/speakers/JAVIER DE LA FUENTE.png";
-import rodrigo from "../images/speakers/RODRIGO BARBOZA.png";
-import canales from "../images/speakers/RODRIGO CANALES.png";
-import ignacio from "../images/speakers/IGNACIO RUIZ GUERRA.png";
-import leonardo from "../images/speakers/LEONARDO MARTÍNEZ.png";
-import dennis from "../images/speakers/DENNIS NAKAMURA.png";
-import pedro from "../images/speakers/Pedro López Sáez.png";
-import monica from "../images/speakers/Monica Isabel Martinez.png";
-
 import icono from "../images/ICONO-JETS-ROJO.png";
 
-import AuraMineralsInc from "../images/universidades/AuraMineralsInc.png";
-import MITSloanSchoolOfManagemen from "../images/universidades/MITSloanSchoolOfManagemen.png";
-import TecnologicoDeMonterrey from "../images/universidades/TecnologicoDeMonterrey.png";
-import UniversidadComplutenseMadrid from "../images/universidades/UniversidadComplutenseMadrid.png";
-import UniversidadDeCantabria from "../images/universidades/UniversidadDeCantabria.jpeg";
-import UniversityOfSouthernCalifornia from "../images/universidades/UniversityOfSouthernCalifornia.png";
-import YaleSchoolOfManagement from "../images/universidades/YaleSchoolOfManagement.png";
+// import AuraMineralsInc from "../images/universidades/AuraMineralsInc.png";
+// import MITSloanSchoolOfManagemen from "../images/universidades/MITSloanSchoolOfManagemen.png";
+// import TecnologicoDeMonterrey from "../images/universidades/TecnologicoDeMonterrey.png";
+// import UniversidadComplutenseMadrid from "../images/universidades/UniversidadComplutenseMadrid.png";
+// import UniversidadDeCantabria from "../images/universidades/UniversidadDeCantabria.jpeg";
+// import UniversityOfSouthernCalifornia from "../images/universidades/UniversityOfSouthernCalifornia.png";
+// import YaleSchoolOfManagement from "../images/universidades/YaleSchoolOfManagement.png";
 
 const Speakers = () => {
   return (
@@ -34,7 +28,8 @@ const Speakers = () => {
               <figure>
                 <img
                   className="imagen-speaker"
-                  src="https://res.cloudinary.com/utepsajets/image/upload/v1622950865/jets/speakers/JAVIER_DE_LA_FUENTE_qkvkbu.png"
+                  src="https://firebasestorage.googleapis.com/v0/b/jetsutepsa-d8f61.appspot.com/o/speakers%2FJAVIER%20DE%20LA%20FUENTE.png?alt=media&token=6dd767a5-1a4d-46bf-850a-90ebaf4b9247"
+                  alt=""
                 />
                 <figcaption>
                   <h3>JAVIER DE LA FUENTE</h3>
@@ -59,12 +54,16 @@ const Speakers = () => {
             </li>
             <li>
               <figure>
-                <img className="imagen-speaker" src={rodrigo} />
+                <img
+                  className="imagen-speaker"
+                  src="https://firebasestorage.googleapis.com/v0/b/jetsutepsa-d8f61.appspot.com/o/speakers%2FRODRIGO%20BARBOZA.png?alt=media&token=cef348d2-fb30-437f-94b3-c15189089991"
+                  alt=""
+                />
                 <figcaption>
                   <h3>RODRIGO BARBOZA</h3>
                   <p>
                     C.E.O. Aura Minerals Miami, Florida, Estados Unidos
-                    <span>...Leer más</span>
+                    <a href="#rodrigo">...Leer más</a>
                   </p>
                   <div className="ver-mas">
                     <div className="uni">
@@ -85,13 +84,17 @@ const Speakers = () => {
             </li>
             <li>
               <figure>
-                <img className="imagen-speaker" src={ignacio} />
+                <img
+                  className="imagen-speaker"
+                  src="https://firebasestorage.googleapis.com/v0/b/jetsutepsa-d8f61.appspot.com/o/speakers%2FIGNACIO%20RUIZ%20GUERRA.png?alt=media&token=61f5b215-46ee-4a86-963b-05b417d226b0"
+                  alt=""
+                />
                 <figcaption>
                   <h3>IGNACIO RUIZ GUERRA</h3>
                   <p>
                     Facultad de Comercio y Turismo Seminario de Organización de
                     Empresas y Marketing PDI Laboral
-                    <span>...Leer más</span>
+                    <a href="#ignacio">...Leer más</a>
                   </p>
                   <div className="ver-mas">
                     <div className="uni">
@@ -107,12 +110,16 @@ const Speakers = () => {
             </li>
             <li>
               <figure>
-                <img className="imagen-speaker" src={leonardo} />
+                <img
+                  className="imagen-speaker"
+                  src="https://firebasestorage.googleapis.com/v0/b/jetsutepsa-d8f61.appspot.com/o/speakers%2FLEONARDO%20MART%C3%8DNEZ.png?alt=media&token=ea19ad03-40e7-47e9-ae10-689bdd156640"
+                  alt=""
+                />
                 <figcaption>
                   <h3>LEONARDO MARTÍNEZ</h3>
                   <p>
                     Ingeniero en sistemas
-                    <span>...Leer más</span>
+                    <a href="#leonardo">...Leer más</a>
                   </p>
                   <div className="ver-mas">
                     <div className="uni">
@@ -130,13 +137,17 @@ const Speakers = () => {
             </li>
             <li>
               <figure>
-                <img className="imagen-speaker" src={dennis} />
+                <img
+                  className="imagen-speaker"
+                  src="https://firebasestorage.googleapis.com/v0/b/jetsutepsa-d8f61.appspot.com/o/speakers%2FDENNIS%20NAKAMURA.png?alt=media&token=686d93cc-5de7-4c7d-91ac-73a806e66610"
+                  alt=""
+                />
                 <figcaption>
                   <h3>DENNIS NAKAMURA</h3>
                   <p>
                     Ingeniero ambiental por Poli-USP - Brasil, especialista en
                     financiamiento de proyectos por FGV.
-                    <span>...Leer más</span>
+                    <a href="#dennis">...Leer más</a>
                   </p>
                   <div className="ver-mas">
                     <div className="uni">
@@ -155,13 +166,17 @@ const Speakers = () => {
             <li></li>
             <li>
               <figure>
-                <img className="imagen-speaker" src={pedro} />
+                <img
+                  className="imagen-speaker"
+                  src="https://firebasestorage.googleapis.com/v0/b/jetsutepsa-d8f61.appspot.com/o/speakers%2FPedro%20L%C3%B3pez%20S%C3%A1ez.png?alt=media&token=ae1fc770-d168-4ee7-8d36-5cca5da728ea"
+                  alt=""
+                />
                 <figcaption>
                   <h3>PEDRO LOPEZ SAEZ</h3>
                   <p>
                     Profesor de Administración de Empresas de la Universidad
                     Complutense de Madrid.
-                    <span>...Leer más</span>
+                    <a href="#pedro">...Leer más</a>
                   </p>
                   <div className="ver-mas">
                     <div className="uni">
@@ -180,13 +195,17 @@ const Speakers = () => {
             <li></li>
             <li>
               <figure>
-                <img className="imagen-speaker" src={monica} />
+                <img
+                  className="imagen-speaker"
+                  src="https://firebasestorage.googleapis.com/v0/b/jetsutepsa-d8f61.appspot.com/o/speakers%2FMonica%20Isabel%20Martinez.png?alt=media&token=ea0e8d30-1af5-4066-9411-6dfce941a5fa"
+                  alt=""
+                />
                 <figcaption>
                   <h3>MONICA ISABEL MARTINEZ</h3>
                   <p>
                     Master en tecnología educativa. Innovadora certificada por
                     Google.
-                    <span>...Leer más</span>
+                    <a href="#monica">...Leer más</a>
                   </p>
                   <div className="ver-mas">
                     <div className="uni">
@@ -209,44 +228,80 @@ const Speakers = () => {
       {/* ventanas modales */}
       <div id="javier" className="modal">
         <div className="modal-contenido">
-          <a href="#speakers">X</a>
-          <img src="https://res.cloudinary.com/utepsajets/image/upload/v1623096382/jets/modals/JAVIER_DE_LA_FUENTE_aglgpz.png" alt="" />
+          <a href="#speakers">
+            <IoMdCloseCircle />
+          </a>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/jetsutepsa-d8f61.appspot.com/o/modals%2FJAVIER%20DE%20LA%20FUENTE.png?alt=media&token=c14707c1-1898-4790-862f-20dbdf1f2c4e"
+            alt=""
+          />
         </div>
       </div>
       <div id="rodrigo" className="modal">
         <div className="modal-contenido">
-          <a href="#speakers">X</a>
-          <h2>primer modal</h2>
+          <a href="#speakers">
+            <IoMdCloseCircle />
+          </a>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/jetsutepsa-d8f61.appspot.com/o/modals%2FRODRIGO%20BARBOSA.png?alt=media&token=1c948833-721b-4647-883f-4be5440bd1ff"
+            alt=""
+          />
         </div>
       </div>
       <div id="ignacio" className="modal">
         <div className="modal-contenido">
-          <a href="#speakers">X</a>
-          <h2>primer modal</h2>
+          <a href="#speakers">
+            <IoMdCloseCircle />
+          </a>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/jetsutepsa-d8f61.appspot.com/o/modals%2FIGNACIO%20RUIZ%20GUERRA.png?alt=media&token=59ccb9bc-ad59-4352-b94f-9b1c6be2c409"
+            alt=""
+          />
         </div>
       </div>
       <div id="leonardo" className="modal">
         <div className="modal-contenido">
-          <a href="#speakers">X</a>
-          <h2>primer modal</h2>
+          <a href="#speakers">
+            <IoMdCloseCircle />
+          </a>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/jetsutepsa-d8f61.appspot.com/o/modals%2FLEONARDO%20MARTINEZ.png?alt=media&token=a0d58970-2234-43e8-9f0f-17c8d29ffc32"
+            alt=""
+          />
         </div>
       </div>
       <div id="dennis" className="modal">
         <div className="modal-contenido">
-          <a href="#speakers">X</a>
-          <h2>primer modal</h2>
+          <a href="#speakers">
+            <IoMdCloseCircle />
+          </a>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/jetsutepsa-d8f61.appspot.com/o/modals%2FDENNIS%20NAKAMURA.png?alt=media&token=d21d9821-5b55-4b41-8ba8-609b3cde2ed9"
+            // src="https://res.cloudinary.com/utepsajets/image/upload/v1623096375/jets/modals/DENNIS_NAKAMURA_xrvgas.png"
+            alt=""
+          />
         </div>
       </div>
       <div id="pedro" className="modal">
         <div className="modal-contenido">
-          <a href="#speakers">X</a>
-          <h2>primer modal</h2>
+          <a href="#speakers">
+            <IoMdCloseCircle />
+          </a>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/jetsutepsa-d8f61.appspot.com/o/modals%2FPEDRO%20LOPEZ.png?alt=media&token=551dc51a-4032-4594-bfe1-d95f28e17f95"
+            alt=""
+          />
         </div>
       </div>
       <div id="monica" className="modal">
         <div className="modal-contenido">
-          <a href="#speakers">X</a>
-          <h2>primer modal</h2>
+          <a href="#speakers">
+            <IoMdCloseCircle />
+          </a>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/jetsutepsa-d8f61.appspot.com/o/modals%2FMONICA%20MARTINEZ.png?alt=media&token=feeba5cd-5767-462e-8a24-d8a10447da80"
+            alt=""
+          />
         </div>
       </div>
     </Fragment>

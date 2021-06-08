@@ -11,7 +11,7 @@ import ubicacion from "../images/MAPA-UTEPSA.png";
 const Contacto = () => {
   return (
     <Fragment>
-      <div className="contenedor-contacto">
+      <div className="contenedor-contacto" id="contacto">
         <div className="info-contacto">
           <h1>CONT&Aacute;CTANOS</h1>
           <img src={ubicacion} alt="" />
