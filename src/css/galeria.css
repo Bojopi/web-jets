@@ -1,97 +1,105 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .galeria {
-    width: 100%;
-    height: 100%;
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 3% 97%;
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 3% 97%;
 }
 
 .galeria h1 {
-    margin: 5px 50px;
+  margin: 5px 50px;
 }
 
 .galeria .cont-galeria {
-    width: 100%;
+  width: 100%;
 }
 
 .galeria .cont-galeria .grupo-galeria {
-    width: 100%;
-    height: 400px;
-    display: grid;
-    grid-template-columns: 100%;
+  width: 100%;
+  height: 400px;
+  display: grid;
+  grid-template-columns: 100%;
 }
 
 .galeria .cont-galeria .grupo-galeria .tit-categoria {
-    padding: 0 50px;
-    font-size: 20px;
-    font-weight: 600;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    color: black;
+  /* padding: 0 50px; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.galeria .cont-galeria .grupo-galeria .tit-categoria p {
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 5px;
+  border-bottom: 1px solid black;
 }
 
 .galeria .cont-galeria .grupo-galeria .cont-card-galeria {
-    position: relative;
-    width: 95%;
-    height: 100%;
-    justify-self: center;
+  position: relative;
+  width: 95%;
+  height: 100%;
+  justify-self: center;
 }
 
 .galeria .cont-galeria .grupo-galeria .cont-cards {
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .galeria .cont-galeria .grupo-galeria .cont-cards .card-galeria {
-    /* background-color: teal; */
-    width: 450px;
-    height: 300px;
-    border-radius: 20px;
-    margin: 0 auto;
-    position: relative;
+  width: 450px;
+  height: 300px;
+  border-radius: 20px;
+  margin: 0 auto;
+  position: relative;
+  padding: 15px 0;
 }
 
 .galeria .cont-galeria .grupo-galeria .cont-cards .card-galeria .img {
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-    align-self: center;
-    justify-self: center;
-    display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  align-self: center;
+  justify-self: center;
+  display: block;
 }
 
 .galeria .cont-galeria .grupo-galeria .cont-cards .card-galeria .img img {
-    border-radius: 20px;
-    width: 100%;
-    height: 100%;
-    margin: 0;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  box-shadow: 5px 5px 10px -2px black;
 }
 
 .galeria .cont-galeria .grupo-galeria .cont-cards .card-galeria span {
-    width: 0;
-    height: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 100%;
-    right: 0;
-    overflow: hidden;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 15% 85%;
-    transition: .6s ease;
-    background-color: rgba(201, 19, 19, 0.8);
-    border-radius: 20px;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 15% 85%;
+  transition: 0.6s ease;
+  background-color: rgba(201, 19, 19, 0.8);
+  border-radius: 20px;
 }
 
 /* .galeria .cont-galeria .grupo-galeria .cont-cards .card-galeria:hover span {
@@ -100,13 +108,72 @@
 } */
 
 .galeria .cont-galeria .grupo-galeria .cont-cards .card-galeria span h3 {
-    text-align: center;
-    margin-top: 20px;
-    color: white;
+  text-align: center;
+  margin-top: 20px;
+  color: white;
 }
 
 .galeria .cont-galeria .grupo-galeria .cont-cards .card-galeria span p {
-    text-align: justify;
-    margin: 10px 20px;
-    color: white;
+  text-align: justify;
+  margin: 10px 20px;
+  color: white;
+}
+
+@media screen and (max-width: 960px) {
+  .galeria h1 {
+    margin: 5px 30px;
+    font-size: 27px;
+  }
+
+  .galeria .cont-galeria .grupo-galeria {
+    height: 350px;
+  }
+
+  .galeria .cont-galeria .grupo-galeria .tit-categoria p {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .galeria .cont-galeria .grupo-galeria .cont-cards .card-galeria {
+    width: 290px;
+    height: 90%;
+  }
+
+  .galeria .cont-galeria .grupo-galeria .cont-card-galeria .nav {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .galeria .cont-galeria .grupo-galeria .cont-card-galeria .nav svg {
+    width: 90%;
+    height: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .galeria {
+    margin-top: 50px;
+  }
+
+  .galeria h1 {
+    margin: 5px 10px;
+    font-size: 20px;
+  }
+
+  .galeria .cont-galeria .grupo-galeria {
+    height: 200px;
+  }
+
+  .galeria .cont-galeria .grupo-galeria .tit-categoria p {
+    font-size: 15px;
+  }
+
+  .galeria .cont-galeria .grupo-galeria .cont-cards .card-galeria {
+    width: 110px;
+    height: 80%;
+  }
+
+  .galeria .cont-galeria .grupo-galeria .cont-card-galeria .nav {
+    display: none;
+  }
 }

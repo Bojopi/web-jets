@@ -50,7 +50,9 @@ const Galeria = () => {
         <h1>GALERIA DE IMAGENES</h1>
         <div className="cont-galeria">
           <div className="grupo-galeria" id="inauguración">
-            <p className="tit-categoria">INAUGURACIÓN</p>
+            <div className="tit-categoria">
+              <p>INAUGURACIÓN</p>
+            </div>
             <div className="cont-card-galeria">
               <Slide {...properties}>
                 <div className="cont-cards">
@@ -133,7 +135,9 @@ const Galeria = () => {
             </div>
           </div>
           <div className="grupo-galeria" id="foros">
-            <p className="tit-categoria">FOROS</p>
+            <div className="tit-categoria">
+              <p>FOROS</p>
+            </div>
             <div className="cont-card-galeria">
               <Slide {...properties}>
                 <div className="cont-cards">
@@ -216,7 +220,9 @@ const Galeria = () => {
             </div>
           </div>
           <div className="grupo-galeria" id="postas">
-            <p className="tit-categoria">POSTAS</p>
+            <div className="tit-categoria">
+              <p>POSTAS</p>
+            </div>
             <div className="cont-card-galeria">
               <Slide {...properties}>
                 <div className="cont-cards">
@@ -299,7 +305,9 @@ const Galeria = () => {
             </div>
           </div>
           <div className="grupo-galeria" id="colegios">
-            <p className="tit-categoria">VISITAS DE LOS COLEGIOS</p>
+            <div className="tit-categoria">
+              <p>VISITAS DE LOS COLEGIOS</p>
+            </div>
             <div className="cont-card-galeria">
               <Slide {...properties}>
                 <div className="cont-cards">

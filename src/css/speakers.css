@@ -10,6 +10,7 @@
 
 .cont-speakers {
   margin: 10px 50px 200px 50px;
+  padding-top: 150px;
 }
 
 .cont-speakers .speakers {
@@ -23,10 +24,10 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  row-gap: 120px;
+  row-gap: 60px;
+  /* row-gap: 120px; */
   column-gap: 20px;
   list-style: none;
-  text-align: center;
 }
 
 .cont-speakers .speakers .grid li {
@@ -48,6 +49,7 @@
   display: block;
   position: relative;
   border-radius: 50%;
+  border: 5px solid #fff;
   box-shadow: 5px 5px 10px -2px black;
   z-index: 11;
   transition: 0.5s;
@@ -174,7 +176,7 @@
 .cont-speakers .speakers .style figure:hover .imagen-speaker {
   transform: scale(0.7);
   top: -30px;
-  border: 5px solid #fff;
+  /* border: 5px solid #fff; */
   box-shadow: 0px 7px 15px -5px #000;
 }
 
@@ -194,9 +196,7 @@
 
 /* ventana modal */
 .modal-contenido {
-  /* background-color: aqua; */
   width: 60%;
-  /* padding: 10px 20px; */
   margin: 0 auto;
   position: relative;
 }
@@ -207,7 +207,6 @@
 
 .modal-contenido a {
   text-decoration: none;
-  /* font-weight: 500; */
   position: absolute;
   font-size: 30px;
   top: 5px;
@@ -224,7 +223,7 @@
   left: 0;
   opacity: 0;
   pointer-events: none;
-  transition: all .5s;
+  transition: all 0.5s;
   z-index: 20;
   display: flex;
   align-items: center;
@@ -239,4 +238,33 @@
 #monica:target {
   opacity: 1;
   pointer-events: auto;
+}
+
+@media screen and (max-width: 960px) {
+  .cont-speakers h1 {
+    font-size: 27px;
+    margin-bottom: 35px;
+  }
+
+  .cont-speakers .speakers .grid {
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 30px;
+  }
+  
+  .cont-speakers .speakers .grid li {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cont-speakers h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .cont-speakers .speakers .grid {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 20px;
+  }
+  
 }

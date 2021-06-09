@@ -4,7 +4,6 @@ import { Link, animateScroll as scroll } from 'react-scroll'
 import '../css/header.css';
 
 //imagenes
-// import timon_blanco from '../images/timon_fondo_blanco.jpeg'
 import timon_rojo from '../images/timon_fondo_rojo.jpeg'
 
 const Header = () => {

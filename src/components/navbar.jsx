@@ -9,23 +9,33 @@ import { Link as Enlace, animateScroll as scroll } from "react-scroll";
 
 import "../css/navbar.css";
 
+import { AiOutlineMenu } from 'react-icons/ai'
+
 const Navbar = () => {
+
+  const menu = () => {
+    let x = document.getElementById('navbar')
+    if (x.className === "navbar") {
+      x.className += " responsive"
+    } else {
+      x.className = "navbar"
+    }
+  }
+
   return (
-    <div className="navbar">
+    <div className="navbar" id="navbar">
       <Enlace
         className="link"
-        activeClass="active"
         to="inicio"
         spy={true}
         smooth={true}
-        offset={-150}
+        offset={-200}
         duration={500}
       >
         INICIO
       </Enlace>
       <Enlace
         className="link"
-        activeClass="active"
         to="info"
         spy={true}
         smooth={true}
@@ -36,7 +46,6 @@ const Navbar = () => {
       </Enlace>
       <Enlace
         className="link"
-        activeClass="active"
         to="galeria"
         spy={true}
         smooth={true}
@@ -47,18 +56,16 @@ const Navbar = () => {
       </Enlace>
       <Enlace
         className="link"
-        activeClass="active"
         to="speakers"
         spy={true}
         smooth={true}
-        offset={-150}
+        // offset={-150}
         duration={500}
       >
         EXPOSITORES
       </Enlace>
       <Enlace
         className="link"
-        activeClass="active"
         to="contacto"
         spy={true}
         smooth={true}
@@ -67,24 +74,18 @@ const Navbar = () => {
       >
         CONTÁCTANOS
       </Enlace>
-      {/* <a href="#" className="activo nav-item">
-				INICIO
-			</a>
-			<a href="#info" className="nav-item">
-				¿QUÉ ES JETS?
-			</a>
-			<a href="#galeria" className="nav-item">
-				GALERÍA
-			</a>
-			<a href="#speakers" className="nav-item">
-				EXPOSITORES
-			</a>
-			<a href="#contacto" className="nav-item">
-				CONTÁCTANOS
-			</a> */}
-      <Link to={"login-juego"} className="entrar-juego">
+      <Link to={"login-juego"} className="entrar-juego link">
         EVENTO ONLINE
       </Link>
+      <Enlace
+        className="icon"
+        spy={true}
+        smooth={true}
+        duration={500}
+        onClick={menu}
+      >
+        <AiOutlineMenu/>
+      </Enlace>
     </div>
   );
 };

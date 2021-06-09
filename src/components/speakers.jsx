@@ -2,20 +2,11 @@ import React, { Fragment } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 import { IoMdCloseCircle } from "react-icons/io";
-// import { Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 
 import "../css/speakers.css";
 
 //imagenes
 import icono from "../images/ICONO-JETS-ROJO.png";
-
-// import AuraMineralsInc from "../images/universidades/AuraMineralsInc.png";
-// import MITSloanSchoolOfManagemen from "../images/universidades/MITSloanSchoolOfManagemen.png";
-// import TecnologicoDeMonterrey from "../images/universidades/TecnologicoDeMonterrey.png";
-// import UniversidadComplutenseMadrid from "../images/universidades/UniversidadComplutenseMadrid.png";
-// import UniversidadDeCantabria from "../images/universidades/UniversidadDeCantabria.jpeg";
-// import UniversityOfSouthernCalifornia from "../images/universidades/UniversityOfSouthernCalifornia.png";
-// import YaleSchoolOfManagement from "../images/universidades/YaleSchoolOfManagement.png";
 
 const Speakers = () => {
   return (
@@ -40,9 +31,7 @@ const Speakers = () => {
                   </p>
                   <div className="ver-mas">
                     <div className="uni">
-                      {/* <img src={TecnologicoDeMonterrey} alt="" /> */}
                       <p>Tecnológico de Monterrey</p>
-                      {/* <img src={UniversidadDeCantabria} alt="" /> */}
                       <p>Universidad de Cantabria</p>
                     </div>
                     <div className="img">
@@ -67,9 +56,7 @@ const Speakers = () => {
                   </p>
                   <div className="ver-mas">
                     <div className="uni">
-                      {/* <img src={AuraMineralsInc} alt="" /> */}
-                      <p>Aura Minerals Inc.</p>
-                      {/* <img src={UniversityOfSouthernCalifornia} alt="" /> */}
+                      <p>Aura Minerals Inc</p>
                       <p>
                         Universiy of Southern California - Marshall School of
                         Business
@@ -98,7 +85,6 @@ const Speakers = () => {
                   </p>
                   <div className="ver-mas">
                     <div className="uni">
-                      {/* <img src={UniversidadComplutenseMadrid} alt="" /> */}
                       <p>Universidad Complutense de Madrid</p>
                     </div>
                     <div className="img">
@@ -122,12 +108,7 @@ const Speakers = () => {
                     <a href="#leonardo">...Leer más</a>
                   </p>
                   <div className="ver-mas">
-                    <div className="uni">
-                      {/* <img src={TecnologicoDeMonterrey} alt="" />
-                      <p>Tecnológico de Monterrey</p>
-                      <img src={UniversidadDeCantabria} alt="" />
-                      <p>Universidad de Cantabria</p> */}
-                    </div>
+                    <div className="uni"></div>
                     <div className="img">
                       <img src={icono} alt="" />
                     </div>
@@ -150,12 +131,7 @@ const Speakers = () => {
                     <a href="#dennis">...Leer más</a>
                   </p>
                   <div className="ver-mas">
-                    <div className="uni">
-                      {/* <img src={TecnologicoDeMonterrey} alt="" />
-                      <p>Tecnológico de Monterrey</p>
-                      <img src={UniversidadDeCantabria} alt="" />
-                      <p>Universidad de Cantabria</p> */}
-                    </div>
+                    <div className="uni"></div>
                     <div className="img">
                       <img src={icono} alt="" />
                     </div>
@@ -163,7 +139,6 @@ const Speakers = () => {
                 </figcaption>
               </figure>
             </li>
-            <li></li>
             <li>
               <figure>
                 <img
@@ -192,7 +167,6 @@ const Speakers = () => {
                 </figcaption>
               </figure>
             </li>
-            <li></li>
             <li>
               <figure>
                 <img
@@ -228,6 +202,17 @@ const Speakers = () => {
       {/* ventanas modales */}
       <div id="javier" className="modal">
         <div className="modal-contenido">
+          {/* <Link
+            className="link"
+            activeClass="active"
+            to="inicio"
+            spy={true}
+            smooth={true}
+            offset={-150}
+            duration={500}
+          >
+            INICIO
+          </Link> */}
           <a href="#speakers">
             <IoMdCloseCircle />
           </a>
@@ -277,7 +262,6 @@ const Speakers = () => {
           </a>
           <img
             src="https://firebasestorage.googleapis.com/v0/b/jetsutepsa-d8f61.appspot.com/o/modals%2FDENNIS%20NAKAMURA.png?alt=media&token=d21d9821-5b55-4b41-8ba8-609b3cde2ed9"
-            // src="https://res.cloudinary.com/utepsajets/image/upload/v1623096375/jets/modals/DENNIS_NAKAMURA_xrvgas.png"
             alt=""
           />
         </div>
