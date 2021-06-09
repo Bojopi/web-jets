@@ -3,6 +3,11 @@
   src: url('./fonts/OpenSans-Regular.ttf');
 }
 
+@font-face {
+  font-family: 'Antonio';
+  src: url('./fonts/Antonio-Bold.ttf');
+}
+
 body {
   margin: 0;
   padding: 0;

@@ -29,15 +29,17 @@ const Contacto = () => {
           </div>
         </div>
         <div className="form-contacto">
-          <p className="text-info">
-            Ante cualquier duda o consulta puedes enviarnos tus comentarios
-            mediante el siguiente formulario, todos los campos son necesarios.
-          </p>
-          <div className="form-info">
-              <input type="text" id="nombre" placeholder="Nombre Completo:"/>
-              <input type="email" id="email" placeholder="Correo Electrónico:"/>
-              <input type="text" id="mensaje" placeholder="Mensaje:"/>
-              <button type="submit">ENVIAR</button>
+          <div className="cont-formulario">
+            <p className="text-info">
+              Ante cualquier duda o consulta puedes enviarnos tus comentarios
+              mediante el siguiente formulario, todos los campos son necesarios.
+            </p>
+            <div className="form-info">
+                <input type="text" id="nombre" placeholder="Nombre Completo:"/>
+                <input type="email" id="email" placeholder="Correo Electrónico:"/>
+                <input type="text" id="mensaje" placeholder="Mensaje:"/>
+                <button type="submit">ENVIAR</button>
+            </div>
           </div>
         </div>
       </div>

@@ -9,7 +9,7 @@ const properties = {
   duration: 3000,
   transitionDuration: 500,
   infinite: true,
-  indicators: true,
+  indicators: false,
   arrows: true,
   autoplay: false,
 };
@@ -42,15 +42,23 @@ const Informacion = () => {
               <Slide {...properties}>
                 <div className="dias">
                   <div>
-                    <h1>IMAGEN 1</h1>
+                    <img
+                      className="cuadro1"
+                      src="https://firebasestorage.googleapis.com/v0/b/jetsutepsa-d8f61.appspot.com/o/galeria%2FCRONOGRAMA%2FMesa%20de%20trabajo%201%20(mobile).png?alt=media&token=a9d79d9a-befb-447b-8574-79baa665b23e"
+                      alt=""
+                    />
                   </div>
                 </div>
                 <div className="dias">
                   <div>
-                    <h1>IMAGEN 2</h1>
+                    <img
+                      className="cuadro2"
+                      src="https://firebasestorage.googleapis.com/v0/b/jetsutepsa-d8f61.appspot.com/o/galeria%2FCRONOGRAMA%2FMesa%20de%20trabajo%202%20(mobile).png?alt=media&token=efcd9349-fc68-4672-a24f-9ee53bc4b129"
+                      alt=""
+                    />
                   </div>
                 </div>
-                <div className="dias">
+                {/* <div className="dias">
                   <div>
                     <h1>IMAGEN 3</h1>
                   </div>
@@ -59,7 +67,7 @@ const Informacion = () => {
                   <div>
                     <h1>IMAGEN 4</h1>
                   </div>
-                </div>
+                </div> */}
               </Slide>
             </div>
           </div>

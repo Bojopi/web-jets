@@ -14,6 +14,7 @@
 
 .galeria h1 {
   margin: 5px 50px;
+  font-family: 'Antonio';
 }
 
 .galeria .cont-galeria {
@@ -37,11 +38,11 @@
 }
 
 .galeria .cont-galeria .grupo-galeria .tit-categoria p {
-  color: black;
+  color: #cf0a2c;
   font-size: 20px;
   font-weight: 700;
   padding: 5px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #cf0a2c;
 }
 
 .galeria .cont-galeria .grupo-galeria .cont-card-galeria {
