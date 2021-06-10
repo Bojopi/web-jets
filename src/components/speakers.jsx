@@ -19,7 +19,7 @@ const Speakers = () => {
               <figure>
                 <img
                   className="imagen-speaker"
-                  src="https://firebasestorage.googleapis.com/v0/b/jetsutepsa-d8f61.appspot.com/o/speakers%2FJAVIER%20DE%20LA%20FUENTE.png?alt=media&token=6dd767a5-1a4d-46bf-850a-90ebaf4b9247"
+                  src="https://i.postimg.cc/wTxryJZj/JAVIER-DE-LA-FUENTE.png"
                   alt=""
                 />
                 <figcaption>
@@ -45,7 +45,7 @@ const Speakers = () => {
               <figure>
                 <img
                   className="imagen-speaker"
-                  src="https://firebasestorage.googleapis.com/v0/b/jetsutepsa-d8f61.appspot.com/o/speakers%2FRODRIGO%20BARBOZA.png?alt=media&token=cef348d2-fb30-437f-94b3-c15189089991"
+                  src="https://i.postimg.cc/cCh5k4gW/RODRIGO-BARBOZA.png"
                   alt=""
                 />
                 <figcaption>
@@ -73,7 +73,7 @@ const Speakers = () => {
               <figure>
                 <img
                   className="imagen-speaker"
-                  src="https://firebasestorage.googleapis.com/v0/b/jetsutepsa-d8f61.appspot.com/o/speakers%2FIGNACIO%20RUIZ%20GUERRA.png?alt=media&token=61f5b215-46ee-4a86-963b-05b417d226b0"
+                  src="https://i.postimg.cc/0503yZt4/IGNACIO-RUIZ-GUERRA.png"
                   alt=""
                 />
                 <figcaption>
@@ -98,7 +98,7 @@ const Speakers = () => {
               <figure>
                 <img
                   className="imagen-speaker"
-                  src="https://firebasestorage.googleapis.com/v0/b/jetsutepsa-d8f61.appspot.com/o/speakers%2FLEONARDO%20MART%C3%8DNEZ.png?alt=media&token=ea19ad03-40e7-47e9-ae10-689bdd156640"
+                  src="https://i.postimg.cc/C5SQ4fKJ/LEONARDO-MARTINEZ.png"
                   alt=""
                 />
                 <figcaption>
@@ -120,7 +120,7 @@ const Speakers = () => {
               <figure>
                 <img
                   className="imagen-speaker"
-                  src="https://firebasestorage.googleapis.com/v0/b/jetsutepsa-d8f61.appspot.com/o/speakers%2FDENNIS%20NAKAMURA.png?alt=media&token=686d93cc-5de7-4c7d-91ac-73a806e66610"
+                  src="https://i.postimg.cc/zBmMVQZs/DENNIS-NAKAMURA.png"
                   alt=""
                 />
                 <figcaption>
@@ -143,7 +143,7 @@ const Speakers = () => {
               <figure>
                 <img
                   className="imagen-speaker"
-                  src="https://firebasestorage.googleapis.com/v0/b/jetsutepsa-d8f61.appspot.com/o/speakers%2FPedro%20L%C3%B3pez%20S%C3%A1ez.png?alt=media&token=ae1fc770-d168-4ee7-8d36-5cca5da728ea"
+                  src="https://i.postimg.cc/SsWP8GmJ/PEDRO-LOPEZ-SAEZ.png"
                   alt=""
                 />
                 <figcaption>
@@ -171,7 +171,7 @@ const Speakers = () => {
               <figure>
                 <img
                   className="imagen-speaker"
-                  src="https://firebasestorage.googleapis.com/v0/b/jetsutepsa-d8f61.appspot.com/o/speakers%2FMonica%20Isabel%20Martinez.png?alt=media&token=ea0e8d30-1af5-4066-9411-6dfce941a5fa"
+                  src="https://i.postimg.cc/5tQT9VG5/Monica-Isabel-Martinez.png"
                   alt=""
                 />
                 <figcaption>
@@ -202,22 +202,11 @@ const Speakers = () => {
       {/* ventanas modales */}
       <div id="javier" className="modal">
         <div className="modal-contenido">
-          {/* <Link
-            className="link"
-            activeClass="active"
-            to="inicio"
-            spy={true}
-            smooth={true}
-            offset={-150}
-            duration={500}
-          >
-            INICIO
-          </Link> */}
           <a href="#speakers">
             <IoMdCloseCircle />
           </a>
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/jetsutepsa-d8f61.appspot.com/o/modals%2FJAVIER%20DE%20LA%20FUENTE.png?alt=media&token=c14707c1-1898-4790-862f-20dbdf1f2c4e"
+            src="https://i.postimg.cc/P5HZSzbm/javier-de-la-fuente.png"
             alt=""
           />
         </div>
@@ -228,7 +217,7 @@ const Speakers = () => {
             <IoMdCloseCircle />
           </a>
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/jetsutepsa-d8f61.appspot.com/o/modals%2FRODRIGO%20BARBOSA.png?alt=media&token=1c948833-721b-4647-883f-4be5440bd1ff"
+            src="https://i.postimg.cc/CLSrqDZQ/RODRIGO-BARBOSA.png"
             alt=""
           />
         </div>
@@ -239,7 +228,7 @@ const Speakers = () => {
             <IoMdCloseCircle />
           </a>
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/jetsutepsa-d8f61.appspot.com/o/modals%2FIGNACIO%20RUIZ%20GUERRA.png?alt=media&token=59ccb9bc-ad59-4352-b94f-9b1c6be2c409"
+            src="https://i.postimg.cc/BQpYc6HQ/ignacio-Ruis-guerra.png"
             alt=""
           />
         </div>
@@ -250,7 +239,7 @@ const Speakers = () => {
             <IoMdCloseCircle />
           </a>
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/jetsutepsa-d8f61.appspot.com/o/modals%2FLEONARDO%20MARTINEZ.png?alt=media&token=a0d58970-2234-43e8-9f0f-17c8d29ffc32"
+            src="https://i.postimg.cc/bYQFrLvn/LEONARDO-MARTINES-1.png"
             alt=""
           />
         </div>
@@ -261,7 +250,7 @@ const Speakers = () => {
             <IoMdCloseCircle />
           </a>
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/jetsutepsa-d8f61.appspot.com/o/modals%2FDENNIS%20NAKAMURA.png?alt=media&token=d21d9821-5b55-4b41-8ba8-609b3cde2ed9"
+            src="https://i.postimg.cc/brjCLSmd/dennis-nakamura1.png"
             alt=""
           />
         </div>
@@ -272,7 +261,7 @@ const Speakers = () => {
             <IoMdCloseCircle />
           </a>
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/jetsutepsa-d8f61.appspot.com/o/modals%2FPEDRO%20LOPEZ.png?alt=media&token=551dc51a-4032-4594-bfe1-d95f28e17f95"
+            src="https://i.postimg.cc/7hMBRPR9/PEDRO-LOPEZ.png"
             alt=""
           />
         </div>
@@ -283,7 +272,7 @@ const Speakers = () => {
             <IoMdCloseCircle />
           </a>
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/jetsutepsa-d8f61.appspot.com/o/modals%2FMONICA%20MARTINEZ.png?alt=media&token=feeba5cd-5767-462e-8a24-d8a10447da80"
+            src="https://i.postimg.cc/y8fGBd8r/MONICA-MARTINEZ.png"
             alt=""
           />
         </div>

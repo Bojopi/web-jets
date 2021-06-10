@@ -38,13 +38,13 @@ const Informacion = () => {
         </div>
         <div className="cont-info">
           <div className="cronograma">
-            <div className="tabla">
+            <div className="tabla web">
               <Slide {...properties}>
                 <div className="dias">
                   <div>
                     <img
                       className="cuadro1"
-                      src="https://firebasestorage.googleapis.com/v0/b/jetsutepsa-d8f61.appspot.com/o/galeria%2FCRONOGRAMA%2FMesa%20de%20trabajo%201%20(mobile).png?alt=media&token=a9d79d9a-befb-447b-8574-79baa665b23e"
+                      src="https://i.postimg.cc/zvY4ycWL/Mesa-de-trabajo-1.png"
                       alt=""
                     />
                   </div>
@@ -53,21 +53,42 @@ const Informacion = () => {
                   <div>
                     <img
                       className="cuadro2"
-                      src="https://firebasestorage.googleapis.com/v0/b/jetsutepsa-d8f61.appspot.com/o/galeria%2FCRONOGRAMA%2FMesa%20de%20trabajo%202%20(mobile).png?alt=media&token=efcd9349-fc68-4672-a24f-9ee53bc4b129"
+                      src="https://i.postimg.cc/zfMsrBGF/Mesa-de-trabajo-2.png"
                       alt=""
                     />
                   </div>
                 </div>
-                {/* <div className="dias">
+              </Slide>
+            </div>
+            <div className="tabla mobile">
+              <Slide {...properties}>
+                <div className="dias">
                   <div>
-                    <h1>IMAGEN 3</h1>
+                    <img
+                      className="cuadro1"
+                      src="https://d.img.vision/jetsutepsa/Mesa_de_trabajo_1_(mobile).png"
+                      alt=""
+                    />
                   </div>
                 </div>
                 <div className="dias">
                   <div>
-                    <h1>IMAGEN 4</h1>
+                    <img
+                      className="cuadro2"
+                      src="https://d.img.vision/jetsutepsa/Mesa_de_trabajo_2_(mobile).png"
+                      alt=""
+                    />
                   </div>
-                </div> */}
+                </div>
+                <div className="dias">
+                  <div>
+                    <img
+                      className="cuadro3"
+                      src="https://d.img.vision/jetsutepsa/Mesa_de_trabajo_3_(mobile).png"
+                      alt=""
+                    />
+                  </div>
+                </div>
               </Slide>
             </div>
           </div>
