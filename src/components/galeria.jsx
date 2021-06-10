@@ -191,7 +191,7 @@ const Galeria = () => {
           </div>
           <div className="grupo-galeria" id="postas">
             <div className="tit-categoria">
-              <p>POSTAS</p>
+              <p>COMPETENCIAS</p>
             </div>
             <div className="cont-card-galeria">
               <Slide {...properties}>

@@ -93,10 +93,10 @@ const Informacion = () => {
             </div>
           </div>
           <div className="buttons">
-            <Link to="/memorias" className="memorias btn">
+            <Link to="/" className="memorias btn">
               MEMORIAS
             </Link>
-            <Link to="/cetificados" className="certificados btn">
+            <Link to="/" className="certificados btn">
               CERTIFICADOS
             </Link>
           </div>

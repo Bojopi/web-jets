@@ -163,7 +163,7 @@ const Speakers = () => {
                 </figcaption>
               </figure>
             </li>
-            <li>
+            {/* <li>
               <figure>
                 <img
                   className="imagen-speaker"
@@ -179,10 +179,6 @@ const Speakers = () => {
                   </p>
                   <div className="ver-mas">
                     <div className="uni">
-                      {/* <img src={TecnologicoDeMonterrey} alt="" />
-                      <p>Tecnológico de Monterrey</p>
-                      <img src={UniversidadDeCantabria} alt="" />
-                      <p>Universidad de Cantabria</p> */}
                     </div>
                     <div className="img">
                       <img src="https://i.postimg.cc/RZ0rDT6j/ICONO-JETS-ROJO.png" alt="" />
@@ -190,7 +186,7 @@ const Speakers = () => {
                   </div>
                 </figcaption>
               </figure>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

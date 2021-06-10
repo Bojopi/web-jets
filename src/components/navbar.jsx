@@ -64,9 +64,9 @@ const Navbar = () => {
       >
         CONTÁCTANOS
       </Enlace>
-      <Link to={"login-juego"} className="entrar-juego link">
+      {/* <Link to={"login-juego"} className="entrar-juego link">
         EVENTO ONLINE
-      </Link>
+      </Link> */}
       {/* <Enlace
         className="icon"
         spy={true}
