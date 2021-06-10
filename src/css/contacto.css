@@ -80,9 +80,6 @@
   margin: 0 auto 30px auto;
   border: none;
   border-bottom: 2px solid #555759;
-  /* border-bottom: 2px solid #cf0a2c; */
-  /* border-radius: 20px; */
-  /* padding: 10px; */
   transition: 0.5s;
 }
 
@@ -90,7 +87,6 @@
   width: 75%;
   height: 45px;
   border-bottom: 3px solid #a9acac;
-  /* border-color:  #a9acac; */
   outline: none;
 }
 
@@ -107,7 +103,6 @@
   border: none;
   background-color: #cf0a2c;
   box-shadow: 8px 8px 15px 1px rgba(221, 70, 95, 1);
-  /* background-color: #dd465f; */
   color: white;
   transition: 0.3s;
 }
@@ -162,5 +157,40 @@
     width: 90%;
     margin-left: 25px;
     grid-template-columns: 10% 90%;
+  }
+
+  .contenedor-contacto .form-contacto {
+    height: 100%;
+  }
+
+  .contenedor-contacto .form-contacto .cont-formulario {
+    width: 90%;
+    height: 500px;
+  }
+  
+  .contenedor-contacto .form-contacto .cont-formulario .text-info {
+    width: 80%;
+    margin: 30px auto 0 auto;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .contenedor-contacto .form-contacto .cont-formulario .form-info {
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contenedor-contacto .form-contacto .cont-formulario .form-info input {
+    width: 80%;
+  }
+
+  .contenedor-contacto .form-contacto .cont-formulario .form-info input:focus {
+    width: 85%;
+    height: 45px;
+    border-bottom: 3px solid #a9acac;
+    outline: none;
   }
 }

@@ -3,9 +3,6 @@ import { Link, animateScroll as scroll } from 'react-scroll'
 
 import '../css/header.css';
 
-//imagenes
-import timon_rojo from '../images/timon_fondo_rojo.jpeg'
-
 const Header = () => {
 
     const scrollToTop = () => {
@@ -18,7 +15,7 @@ const Header = () => {
                 <div className="titulo">
                     <div className="logo">
                         <div className="icono">
-                            <img src={timon_rojo} alt="" onClick={scrollToTop}/>
+                            <img src="https://i.postimg.cc/8P5t8X4B/LOGO-JETS-2.png" alt="" onClick={scrollToTop}/>
                         </div>
                     </div>
                     <div className="cont-tit">

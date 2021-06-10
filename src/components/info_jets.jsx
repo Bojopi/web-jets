@@ -8,7 +8,7 @@ import "react-slideshow-image/dist/styles.css";
 const properties = {
   duration: 3000,
   transitionDuration: 500,
-  infinite: true,
+  infinite: false,
   indicators: false,
   arrows: true,
   autoplay: false,
@@ -66,7 +66,7 @@ const Informacion = () => {
                   <div>
                     <img
                       className="cuadro1"
-                      src="https://d.img.vision/jetsutepsa/Mesa_de_trabajo_1_(mobile).png"
+                      src="https://i.postimg.cc/X7WwVGQN/Mesa-de-trabajo-1-mobile-1.png"
                       alt=""
                     />
                   </div>
@@ -75,7 +75,7 @@ const Informacion = () => {
                   <div>
                     <img
                       className="cuadro2"
-                      src="https://d.img.vision/jetsutepsa/Mesa_de_trabajo_2_(mobile).png"
+                      src="https://i.postimg.cc/KvhdxN6K/Mesa-de-trabajo-2-mobile-1.png"
                       alt=""
                     />
                   </div>
@@ -84,7 +84,7 @@ const Informacion = () => {
                   <div>
                     <img
                       className="cuadro3"
-                      src="https://d.img.vision/jetsutepsa/Mesa_de_trabajo_3_(mobile).png"
+                      src="https://i.postimg.cc/Hnz4GTG9/Mesa-de-trabajo-3-mobile-1.png"
                       alt=""
                     />
                   </div>

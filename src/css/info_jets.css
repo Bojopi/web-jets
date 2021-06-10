@@ -5,7 +5,7 @@
 
 .info-jets {
   width: 100%;
-  height: 600px;
+  height: 790px;
   margin-top: 20px;
   display: grid;
   grid-template-columns: repeat(2, 50%);
@@ -15,7 +15,7 @@
 .info-jets .historia {
   width: 100%;
   height: 100%;
-  background: url("../images/barkito\ 2.png");
+  background: url("https://i.postimg.cc/3JtrNNgQ/barkito-2.png");
   background-size: cover;
   box-sizing: border-box;
   display: flex;
@@ -57,8 +57,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: aquamarine;
-  height: 500px;
+  height: 600px;
   width: 90%;
   margin: 0 auto;
 }
@@ -69,7 +68,6 @@
 
 .info-jets .cont-info .cronograma .tabla .dias img {
   width: 100%;
-  height: 100%;
 }
 
 .info-jets .cont-info .cronograma .tabla .slide {
@@ -125,6 +123,15 @@
     padding: 0 50px;
     text-align: justify;
     line-height: 30px;
+  }
+
+  .info-jets {
+    width: 100%;
+    height: 600px;
+  }
+
+  .info-jets .cont-info .cronograma .tabla .dias {
+    height: 500px;
   }
 }
 
@@ -212,15 +219,9 @@
     height: 90%;
   }
 
-  /* .info-jets .cont-info .cronograma .tabla .dias {
-    height: 620px;
-    width: 100%;
-  } */
-
   .info-jets .cont-info .cronograma .tabla .dias {
-    height: 100;
     width: 100%;
-    margin: 0 auto;
+    height: 100%;
   }
   
   .info-jets .cont-info .cronograma .web {
@@ -234,20 +235,10 @@
   .info-jets .cont-info .buttons {
     width: 100%;
     height: 10%;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .info-jets .cont-info .cronograma .tabla .nav {
     display: none;
-  }
-
-  .info-jets .cont-info .cronograma .tabla .indicators {
-    position: absolute;
-    bottom: 0;
-    left: 43%;
-  }
-
-  .info-jets .cont-info .cronograma .tabla .dias .cuadro1 {
-    content: url("https://firebasestorage.googleapis.com/v0/b/jetsutepsa-d8f61.appspot.com/o/galeria%2FCRONOGRAMA%2FMesa%20de%20trabajo%201.png?alt=media&token=f6d4c7f5-985f-4157-8b3b-613fdc41c956");
   }
 }

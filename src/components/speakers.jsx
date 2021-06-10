@@ -1,12 +1,8 @@
 import React, { Fragment } from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
 
 import { IoMdCloseCircle } from "react-icons/io";
 
 import "../css/speakers.css";
-
-//imagenes
-import icono from "../images/ICONO-JETS-ROJO.png";
 
 const Speakers = () => {
   return (
@@ -35,7 +31,7 @@ const Speakers = () => {
                       <p>Universidad de Cantabria</p>
                     </div>
                     <div className="img">
-                      <img src={icono} alt="" />
+                      <img src="https://i.postimg.cc/RZ0rDT6j/ICONO-JETS-ROJO.png" alt="" />
                     </div>
                   </div>
                 </figcaption>
@@ -63,7 +59,7 @@ const Speakers = () => {
                       </p>
                     </div>
                     <div className="img">
-                      <img src={icono} alt="" />
+                      <img src="https://i.postimg.cc/RZ0rDT6j/ICONO-JETS-ROJO.png" alt="" />
                     </div>
                   </div>
                 </figcaption>
@@ -88,7 +84,7 @@ const Speakers = () => {
                       <p>Universidad Complutense de Madrid</p>
                     </div>
                     <div className="img">
-                      <img src={icono} alt="" />
+                      <img src="https://i.postimg.cc/RZ0rDT6j/ICONO-JETS-ROJO.png" alt="" />
                     </div>
                   </div>
                 </figcaption>
@@ -110,7 +106,7 @@ const Speakers = () => {
                   <div className="ver-mas">
                     <div className="uni"></div>
                     <div className="img">
-                      <img src={icono} alt="" />
+                      <img src="https://i.postimg.cc/RZ0rDT6j/ICONO-JETS-ROJO.png" alt="" />
                     </div>
                   </div>
                 </figcaption>
@@ -133,7 +129,7 @@ const Speakers = () => {
                   <div className="ver-mas">
                     <div className="uni"></div>
                     <div className="img">
-                      <img src={icono} alt="" />
+                      <img src="https://i.postimg.cc/RZ0rDT6j/ICONO-JETS-ROJO.png" alt="" />
                     </div>
                   </div>
                 </figcaption>
@@ -161,7 +157,7 @@ const Speakers = () => {
                       <p>Universidad de Cantabria</p> */}
                     </div>
                     <div className="img">
-                      <img src={icono} alt="" />
+                      <img src="https://i.postimg.cc/RZ0rDT6j/ICONO-JETS-ROJO.png" alt="" />
                     </div>
                   </div>
                 </figcaption>
@@ -189,7 +185,7 @@ const Speakers = () => {
                       <p>Universidad de Cantabria</p> */}
                     </div>
                     <div className="img">
-                      <img src={icono} alt="" />
+                      <img src="https://i.postimg.cc/RZ0rDT6j/ICONO-JETS-ROJO.png" alt="" />
                     </div>
                   </div>
                 </figcaption>

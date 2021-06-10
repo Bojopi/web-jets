@@ -61,33 +61,6 @@
 
   .navbar .link {
     padding: 0px 15px;
-    font-size: 10px;
+    font-size: 7px;
   }
-
-  /* .navbar .link:not(:first-child) {
-    display: none;
-  }
-
-  .navbar .icon {
-    float: right;
-    display: block;
-    color: white;
-    font-size: 15px;
-  }
-
-  .responsive  {
-    position: relative;
-  }
-
-  .responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-
-  .responsive .link {
-    float: none;
-    display: inline-block;
-    text-align: center;
-  } */
 }

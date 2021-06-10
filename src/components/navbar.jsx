@@ -12,16 +12,6 @@ import "../css/navbar.css";
 import { AiOutlineMenu } from 'react-icons/ai'
 
 const Navbar = () => {
-
-  const menu = () => {
-    let x = document.getElementById('navbar')
-    if (x.className === "navbar") {
-      x.className += " responsive"
-    } else {
-      x.className = "navbar"
-    }
-  }
-
   return (
     <div className="navbar" id="navbar">
       <Enlace
@@ -77,7 +67,7 @@ const Navbar = () => {
       <Link to={"login-juego"} className="entrar-juego link">
         EVENTO ONLINE
       </Link>
-      <Enlace
+      {/* <Enlace
         className="icon"
         spy={true}
         smooth={true}
@@ -85,7 +75,7 @@ const Navbar = () => {
         onClick={menu}
       >
         <AiOutlineMenu/>
-      </Enlace>
+      </Enlace> */}
     </div>
   );
 };

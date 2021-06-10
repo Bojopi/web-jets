@@ -6,7 +6,6 @@ import { MdEmail } from "react-icons/md";
 import { CgWebsite } from "react-icons/cg";
 
 import "../css/contacto.css";
-import ubicacion from "../images/MAPA-UTEPSA.png";
 
 const Contacto = () => {
   return (
@@ -14,7 +13,7 @@ const Contacto = () => {
       <div className="contenedor-contacto" id="contacto">
         <div className="info-contacto">
           <h1>CONT&Aacute;CTANOS</h1>
-          <img src={ubicacion} alt="" />
+          <img src="https://i.postimg.cc/Xv7vxF4J/MAPA-UTEPSA.png" alt="" />
           <div className="info-texto">
             <ImLocation />
             <p>
