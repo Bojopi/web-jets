@@ -3,14 +3,47 @@
     padding: 0;
 }
 
-.cronometro {
+.timer-container {
     width: 100%;
-    height: 100%;
-    background: black;
-    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.timer {
+.timer-container .timer {
+    width: 70%;
+    height: 50%;
+    border-radius: 25px;
+    box-shadow: 0 0 10px -2px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.timer-container .timer .informacion {
+    width: 100%;
+    height: 50%;
     text-align: center;
-    color: greenyellow;
+    display: flex;
+    flex-direction: column;
+}
+
+.timer-container .timer .informacion h2, p {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timer-container .timer .temporizador {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timer-container .timer .temporizador section .contador {
+    
 }
