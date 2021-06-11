@@ -64,7 +64,7 @@ const Navbar = () => {
       >
         CONTÁCTANOS
       </Enlace>
-      <Link to={"cronometro"} className="entrar-juego link">
+      <Link to={"temporizador"} className="entrar-juego link">
         EVENTO ONLINE
       </Link>
       {/* <Enlace

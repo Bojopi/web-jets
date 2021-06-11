@@ -34,7 +34,7 @@ const Cronometro = () => {
         setTimerMinutes(minutes);
         setTimerSeconds(seconds);
       }
-    }, 1000);
+    }, 0);
   };
 
   //componentDidMount

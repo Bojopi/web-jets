@@ -8,7 +8,7 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-250px * 7));
+    transform: translateX(calc(-250px * 9.2));
     /* transform: translateX(-270%); */
   }
 }

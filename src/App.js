@@ -13,7 +13,7 @@ function App() {
       <Switch>
         <Route exact path="/memorias" component={Memorias}></Route>
         <Route exact path="/login-juego" component={Login_Juego}></Route>
-        <Route exact path="/cronometro" component={Cronometro}></Route>
+        <Route exact path="/temporizador" component={Cronometro}></Route>
         <Route exact path="/pdf-viewer" component={Lector}></Route>
         <Route path="/" component={Inicio}></Route>
       </Switch>
