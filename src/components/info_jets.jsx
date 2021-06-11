@@ -8,13 +8,14 @@ import "react-slideshow-image/dist/styles.css";
 const properties = {
   duration: 3000,
   transitionDuration: 500,
-  infinite: false,
+  infinite: true,
   indicators: false,
   arrows: true,
   autoplay: false,
 };
 
 const Informacion = () => {
+
   return (
     <Fragment>
       <div className="info-jets" id="info">
@@ -43,7 +44,7 @@ const Informacion = () => {
                 <div className="dias">
                   <div>
                     <img
-                      className="cuadro1"
+                      className="cuadro1 img"
                       src="https://i.postimg.cc/zvY4ycWL/Mesa-de-trabajo-1.png"
                       alt=""
                     />
@@ -52,8 +53,53 @@ const Informacion = () => {
                 <div className="dias">
                   <div>
                     <img
-                      className="cuadro2"
+                      className="cuadro2 img"
                       src="https://i.postimg.cc/zfMsrBGF/Mesa-de-trabajo-2.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div className="dias">
+                  <div>
+                    <img
+                      className="cuadro3 img"
+                      src="https://i.postimg.cc/TwYYhDW5/Mesa-de-trabajo-3.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div className="dias">
+                  <div>
+                    <img
+                      className="cuadro4 img"
+                      src="https://i.postimg.cc/J4y0bZYb/Mesa-de-trabajo-4.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div className="dias">
+                  <div>
+                    <img
+                      className="cuadro5 img"
+                      src="https://i.postimg.cc/j5gqfSzg/Mesa-de-trabajo-5.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div className="dias">
+                  <div>
+                    <img
+                      className="cuadro6 img"
+                      src="https://i.postimg.cc/GhZ2zt66/Mesa-de-trabajo-6.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div className="dias">
+                  <div>
+                    <img
+                      className="cuadro7 img"
+                      src="https://i.postimg.cc/1zK39H4Z/Mesa-de-trabajo-7.jpg"
                       alt=""
                     />
                   </div>

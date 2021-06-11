@@ -27,8 +27,8 @@ const Speakers = () => {
                   </p>
                   <div className="ver-mas">
                     <div className="uni">
-                      <p>Tecnológico de Monterrey</p>
-                      <p>Universidad de Cantabria</p>
+                      {/* <p>Tecnológico de Monterrey</p>
+                      <p>Universidad de Cantabria</p> */}
                     </div>
                     <div className="img">
                       <img src="https://i.postimg.cc/RZ0rDT6j/ICONO-JETS-ROJO.png" alt="" />
@@ -52,11 +52,11 @@ const Speakers = () => {
                   </p>
                   <div className="ver-mas">
                     <div className="uni">
-                      <p>Aura Minerals Inc</p>
+                      {/* <p>Aura Minerals Inc</p>
                       <p>
                         Universiy of Southern California - Marshall School of
                         Business
-                      </p>
+                      </p> */}
                     </div>
                     <div className="img">
                       <img src="https://i.postimg.cc/RZ0rDT6j/ICONO-JETS-ROJO.png" alt="" />
@@ -81,7 +81,7 @@ const Speakers = () => {
                   </p>
                   <div className="ver-mas">
                     <div className="uni">
-                      <p>Universidad Complutense de Madrid</p>
+                      {/* <p>Universidad Complutense de Madrid</p> */}
                     </div>
                     <div className="img">
                       <img src="https://i.postimg.cc/RZ0rDT6j/ICONO-JETS-ROJO.png" alt="" />
@@ -151,10 +151,6 @@ const Speakers = () => {
                   </p>
                   <div className="ver-mas">
                     <div className="uni">
-                      {/* <img src={TecnologicoDeMonterrey} alt="" />
-                      <p>Tecnológico de Monterrey</p>
-                      <img src={UniversidadDeCantabria} alt="" />
-                      <p>Universidad de Cantabria</p> */}
                     </div>
                     <div className="img">
                       <img src="https://i.postimg.cc/RZ0rDT6j/ICONO-JETS-ROJO.png" alt="" />
@@ -163,19 +159,18 @@ const Speakers = () => {
                 </figcaption>
               </figure>
             </li>
-            {/* <li>
+            <li>
               <figure>
                 <img
                   className="imagen-speaker"
-                  src="https://i.postimg.cc/5tQT9VG5/Monica-Isabel-Martinez.png"
+                  src="https://i.postimg.cc/pVSLCCSs/lenka-nemer.png"
                   alt=""
                 />
                 <figcaption>
-                  <h3>MONICA ISABEL MARTINEZ</h3>
+                  <h3>LENKA NEMER DIRPIC</h3>
                   <p>
-                    Master en tecnología educativa. Innovadora certificada por
-                    Google.
-                    <a href="#monica">...Leer más</a>
+                    Estudiante de la carrera de Relaciones Internacionales de la Universidad Tecnológica Privada de Santa Cruz.
+                    <a href="#lenka">...Leer más</a>
                   </p>
                   <div className="ver-mas">
                     <div className="uni">
@@ -186,7 +181,7 @@ const Speakers = () => {
                   </div>
                 </figcaption>
               </figure>
-            </li> */}
+            </li>
           </ul>
         </div>
       </div>
@@ -258,13 +253,13 @@ const Speakers = () => {
           />
         </div>
       </div>
-      <div id="monica" className="modal">
+      <div id="lenka" className="modal">
         <div className="modal-contenido">
           <a href="#speakers">
             <IoMdCloseCircle />
           </a>
           <img
-            src="https://i.postimg.cc/y8fGBd8r/MONICA-MARTINEZ.png"
+            src="https://i.postimg.cc/CLKbBcqJ/Lenka-Nemer-Dirpic.jpg"
             alt=""
           />
         </div>
