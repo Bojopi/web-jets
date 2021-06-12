@@ -16,15 +16,15 @@ const Contacto = () => {
           <img src="https://i.postimg.cc/Xv7vxF4J/MAPA-UTEPSA.png" alt="" />
           <div className="info-texto">
             <ImLocation />
-            <p>
+            <p className="inf-jets">
               Dirección: 3er Anillo Interno N° 715, entre Busch y Av. San Martín
             </p>
             <ImPhone />
-            <p>Teléfono: (591 - 3) 363-9213</p>
+            <p className="inf-jets">Teléfono: (591 - 3) 363-9213</p>
             <MdEmail />
-            <p>Email: jets@utepsa.edu</p>
+            <p className="inf-jets">Email: jets@utepsa.edu</p>
             <CgWebsite />
-            <p>Website: www.utepsa.edu</p>
+            <p className="inf-jets">Website: www.utepsa.edu</p>
           </div>
         </div>
         <div className="form-contacto">
