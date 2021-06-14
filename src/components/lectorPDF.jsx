@@ -8,7 +8,6 @@ import convocatoria1 from '../assets/CONVOCATORIA DESAFIO EXTREMO 2021.pdf'
 const Lector = () => {
 
     const [numPages, setNumPages] = useState(null)
-    const [pageNumber, setPageNumber] = useState(1)
 
     const onDocumentLoadSuccess = ({numPages}) => {
         setNumPages(numPages)
@@ -17,12 +16,10 @@ const Lector = () => {
   return (
     <div>
         <Document
-        file="../assets/CONVOCATORIA DESAFIO EXTREMO 2021.pdf"
-        onLoadSuccess={onDocumentLoadSuccess}
+        file={convocatoria1}
         >
-            <Page pageNumber={pageNumber} />
+            <Page pageNumber={1} />
         </Document>
-        <p>Page {pageNumber} of {numPages}</p>
     </div>
 
 
