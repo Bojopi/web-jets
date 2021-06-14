@@ -1,6 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 
 import "../css/cronometro.css";
+
+//iconos
+import { BsArrowLeftShort } from "react-icons/bs";
 
 const Cronometro = () => {
   const [timerDays, setTimerDays] = useState("00");
@@ -39,18 +43,20 @@ const Cronometro = () => {
 
   //componentDidMount
   useEffect(() => {
-      startTimer()
-      return() => {
-          clearInterval(interval.current)
-      }
-  })
+    startTimer();
+    return () => {
+      clearInterval(interval.current);
+    };
+  });
   return (
     <section className="timer-container">
       <section className="timer">
         <div className="informacion">
           <h2>Se viene el evento más esperado</h2>
           <span>JETS</span>
-          <p>Inscríbete para ser parte de esta experiencia 2.0</p>
+          <p className="inscribete">
+            Inscríbete para ser parte de esta experiencia 2.0
+          </p>
           <p className="titulo-falta">SÓLO FALTAN: </p>
         </div>
         <div className="temporizador">
@@ -74,6 +80,10 @@ const Cronometro = () => {
             <p className="texto">SEGUNDOS</p>
           </section>
         </div>
+        <Link to="/" className="inicio">
+          {/* <BsArrowLeftShort /> */}
+          Volver al inicio
+        </Link>
       </section>
     </section>
   );
