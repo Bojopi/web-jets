@@ -31,12 +31,6 @@ const Empresas = () => {
             </div>
             <div className="listas">
               <img
-                src="https://res.cloudinary.com/utepsajets/image/upload/v1623158710/jets/empresas/BOEING_LOGO_vptxy1.png"
-                alt=""
-              />
-            </div>
-            <div className="listas">
-              <img
                 src="https://res.cloudinary.com/utepsajets/image/upload/v1623158710/jets/empresas/GOOGLE_LOGO_p5od4n.png"
                 alt=""
               />
@@ -50,12 +44,6 @@ const Empresas = () => {
             <div className="listas">
               <img
                 src="https://res.cloudinary.com/utepsajets/image/upload/v1623158711/jets/empresas/COCA_COLA_LOGO_imamkw.png"
-                alt=""
-              />
-            </div>
-            <div className="listas">
-              <img
-                src="https://res.cloudinary.com/utepsajets/image/upload/v1622986943/jets/empresas/SOFIA_LOGO_v4hz2n.png"
                 alt=""
               />
             </div>

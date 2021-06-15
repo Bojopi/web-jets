@@ -15,6 +15,29 @@ const Speakers = () => {
               <figure>
                 <img
                   className="imagen-speaker"
+                  src="https://i.postimg.cc/Kzjh73b5/MAIRA-ARI-EZ.png"
+                  alt=""
+                />
+                <figcaption>
+                  <h3>MAIRA A. ARIÑEZ VERA</h3>
+                  <p>
+                    Magíster en Derecho de la Empresa por la Pontificia Universidad Católica del Perú.
+                    <a href="#maira">...Leer más</a>
+                  </p>
+                  <div className="ver-mas">
+                    <div className="uni">
+                    </div>
+                    <div className="img">
+                      <img src="https://i.postimg.cc/RZ0rDT6j/ICONO-JETS-ROJO.png" alt="" />
+                    </div>
+                  </div>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img
+                  className="imagen-speaker"
                   src="https://i.postimg.cc/wTxryJZj/JAVIER-DE-LA-FUENTE.png"
                   alt=""
                 />
@@ -27,8 +50,6 @@ const Speakers = () => {
                   </p>
                   <div className="ver-mas">
                     <div className="uni">
-                      {/* <p>Tecnológico de Monterrey</p>
-                      <p>Universidad de Cantabria</p> */}
                     </div>
                     <div className="img">
                       <img src="https://i.postimg.cc/RZ0rDT6j/ICONO-JETS-ROJO.png" alt="" />
@@ -52,11 +73,6 @@ const Speakers = () => {
                   </p>
                   <div className="ver-mas">
                     <div className="uni">
-                      {/* <p>Aura Minerals Inc</p>
-                      <p>
-                        Universiy of Southern California - Marshall School of
-                        Business
-                      </p> */}
                     </div>
                     <div className="img">
                       <img src="https://i.postimg.cc/RZ0rDT6j/ICONO-JETS-ROJO.png" alt="" />
@@ -81,7 +97,29 @@ const Speakers = () => {
                   </p>
                   <div className="ver-mas">
                     <div className="uni">
-                      {/* <p>Universidad Complutense de Madrid</p> */}
+                    </div>
+                    <div className="img">
+                      <img src="https://i.postimg.cc/RZ0rDT6j/ICONO-JETS-ROJO.png" alt="" />
+                    </div>
+                  </div>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img
+                  className="imagen-speaker"
+                  src="https://i.postimg.cc/mrpLvhvp/CAROL-ILIEVSKI.png"
+                  alt=""
+                />
+                <figcaption>
+                  <h3>CAROL ILIEVSKI</h3>
+                  <p>
+                    Directora CEO NovoAndina International Corporation Boston - MA
+                    <a href="#carol">...Leer más</a>
+                  </p>
+                  <div className="ver-mas">
+                    <div className="uni">
                     </div>
                     <div className="img">
                       <img src="https://i.postimg.cc/RZ0rDT6j/ICONO-JETS-ROJO.png" alt="" />
@@ -187,6 +225,17 @@ const Speakers = () => {
       </div>
 
       {/* ventanas modales */}
+      <div id="maira" className="modal">
+        <div className="modal-contenido">
+          <a href="#speakers">
+            <IoMdCloseCircle />
+          </a>
+          <img
+            src="https://i.postimg.cc/pXf8MmNC/MAIRA-ARI-EZ-VERA.png"
+            alt=""
+          />
+        </div>
+      </div>
       <div id="javier" className="modal">
         <div className="modal-contenido">
           <a href="#speakers">
@@ -220,6 +269,17 @@ const Speakers = () => {
           />
         </div>
       </div>
+      <div id="carol" className="modal">
+        <div className="modal-contenido">
+          <a href="#speakers">
+            <IoMdCloseCircle />
+          </a>
+          <img
+            src="https://i.postimg.cc/cHmqnJWM/carolll.png"
+            alt=""
+          />
+        </div>
+      </div>
       <div id="leonardo" className="modal">
         <div className="modal-contenido">
           <a href="#speakers">
@@ -248,7 +308,7 @@ const Speakers = () => {
             <IoMdCloseCircle />
           </a>
           <img
-            src="https://i.postimg.cc/7hMBRPR9/PEDRO-LOPEZ.png"
+            src="https://i.postimg.cc/zfz41rKy/pedroooo.png"
             alt=""
           />
         </div>

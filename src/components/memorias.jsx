@@ -15,7 +15,6 @@ import jets18 from "../images/memorias/jets 2018/fondo_atrapasueños.PNG";
 import jets19 from "../images/memorias/jets 2019/entrada_casadepapel.JPG";
 
 //jets 2017
-import presentacion from "../images/memorias/jets 2017/presentacion_jets17.PNG";
 import conferencias from "../images/memorias/jets 2017/participacion masiva de los estudiantes.PNG";
 
 const Memorias = () => {
@@ -25,7 +24,7 @@ const Memorias = () => {
         <div className="top">
           <div className="memoria">
             <figure>
-              <img src={jets17} alt="" />
+              <img src="https://i.postimg.cc/3rzJw50W/presentacion-cienciasempresariales.png" alt="" />
               <div className="capa">
                 <h1>MEMORIAS 2017</h1>
                 <div className="btn btnsiete">
@@ -73,7 +72,7 @@ const Memorias = () => {
               4342 estudiantes.
             </p>
           </div>
-          <img src={presentacion} alt="" />
+          <img src="https://i.postimg.cc/R0YLYZqv/presentacion-jets17.png" alt="" />
         </div>
         <div className="conferencias">
           <div className="presentacion-tit">

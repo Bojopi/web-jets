@@ -80,7 +80,7 @@ const Cronometro = () => {
             <p className="texto">SEGUNDOS</p>
           </section>
         </div>
-        <Link to="/" className="inicio">
+        <Link to="/jets" className="inicio">
           {/* <BsArrowLeftShort /> */}
           Volver al inicio
         </Link>

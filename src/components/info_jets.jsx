@@ -15,7 +15,6 @@ const properties = {
 };
 
 const Informacion = () => {
-
   return (
     <Fragment>
       <div className="info-jets" id="info">
@@ -23,18 +22,29 @@ const Informacion = () => {
           <h1>¿QUÉ ES JETS?</h1>
           <p>
             La Universidad Tecnológica Privada de Santa Cruz – UTEPSA, organiza
-            desde hace doce años, las “JORNADAS EMPRESARIALES, TECNOLÓGICAS
-            SOCIALES Y HUMANÍSTICAS - JETS”. Éste es un evento de orden
-            internacional que promueve actividades complementarias para la
-            formación integral de nuestros estudiantes y la comunidad a través
-            de espacios académicos como conferencias, debates, exposiciones,
-            concursos, ferias, foros y actividades culturales. Alrededor de 4000
-            estudiantes y miembros de la comunidad participan activamente de
-            este evento generando espacios para compartir experiencias y
-            proyecciones de crecimiento. El evento de este año se ha denominado
-            “Formando para Emprender y Servir” y se realizará del 19 al 23 de
-            agosto. Lo invitamos a participar de las actividades en este año
-            especial en el que UTEPSA cumple 25 años.
+            desde el año 2008 las “JORNADAS EMPRESARIALES, TECNOLÓGICAS SOCIALES
+            Y HUMANISTICAS - JETS”. Este es un evento de orden regional,
+            nacional e internacional que promueve actividades complementarias
+            para la formación integral e integradora de nuestros estudiantes y
+            la comunidad a través de espacios académicos como conferencias,
+            debates, exposiciones, concursos, ferias, foros y actividades
+            culturales que giran en torno al emprendimiento y a la innovación.
+            <br />
+            En estos espacios la comunidad en general tiene la oportunidad de
+            compartir las experiencias y conocimientos con especialistas
+            nacionales e internacionales, generando de esta manera una
+            vinculación entre empresas, universidades y representantes de
+            diferentes niveles del Estado. 
+            <br />
+            Este año se llevará a cabo la décimo
+            tercera versión del JETS. El tema central para es “Líderes en
+            Emprendimiento”, siendo el principal objetivo: potenciar las
+            habilidades, destrezas, actitudes y valores de emprendimiento a
+            partir del liderazgo de nuestros estudiantes y nuestra comunidad. 
+            <br />
+            La fecha del evento será del <b>28 de junio al 2 de julio</b>, las actividades
+            de desarrollarán principalmente en línea. Lo invitamos a participar
+            de las actividades para formarse como un líder en emprendimiento.
           </p>
         </div>
         <div className="cont-info">
@@ -175,7 +185,7 @@ const Informacion = () => {
                   <div>
                     <img
                       className="cuadro8"
-                      src="https://i.postimg.cc/k5RKfgKy/Mesa-de-trabajo-1-dia-4-mobile.png"
+                      src="https://i.postimg.cc/g2yyg97j/Mesa-de-trabajo-1-dia-3-mobile.png"
                       alt=""
                     />
                   </div>
@@ -184,6 +194,42 @@ const Informacion = () => {
                   <div>
                     <img
                       className="cuadro9"
+                      src="https://i.postimg.cc/fbwcF24K/Mesa-de-trabajo-2-dia-3-mobile.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div className="dias">
+                  <div>
+                    <img
+                      className="cuadro10"
+                      src="https://i.postimg.cc/7ZrM1Pmj/Mesa-de-trabajo-3-dia-3-mobile.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div className="dias">
+                  <div>
+                    <img
+                      className="cuadro11"
+                      src="https://i.postimg.cc/pdqftfRt/Mesa-de-trabajo-4-dia-3-mobile.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div className="dias">
+                  <div>
+                    <img
+                      className="cuadro12"
+                      src="https://i.postimg.cc/k5RKfgKy/Mesa-de-trabajo-1-dia-4-mobile.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div className="dias">
+                  <div>
+                    <img
+                      className="cuadro13"
                       src="https://i.postimg.cc/k4r8ZPyP/Mesa-de-trabajo-2-dia-4-mobile.png"
                       alt=""
                     />
@@ -193,10 +239,13 @@ const Informacion = () => {
             </div>
           </div>
           <div className="buttons">
-            <Link to="/" className="memorias btn">
+            <a href="https://drive.google.com/file/d/1BOiDU8PW0uLPVXhVaoljO8LrS_YPnZFI/view?usp=sharing" className="programa btn">
+              PROGRAMA
+            </a>
+            <Link to={"/jets/memorias"} className="memorias btn">
               MEMORIAS
             </Link>
-            <Link to="/" className="certificados btn">
+            <Link to="/jets" className="certificados btn">
               CERTIFICADOS
             </Link>
           </div>
