@@ -36,6 +36,16 @@ const Navbar = () => {
       </Enlace>
       <Enlace
         className="link"
+        to="convocatoria"
+        spy={true}
+        smooth={true}
+        offset={-150}
+        duration={500}
+      >
+        CONVOCATORIAS
+      </Enlace>
+      <Enlace
+        className="link"
         to="galeria"
         spy={true}
         smooth={true}

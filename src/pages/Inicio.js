@@ -11,6 +11,7 @@ import Informacion from '../components/info_jets'
 import Galeria from '../components/galeria'
 import Speakers from '../components/speakers'
 import Contacto from '../components/contacto'
+import Convocatorias from '../components/convocatorias'
 
 function Inicio() {
   return (
@@ -20,6 +21,7 @@ function Inicio() {
         <Slides/>
         <Empresas/>
         <Informacion/>
+        <Convocatorias/>
         <Galeria/>
         <Speakers/>
         <Contacto/>

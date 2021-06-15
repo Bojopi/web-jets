@@ -3,7 +3,7 @@ import { Document, Page } from 'react-pdf'
 
 import "../css/lector.css";
 
-import convocatoria1 from '../assets/CONVOCATORIA DESAFIO EXTREMO 2021.pdf'
+// import convocatoria1 from '../../public'
 
 const Lector = () => {
 
@@ -17,11 +17,9 @@ const Lector = () => {
     <div>
         <Document
         file="https://drive.google.com/file/d/1VOKb_H8s7Qwo74rQbJxzDEp2X9IApErj/view?usp=sharing"
-        onLoadSuccess={onDocumentLoadSuccess}
         >
-            <Page pageNumber={pageNumber} />
+            <Page pageNumber={1} />
         </Document>
-        <p>Page {pageNumber} of {numPages}</p>
     </div>
 
 
