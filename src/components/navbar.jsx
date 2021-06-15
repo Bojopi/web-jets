@@ -9,6 +9,8 @@ import { Link as Enlace, animateScroll as scroll } from "react-scroll";
 
 import "../css/navbar.css";
 
+import EnlaceCronometro from '../components/cronometro'
+
 import { AiOutlineMenu } from 'react-icons/ai'
 
 const Navbar = () => {

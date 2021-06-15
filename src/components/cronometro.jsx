@@ -49,7 +49,7 @@ const Cronometro = () => {
     };
   });
   return (
-    <section className="timer-container">
+    <section className="timer-container" id="temporizador">
       <section className="timer">
         <div className="informacion">
           <h2>Se viene el evento más esperado</h2>
