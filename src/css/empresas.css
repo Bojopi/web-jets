@@ -69,6 +69,16 @@
 }
 
 @media screen and (max-width: 768px) {
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-250px * 5));
+      /* transform: translateX(-270%); */
+    }
+  }
+
   .contenedor {
     margin-top: 20px;
     height: 150px;
@@ -80,7 +90,7 @@
   }
 
   .contenedor .slider .slider-track .listas img {
-    height: 100px;
-    width: 210px;
+    height: 70px;
+    width: 120px;
   }
 }

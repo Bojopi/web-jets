@@ -55,7 +55,7 @@ const Informacion = () => {
                   <div>
                     <img
                       className="cuadro1 img"
-                      src="https://i.postimg.cc/zvY4ycWL/Mesa-de-trabajo-1.png"
+                      src="https://i.postimg.cc/1RbXB9Nc/Mesa-de-trabajo-1.png"
                       alt=""
                     />
                   </div>
@@ -121,7 +121,7 @@ const Informacion = () => {
                 <div className="dias">
                   <div>
                     <img
-                      className="cuadro1"
+                      className="cuadro"
                       src="https://i.postimg.cc/X7WwVGQN/Mesa-de-trabajo-1-mobile-1.png"
                       alt=""
                     />
@@ -130,7 +130,7 @@ const Informacion = () => {
                 <div className="dias">
                   <div>
                     <img
-                      className="cuadro2"
+                      className="cuadro"
                       src="https://i.postimg.cc/KvhdxN6K/Mesa-de-trabajo-2-mobile-1.png"
                       alt=""
                     />
@@ -139,7 +139,7 @@ const Informacion = () => {
                 <div className="dias">
                   <div>
                     <img
-                      className="cuadro3"
+                      className="cuadro"
                       src="https://i.postimg.cc/Hnz4GTG9/Mesa-de-trabajo-3-mobile-1.png"
                       alt=""
                     />
@@ -148,7 +148,7 @@ const Informacion = () => {
                 <div className="dias">
                   <div>
                     <img
-                      className="cuadro4"
+                      className="cuadro"
                       src="https://i.postimg.cc/K8JJdjKS/Mesa-de-trabajo-1-dia-2-mobile.png"
                       alt=""
                     />
@@ -157,7 +157,7 @@ const Informacion = () => {
                 <div className="dias">
                   <div>
                     <img
-                      className="cuadro5"
+                      className="cuadro"
                       src="https://i.postimg.cc/65VHfYtQ/Mesa-de-trabajo-2-dia-2-mobile.png"
                       alt=""
                     />
@@ -166,7 +166,7 @@ const Informacion = () => {
                 <div className="dias">
                   <div>
                     <img
-                      className="cuadro6"
+                      className="cuadro"
                       src="https://i.postimg.cc/Hs1ZMfGK/Mesa-de-trabajo-3-dia-2-mobile.png"
                       alt=""
                     />
@@ -175,7 +175,7 @@ const Informacion = () => {
                 <div className="dias">
                   <div>
                     <img
-                      className="cuadro7"
+                      className="cuadro"
                       src="https://i.postimg.cc/htS2yTt1/Mesa-de-trabajo-4-dia-2-mobile.png"
                       alt=""
                     />
@@ -184,7 +184,7 @@ const Informacion = () => {
                 <div className="dias">
                   <div>
                     <img
-                      className="cuadro8"
+                      className="cuadro"
                       src="https://i.postimg.cc/g2yyg97j/Mesa-de-trabajo-1-dia-3-mobile.png"
                       alt=""
                     />
@@ -193,7 +193,7 @@ const Informacion = () => {
                 <div className="dias">
                   <div>
                     <img
-                      className="cuadro9"
+                      className="cuadro"
                       src="https://i.postimg.cc/fbwcF24K/Mesa-de-trabajo-2-dia-3-mobile.png"
                       alt=""
                     />
@@ -202,7 +202,7 @@ const Informacion = () => {
                 <div className="dias">
                   <div>
                     <img
-                      className="cuadro10"
+                      className="cuadro"
                       src="https://i.postimg.cc/7ZrM1Pmj/Mesa-de-trabajo-3-dia-3-mobile.png"
                       alt=""
                     />
@@ -211,7 +211,7 @@ const Informacion = () => {
                 <div className="dias">
                   <div>
                     <img
-                      className="cuadro11"
+                      className="cuadro"
                       src="https://i.postimg.cc/pdqftfRt/Mesa-de-trabajo-4-dia-3-mobile.png"
                       alt=""
                     />
@@ -220,7 +220,7 @@ const Informacion = () => {
                 <div className="dias">
                   <div>
                     <img
-                      className="cuadro12"
+                      className="cuadro"
                       src="https://i.postimg.cc/k5RKfgKy/Mesa-de-trabajo-1-dia-4-mobile.png"
                       alt=""
                     />
@@ -229,7 +229,7 @@ const Informacion = () => {
                 <div className="dias">
                   <div>
                     <img
-                      className="cuadro13"
+                      className="cuadro"
                       src="https://i.postimg.cc/k4r8ZPyP/Mesa-de-trabajo-2-dia-4-mobile.png"
                       alt=""
                     />
