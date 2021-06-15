@@ -74,15 +74,6 @@ const Memorias = () => {
           </div>
           <img src="https://i.postimg.cc/R0YLYZqv/presentacion-jets17.png" alt="" />
         </div>
-        <div className="conferencias">
-          <div className="presentacion-tit">
-            <p>CONFERENCIAS Y FOROS</p>
-            <img src={conferencias} alt="" />
-          </div>
-          <div className="contenedor">
-
-          </div>
-        </div>
         <div className="cont-estadistica">
           <div className="card-cont">
             <div className="cont-titu">
@@ -161,7 +152,85 @@ const Memorias = () => {
         </div>
       </div>
       <div className="memo-18" id="memo-18">
-        <h1>memorias 18</h1>
+        <div className="presentacion">
+          <div className="texto">
+            <h1>
+              MEMORIA <span>JETS 2018</span>
+            </h1>
+            <p>
+            Dando inicio a la 11va versión del JETS, se llevó a cabo el acto
+            inaugural al que asistieron autoridades de la Universidad, y
+            representantes de Instituciones y miembros del Cuerpo
+            Consultar de Perú y Argentina.
+            Durante este evento, las autoridades de UTEPSA expresaron
+            que el objetivo más importante del JETS es aportar a la
+            formación integral de los estudiantes y animaron a toda la
+            comunidad a participar activamente del programa preparado.
+            Además, un estudiante tomó la palabra en representación de la
+            comunidad estudiantil, manifestando el impacto positivo que
+            estas Jornadas han tenido durante su formación.
+            </p>
+          </div>
+          <img src="https://i.postimg.cc/NGmr29Kv/2018.png" alt="" />
+        </div>
+        <div className="cont-estadistica">
+          <div className="card-cont">
+            <div className="cont-titu">
+              <IconContext.Provider value={{ className: "react-icons" }}>
+                <HiUserGroup />
+              </IconContext.Provider>
+              <p>PARTICIPANTES</p>
+            </div>
+            <div className="cont-participantes textos">
+              <div className="cont-opcion">
+                <p>Facultad de Ciencias Empresariales:</p>
+                <p>Facultad de Ciencias Jurídicas y Sociales:</p>
+                <p>Facultad de Ciencias y Tecnología:</p>
+              </div>
+              <div className="cont-cant">
+                <p>2059</p>
+                <p>369</p>
+                <p>1706</p>
+              </div>
+            </div>
+          </div>
+          <div className="card-cont">
+            <div className="cont-titu">
+              <IconContext.Provider value={{ className: "react-icons" }}>
+                <GiVideoConference />
+              </IconContext.Provider>
+              <p>EXPOSITORES</p>
+            </div>
+            <div className="cont-expositores textos">
+              <div className="cont-opcion">
+                <p>Locales:</p>
+                <p>Nacionales:</p>
+                <p>Internacionales:</p>
+              </div>
+              <div className="cont-cant">
+                <p>15</p>
+                <p>2</p>
+                <p>4</p>
+              </div>
+            </div>
+          </div>
+          <div className="card-cont">
+            <div className="cont-titu">
+              <IconContext.Provider value={{ className: "react-icons" }}>
+                <FaStar />
+              </IconContext.Provider>
+              <p>CONCURSOS</p>
+            </div>
+            <div className="cont-concursos textos">
+              <div className="cont-opcion">
+                <p>Participantes en concursos:</p>
+              </div>
+              <div className="cont-cant">
+                <p>321</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="memo-19" id="memo-19">
         <h1>memorias 19</h1>

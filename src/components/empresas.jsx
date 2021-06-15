@@ -31,12 +31,6 @@ const Empresas = () => {
             </div>
             <div className="listas">
               <img
-                src="https://res.cloudinary.com/utepsajets/image/upload/v1623158710/jets/empresas/GOOGLE_LOGO_p5od4n.png"
-                alt=""
-              />
-            </div>
-            <div className="listas">
-              <img
                 src="https://res.cloudinary.com/utepsajets/image/upload/v1623157059/jets/empresas/LILIANA_CASTELLANOS_LOGO_smyexu.png"
                 alt=""
               />
@@ -61,12 +55,6 @@ const Empresas = () => {
             </div>
             <div className="listas">
               <img
-                src="https://res.cloudinary.com/utepsajets/image/upload/v1622986943/jets/empresas/KOHLBERG_LOGO_v2pqot.png"
-                alt=""
-              />
-            </div>
-            <div className="listas">
-              <img
                 src="https://res.cloudinary.com/utepsajets/image/upload/v1623436507/jets/empresas/BANCO_GANADERO_LOGO_udt3yy.png"
                 alt=""
               />
@@ -80,6 +68,24 @@ const Empresas = () => {
             <div className="listas">
               <img
                 src="https://res.cloudinary.com/utepsajets/image/upload/v1622986942/jets/empresas/CHAVEZ_LOGO_egoq89.png"
+                alt=""
+              />
+            </div>
+            <div className="listas">
+              <img
+                src="https://res.cloudinary.com/utepsajets/image/upload/v1623784746/jets/empresas/santa_rosa_club_xnkoo8.png"
+                alt=""
+              />
+            </div>
+            <div className="listas">
+              <img
+                src="https://res.cloudinary.com/utepsajets/image/upload/v1623785286/jets/empresas/gobierno_jdpkdu.jpg"
+                alt=""
+              />
+            </div>
+            <div className="listas">
+              <img
+                src="https://res.cloudinary.com/utepsajets/image/upload/v1623785530/jets/empresas/ministerio2_za7wao.jpg"
                 alt=""
               />
             </div>
