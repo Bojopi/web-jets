@@ -135,6 +135,60 @@ const Informacion = () => {
                     />
                   </div>
                 </div>
+                <div className="dias">
+                  <div>
+                    <img
+                      className="cuadro4"
+                      src="https://i.postimg.cc/K8JJdjKS/Mesa-de-trabajo-1-dia-2-mobile.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div className="dias">
+                  <div>
+                    <img
+                      className="cuadro5"
+                      src="https://i.postimg.cc/65VHfYtQ/Mesa-de-trabajo-2-dia-2-mobile.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div className="dias">
+                  <div>
+                    <img
+                      className="cuadro6"
+                      src="https://i.postimg.cc/Hs1ZMfGK/Mesa-de-trabajo-3-dia-2-mobile.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div className="dias">
+                  <div>
+                    <img
+                      className="cuadro7"
+                      src="https://i.postimg.cc/htS2yTt1/Mesa-de-trabajo-4-dia-2-mobile.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div className="dias">
+                  <div>
+                    <img
+                      className="cuadro8"
+                      src="https://i.postimg.cc/k5RKfgKy/Mesa-de-trabajo-1-dia-4-mobile.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div className="dias">
+                  <div>
+                    <img
+                      className="cuadro9"
+                      src="https://i.postimg.cc/k4r8ZPyP/Mesa-de-trabajo-2-dia-4-mobile.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
               </Slide>
             </div>
           </div>

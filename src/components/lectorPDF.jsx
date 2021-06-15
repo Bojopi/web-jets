@@ -16,9 +16,9 @@ const Lector = () => {
   return (
     <div>
         <Document
-        file={convocatoria1}
+        file="https://drive.google.com/file/d/1VOKb_H8s7Qwo74rQbJxzDEp2X9IApErj/view?usp=sharing"
         >
-            <Page pageNumber={1} />
+            <Page pageNumber={onDocumentLoadSuccess} />
         </Document>
     </div>
 
