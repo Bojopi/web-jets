@@ -19,11 +19,11 @@ function Inicio() {
         <Header/>
         <Navbar/>
         <Slides/>
-        <Empresas/>
         <Informacion/>
+        <Speakers/>
+        <Empresas/>
         <Convocatorias/>
         <Galeria/>
-        <Speakers/>
         <Contacto/>
         <Footer/>
     </Fragment>

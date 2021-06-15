@@ -9,8 +9,6 @@ import { Link as Enlace, animateScroll as scroll } from "react-scroll";
 
 import "../css/navbar.css";
 
-import EnlaceCronometro from '../components/cronometro'
-
 import { AiOutlineMenu } from 'react-icons/ai'
 
 const Navbar = () => {
@@ -38,6 +36,16 @@ const Navbar = () => {
       </Enlace>
       <Enlace
         className="link"
+        to="speakers"
+        spy={true}
+        smooth={true}
+        // offset={-150}
+        duration={500}
+      >
+        EXPOSITORES
+      </Enlace>
+      <Enlace
+        className="link"
         to="convocatoria"
         spy={true}
         smooth={true}
@@ -58,16 +66,6 @@ const Navbar = () => {
       </Enlace>
       <Enlace
         className="link"
-        to="speakers"
-        spy={true}
-        smooth={true}
-        // offset={-150}
-        duration={500}
-      >
-        EXPOSITORES
-      </Enlace>
-      <Enlace
-        className="link"
         to="contacto"
         spy={true}
         smooth={true}
@@ -76,7 +74,7 @@ const Navbar = () => {
       >
         CONTÁCTANOS
       </Enlace>
-      <Link to={"temporizador"} className="entrar-juego link">
+      <Link to={"/jets/temporizador"} className="entrar-juego link">
         EVENTO ONLINE
       </Link>
       {/* <Enlace

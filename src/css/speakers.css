@@ -246,9 +246,11 @@
   align-items: center;
 }
 
+#maira:target,
 #javier:target,
 #rodrigo:target,
 #ignacio:target,
+#carol:target,
 #leonardo:target,
 #dennis:target,
 #pedro:target,

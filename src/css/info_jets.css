@@ -29,10 +29,12 @@
 }
 
 .info-jets .historia p {
-  width: 75%;
+  width: 85%;
   height: 90%;
+  font-size: 15px;
+  font-weight: 400;
   align-self: flex-end;
-  padding: 0 80px;
+  /* padding: 0 80px; */
   text-align: justify;
   line-height: 30px;
 }

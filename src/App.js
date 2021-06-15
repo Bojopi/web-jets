@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        {/* <Route exact path="/memorias" component={Memorias}></Route> */}
+        <Route exact path="/jets/memorias" component={Memorias}></Route>
         {/* <Route exact path="/login-juego" component={Login_Juego}></Route> */}
         <Route exact path="/jets/temporizador" component={Cronometro}></Route>
         <Route exact path="/jets" component={Inicio}></Route>
