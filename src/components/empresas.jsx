@@ -79,7 +79,7 @@ const Empresas = () => {
             </div>
             <div className="listas">
               <img
-                src="https://res.cloudinary.com/utepsajets/image/upload/v1623785286/jets/empresas/gobierno_jdpkdu.jpg"
+                src="https://res.cloudinary.com/utepsajets/image/upload/v1623788882/jets/empresas/Captura_ggmkdb.png"
                 alt=""
               />
             </div>

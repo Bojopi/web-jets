@@ -233,7 +233,96 @@ const Memorias = () => {
         </div>
       </div>
       <div className="memo-19" id="memo-19">
-        <h1>memorias 19</h1>
+        {/* <h1>memorias 19</h1> */}
+        <div className="presentacion">
+          <div className="texto">
+            <h1>
+              MEMORIA <span>JETS 2019</span>
+            </h1>
+            <p>
+            La Universidad Tecnológica Privada de Santa Cruz – UTEPSA, organiza desde hace doce años, las 
+            “JORNADAS EMPRESARIALES, TECNOLÓGICAS SOCIALES - JETS”; el JETS, es en un evento de alcance
+            internacional, que promueve actividades para la formación integral de la comunidad, a través de 
+            espacios académicos como ser: conferencias, debates, exposiciones, concursos e investigación.
+            En la gestión 2019, el evento tuvo lugar del 19 al 24 de agosto, la agenda incluyó 16 actividades 
+            entre conferencias internacionales, foros y talleres impartidos por destacados profesionales 
+            nacionales e internacionales, además se desarrollaron concursos y exposiciones, con una 
+            participación de 3300 estudiantes de UTEPSA, más de una centena de invitados de la comunidad y 
+            cerca de 2000 estudiantes de Unidades Educativas.
+            </p>
+          </div>
+          <img src="https://i.postimg.cc/QCSvCN59/2019.png" alt="" />
+        </div>
+        <div className="cont-estadistica">
+          <div className="card-cont">
+            <div className="cont-titu">
+              <IconContext.Provider value={{ className: "react-icons" }}>
+                <HiUserGroup />
+              </IconContext.Provider>
+              <p>PARTICIPANTES</p>
+            </div>
+            <div className="cont-participantes textos">
+              <div className="cont-opcion">
+                <p>Total de Participantes:</p>
+              </div>
+              <div className="cont-cant">
+                <p>3217</p>
+              </div>
+            </div>
+          </div>
+          <div className="card-cont">
+            <div className="cont-titu">
+              <IconContext.Provider value={{ className: "react-icons" }}>
+                <GiVideoConference />
+              </IconContext.Provider>
+              <p>EXPOSITORES</p>
+            </div>
+            <div className="cont-expositores textos">
+              <div className="cont-opcion">
+                <p>Invitados Externos:</p>
+                <p>Nacionales:</p>
+                <p>Internacionales:</p>
+              </div>
+              <div className="cont-cant">
+                <p>226</p>
+                <p>8</p>
+                <p>6</p>
+              </div>
+            </div>
+          </div>
+          <div className="card-cont">
+            <div className="cont-titu">
+              <IconContext.Provider value={{ className: "react-icons" }}>
+                <FaStar />
+              </IconContext.Provider>
+              <p>CONCURSOS</p>
+            </div>
+            <div className="cont-concursos textos">
+              <div className="cont-opcion">
+                <p>Participantes en concursos:</p>
+              </div>
+              <div className="cont-cant">
+                <p>173</p>
+              </div>
+            </div>
+          </div>
+          <div className="card-cont">
+            <div className="cont-titu">
+              <IconContext.Provider value={{ className: "react-icons" }}>
+                <MdDeveloperMode />
+              </IconContext.Provider>
+              <p>STARTUP WEEKEND</p>
+            </div>
+            <div className="cont-startup textos">
+              <div className="cont-opcion">
+                <p>Participantes:</p>
+              </div>
+              <div className="cont-cant">
+                <p>200</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </Fragment>
   );

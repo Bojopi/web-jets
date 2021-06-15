@@ -317,3 +317,102 @@
 }
 
 /* MEMORIAS 2019 */
+.memo-19 {
+  width: 100%;
+}
+
+.memo-19 .presentacion {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.memo-19 .presentacion .texto {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.memo-19 .presentacion .texto h1 {
+  height: 70%;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 80px;
+  font-weight: 200;
+  display: flex;
+  flex-direction: column;
+}
+
+.memo-19 .presentacion .texto h1 span {
+  color: #cf0a2c;
+  font-family: 'Bebas Neue';
+  font-size: 100px;
+  font-weight: 500;
+}
+
+.memo-19 .presentacion .texto p {
+  width: 100%;
+  height: 30%;
+  padding: 0 70px;
+  font-family: 'Open Sans';
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+.memo-19 .presentacion img {
+  width: 60%;
+}
+
+.memo-19 .cont-estadistica {
+  width: 100%;
+}
+
+.memo-19 .cont-estadistica .card-cont {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.memo-19 .cont-estadistica .card-cont .cont-titu {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  background: linear-gradient(
+    to right, #eb2626, #a01e21
+  );
+}
+
+.memo-19 .cont-estadistica .card-cont .cont-titu .react-icons {
+  color: white;
+  font-size: 40px;
+  width: 5%;
+}
+
+.memo-19 .cont-estadistica .card-cont .cont-titu p {
+  width: 95%;
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+}
+
+.memo-19 .cont-estadistica .card-cont .textos {
+  width: 80%;
+  display: flex;
+  margin: 10px auto;
+}
+
+.memo-19 .cont-estadistica .card-cont .textos p {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.memo-19 .cont-estadistica .card-cont .textos .cont-opcion {
+  width: 60%;
+  padding-left: 50px;
+}
+
+.memo-19 .cont-estadistica .card-cont .textos .cont-cant {
+  width: 40%;
+}
