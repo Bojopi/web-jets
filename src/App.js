@@ -12,8 +12,8 @@ function App() {
       <Switch>
         {/* <Route exact path="/memorias" component={Memorias}></Route> */}
         {/* <Route exact path="/login-juego" component={Login_Juego}></Route> */}
-        <Route exact path="/temporizador" component={Cronometro}></Route>
-        <Route exact path="/" component={Inicio}></Route>
+        <Route exact path="/jets/temporizador" component={Cronometro}></Route>
+        <Route exact path="/jets" component={Inicio}></Route>
       </Switch>
     </Router>
   );
