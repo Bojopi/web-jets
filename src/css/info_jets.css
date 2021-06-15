@@ -218,12 +218,15 @@
   }
 
   .info-jets .cont-info .cronograma {
-    height: 630px;
+    height: 100%;
+  }
+  
+  .info-jets .cont-info .cronograma .tabla {
+    height: 100%;
   }
 
   .info-jets .cont-info .cronograma .tabla .dias {
-    width: 100%;
-    height: 80%;
+    height: 100%;
   }
   
   .info-jets .cont-info .cronograma .web {
@@ -243,4 +246,8 @@
   .info-jets .cont-info .cronograma .tabla .nav {
     display: none;
   }
+
+  .info-jets .cont-info .buttons .btn {
+    font-size: 12px;
+  }  
 }

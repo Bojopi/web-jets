@@ -55,7 +55,7 @@ const Informacion = () => {
                   <div>
                     <img
                       className="cuadro1 img"
-                      src="https://i.postimg.cc/1RbXB9Nc/Mesa-de-trabajo-1.png"
+                      src="https://i.postimg.cc/6QRSRfnN/Mesa-de-trabajo-1-2.png"
                       alt=""
                     />
                   </div>
@@ -122,7 +122,7 @@ const Informacion = () => {
                   <div>
                     <img
                       className="cuadro"
-                      src="https://i.postimg.cc/X7WwVGQN/Mesa-de-trabajo-1-mobile-1.png"
+                      src="https://i.postimg.cc/VkQFxQ2X/Mesa-de-trabajo-1-mobile.png"
                       alt=""
                     />
                   </div>
