@@ -214,16 +214,16 @@
     padding: 0 30px;
     text-align: justify;
     line-height: 20px;
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .info-jets .cont-info .cronograma {
-    height: 90%;
+    height: 630px;
   }
 
   .info-jets .cont-info .cronograma .tabla .dias {
     width: 100%;
-    height: 100%;
+    height: 80%;
   }
   
   .info-jets .cont-info .cronograma .web {

@@ -25,7 +25,7 @@ const Slides = () => {
           </div>
           <div className="each-slide">
             <div>
-            <img src="https://i.postimg.cc/SNT1JbRv/slide2.jpg" alt="" />
+            <img src="https://i.postimg.cc/VLK95PCy/BBBBBBBBBBBBBBB.png" alt="" />
             </div>
           </div>
           <div className="each-slide">

@@ -5,14 +5,13 @@
 
 .cont-convocatorias {
     width: 100%;
-    height: 500px;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
 .cont-convocatorias .convo {
     width: 33%;
-    height: 50%;
 }
 
 .cont-convocatorias .convo figure {
@@ -70,4 +69,28 @@
     box-shadow: 8px 8px 15px 1px rgba(221, 70, 95, 1);
     /* box-shadow: 5px 5px 8px 2px white; */
     /* border: 1px solid white; */
+}
+
+@media screen and (max-width: 1366px) {
+    
+}
+
+@media screen and (max-width:768px) {
+    .cont-convocatorias {
+        justify-content: center;
+    }
+
+    .cont-convocatorias .convo {
+        width: 80%;
+    }
+
+    .cont-convocatorias .convo figure .capa-convo .tit-convo {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .cont-convocatorias .convo figure .capa-convo .btn-convo {
+        width: 30%;
+        font-size: 12px;
+    }
 }
