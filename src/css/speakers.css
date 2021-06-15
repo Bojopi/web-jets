@@ -14,7 +14,7 @@
 }
 
 .cont-speakers h1 {
-  font-family: 'Antonio';
+  font-family: "Antonio";
 }
 
 .cont-speakers .speakers {
@@ -280,7 +280,7 @@
 @media screen and (max-width: 1370px) {
   .cont-speakers .speakers .grid li {
     width: 20%;
-}
+  }
 }
 
 @media screen and (max-width: 960px) {
@@ -293,7 +293,7 @@
     grid-template-columns: repeat(4, 1fr);
     row-gap: 30px;
   }
-  
+
   .cont-speakers .speakers .grid li {
     padding: 0;
   }
@@ -318,7 +318,7 @@
     width: 100%;
     padding: 0px;
   }
-  
+
   .modal-contenido {
     width: 90%;
   }
