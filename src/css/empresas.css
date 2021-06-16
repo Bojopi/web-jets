@@ -8,7 +8,7 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-250px * 9.2));
+    transform: translateX(calc(-150px * 6.5));
     /* transform: translateX(-270%); */
   }
 }
@@ -28,19 +28,20 @@
 .contenedor .tit-empresas h1 {
   margin-left: 50px;
   font-family: 'Antonio';
-  font-size: 45px;
+/*   font-size: 35px; */
 }
 
 .contenedor .slider {
-  height: 65%;
+  height: 30%;
   width: 80%;
   margin: auto;
   overflow: hidden;
   position: relative;
+  padding-top: 40px;
 }
 
 .contenedor .slider .slider-track {
-  animation: scroll 15s linear infinite;
+  animation: scroll 10s linear infinite;
   display: flex;
 }
 
@@ -49,8 +50,8 @@
 }
 
 .contenedor .slider .slider-track .listas img {
-  height: 110px;
-  width: 250px;
+  height: 50px;
+  width: 150px;
 }
 
 .react-slideshow-container .nav {

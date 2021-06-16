@@ -16,7 +16,11 @@
   background-color: #000;
 }
 
-.navbar .link {
+.navbar .menu {
+  list-style-type: none;
+}
+
+.navbar .menu .link {
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -30,13 +34,23 @@
   cursor: pointer;
 }
 
-.navbar .link:hover {
+.navbar .menu .link .a {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+.navbar .menu .link .a:hover {
+  color: #cf0a2c;
+}
+
+.navbar .menu .link:hover {
   background-color: #fff;
   color: #cf0a2c;
   border-radius: 10px;
 }
 
-.navbar .icon {
+.navbar .menu .toggle {
+  color: white;
   display: none;
 }
 
@@ -47,7 +61,7 @@
     height: 40px;
   }
 
-  .navbar .link {
+  .navbar .menu .link {
     padding: 0px 25px;
     font-size: 15px;
   }
@@ -59,7 +73,7 @@
     height: 30px;
   }
 
-  .navbar .link {
+  .navbar .menu .link {
     padding: 0px 15px;
     font-size: 7px;
   }

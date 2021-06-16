@@ -53,7 +53,7 @@ const Informacion = () => {
                   <div>
                     <img
                       className="cuadro1 img"
-                      src="https://i.postimg.cc/6QRSRfnN/Mesa-de-trabajo-1-2.png"
+                      src="https://i.postimg.cc/QtY86kyY/Mesa-de-trabajo-1-3.png"
                       alt=""
                     />
                   </div>
@@ -62,7 +62,7 @@ const Informacion = () => {
                   <div>
                     <img
                       className="cuadro2 img"
-                      src="https://i.postimg.cc/zfMsrBGF/Mesa-de-trabajo-2.png"
+                      src="https://i.postimg.cc/66c74gfw/Mesa-de-trabajo-2-2.png"
                       alt=""
                     />
                   </div>
@@ -237,7 +237,7 @@ const Informacion = () => {
             </div>
           </div>
           <div className="buttons">
-            <a href="https://drive.google.com/file/d/1lo1vZtcMFhAMP4lttHmm5pphG6aBWPx8/view?usp=sharing" className="programa btn">
+            <a href="https://drive.google.com/file/d/12JVWhGVRhXxfayaLhvB13ow6mEq2c6dh/view?usp=sharing" className="programa btn">
               PROGRAMA
             </a>
             <Link to={"/jets/memorias"} className="memorias btn">

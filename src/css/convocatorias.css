@@ -3,6 +3,12 @@
   padding: 0;
 }
 
+.tit-convocatorias {
+  font-family: 'Antonio';
+  margin-left: 50px;
+  /* font-size: 20px; */
+}
+
 .cont-convocatorias {
   width: 100%;
   display: grid;
