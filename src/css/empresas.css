@@ -8,7 +8,7 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-150px * 6.5));
+    transform: translateX(calc(-150px * 2));
     /* transform: translateX(-270%); */
   }
 }
@@ -41,7 +41,7 @@
 }
 
 .contenedor .slider .slider-track {
-  animation: scroll 10s linear infinite;
+  animation: scroll 5s linear infinite;
   display: flex;
 }
 
@@ -51,7 +51,6 @@
 
 .contenedor .slider .slider-track .listas img {
   height: 50px;
-  width: 150px;
 }
 
 .react-slideshow-container .nav {

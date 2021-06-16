@@ -275,7 +275,7 @@ const Speakers = () => {
             <IoMdCloseCircle />
           </a>
           <img
-            src="https://i.postimg.cc/cHmqnJWM/carolll.png"
+            src="https://i.postimg.cc/kXzxmRj6/CAROL-I.png"
             alt=""
           />
         </div>

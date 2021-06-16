@@ -228,7 +228,7 @@ const Informacion = () => {
             </div>
           </div>
           <div className="buttons">
-            <a href="https://drive.google.com/file/d/1FN-VYOQdZ7iKsAMXInyxVytvucJx8S7A/view?usp=sharing" className="programa btn">
+            <a href="https://drive.google.com/file/d/1_o_KiIhnMDM60aE-PuZeBa5jZU5GbttB/view?usp=sharing" className="programa btn">
               PROGRAMA
             </a>
             <Link to={"/jets/memorias"} className="memorias btn">

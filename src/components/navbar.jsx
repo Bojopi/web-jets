@@ -17,7 +17,7 @@ const Navbar = () => {
       <ul className="menu">
         <li className="link">
           <Enlace
-            // className="link"
+            className="enla"
             to="inicio"
             spy={true}
             smooth={true}
@@ -29,7 +29,7 @@ const Navbar = () => {
         </li>
         <li className="link">
           <Enlace
-            // className="link"
+            className="enla"
             to="info"
             spy={true}
             smooth={true}
@@ -41,7 +41,7 @@ const Navbar = () => {
         </li>
         <li className="link">
           <Enlace
-            // className="link"
+            className="enla"
             to="speakers"
             spy={true}
             smooth={true}
@@ -53,7 +53,7 @@ const Navbar = () => {
         </li>
         <li className="link">
           <Enlace
-            // className="link"
+            className="enla"
             to="convocatoria"
             spy={true}
             smooth={true}
@@ -65,7 +65,7 @@ const Navbar = () => {
         </li>
         <li className="link">
           <Enlace
-            // className="link"
+            className="enla"
             to="galeria"
             spy={true}
             smooth={true}
@@ -77,7 +77,7 @@ const Navbar = () => {
         </li>
         <li className="link">
           <Enlace
-            // className="link"
+            className="enla"
             to="contacto"
             spy={true}
             smooth={true}
@@ -88,11 +88,11 @@ const Navbar = () => {
           </Enlace>
         </li>
         <li className="link">
-          <Link to={"/jets/temporizador"} className="entrar-juego a">
+          <Link to={"/jets/temporizador"} className="entrar-juego enla">
             EVENTO ONLINE
           </Link>
         </li>
-        <li className="toggle">
+        {/* <li className="toggle">
           <Enlace
             className="enla"
             spy={true}
@@ -101,10 +101,57 @@ const Navbar = () => {
           >
             <AiOutlineMenu />
           </Enlace>
-        </li>
+        </li> */}
       </ul>
     </div>
   );
 };
 
 export default Navbar;
+
+
+// import {
+//   Nav,
+//   NavLink,
+//   Bars,
+//   NavMenu,
+//   NavBtn,
+//   NavBtnLink
+// } from './navbarElements';
+
+// const Navbar = () => {
+//   return (
+//     <>
+//       <Nav>
+//         <Bars />
+//         <NavMenu>
+//           <NavLink to='/jets' activeStyle>
+//             INICIO
+//           </NavLink>
+//           <NavLink to='#info' activeStyle>
+//             ¿QUÉ ES JETS?
+//           </NavLink>
+//           <NavLink to='/jets/speakers' activeStyle>
+//             EXPOSITORES
+//           </NavLink>
+//           <NavLink to='/jets/convocatoria' activeStyle>
+//             CONVOCATORIAS
+//           </NavLink>
+//           <NavLink to='/jets/galeria' activeStyle>
+//             GALERÍA
+//           </NavLink>
+//           <NavLink to='/jets/contacto' activeStyle>
+//             CONTÁCTANOS
+//           </NavLink>
+//           <NavLink to='/jets/temporizador' activeStyle>
+//             EVENTO ONLINE
+//           </NavLink>
+//           {/* Second Nav */}
+//           {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
+//         </NavMenu>
+//       </Nav>
+//     </>
+//   );
+// };
+
+// export default Navbar;

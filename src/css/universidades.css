@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.conte-uni {
+    width: 100%;
+    height: 100%;
+}
+
+.conte-uni .tit-universidad {
+    font-family: 'Antonio';
+    margin-left: 50px;
+}
+
+.conte-uni .conte-universidad {
+    width: 80%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin: 0 auto;
+}
+
+.conte-uni .conte-universidad .img-uni {
+    width: 80%;
+    margin: 0 auto;
+}

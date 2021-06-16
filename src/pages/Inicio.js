@@ -12,6 +12,7 @@ import Galeria from '../components/galeria'
 import Speakers from '../components/speakers'
 import Contacto from '../components/contacto'
 import Convocatorias from '../components/convocatorias'
+import Universidades from '../components/universidades'
 
 function Inicio() {
   return (
@@ -21,6 +22,7 @@ function Inicio() {
         <Slides/>
         <Informacion/>
         <Speakers/>
+        <Universidades />
         <Empresas/>
         <Convocatorias/>
         <Galeria/>
