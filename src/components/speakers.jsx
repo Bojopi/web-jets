@@ -198,13 +198,13 @@ const Speakers = () => {
               </figure>
             </li>
             <li>
-              {/* <figure>
+              <figure>
                 <img
-                  className="imagen-speaker"
-                  src="https://i.postimg.cc/pVSLCCSs/lenka-nemer.png"
+                  className="imagen-speaker unknown"
+                  src="https://i.postimg.cc/4dKq1qSm/NI-A.png"
                   alt=""
                 />
-                <figcaption>
+               {/*  <figcaption>
                   <h3>LENKA NEMER DIRPIC</h3>
                   <p>
                     Estudiante de la carrera de Relaciones Internacionales de la Universidad Tecnológica Privada de Santa Cruz.
@@ -217,8 +217,8 @@ const Speakers = () => {
                       <img src="https://i.postimg.cc/RZ0rDT6j/ICONO-JETS-ROJO.png" alt="" />
                     </div>
                   </div>
-                </figcaption>
-              </figure> */}
+                </figcaption> */}
+              </figure>
             </li>
           </ul>
         </div>
@@ -297,7 +297,7 @@ const Speakers = () => {
             <IoMdCloseCircle />
           </a>
           <img
-            src="https://i.postimg.cc/brjCLSmd/dennis-nakamura1.png"
+            src="https://i.postimg.cc/RhCyf296/JETS-DENNIS-NAKAMURA.png"
             alt=""
           />
         </div>
@@ -308,7 +308,7 @@ const Speakers = () => {
             <IoMdCloseCircle />
           </a>
           <img
-            src="https://i.postimg.cc/zfz41rKy/pedroooo.png"
+            src="https://i.postimg.cc/15QcWDNB/PEDRO-L-PEZ.png"
             alt=""
           />
         </div>
