@@ -9,7 +9,7 @@ const Convocatorias = () => {
         <figure>
           <img
             className="img-convo"
-            src="https://i.postimg.cc/L6480s3r/desafio.png"
+            src="https://i.postimg.cc/V69PXjCT/desafio-extremo.png"
             alt=""
           />
           <div className="capa-convo">
@@ -24,7 +24,7 @@ const Convocatorias = () => {
         <figure>
           <img
             className="img-convo"
-            src="https://i.postimg.cc/XNkv85df/drones.png"
+            src="https://i.postimg.cc/bJfjG6sk/carrera-de-drones.png"
             alt=""
           />
           <div className="capa-convo">
@@ -39,7 +39,7 @@ const Convocatorias = () => {
         <figure>
           <img
             className="img-convo"
-            src="https://i.postimg.cc/xTs1rSsq/proyectos.png"
+            src="https://i.postimg.cc/65MwHLmx/feria-de-proyectos.png"
             alt=""
           />
           <div className="capa-convo">
@@ -52,7 +52,7 @@ const Convocatorias = () => {
         <figure>
           <img
             className="img-convo"
-            src="https://i.postimg.cc/PJT5Hfsv/olimpiadas.png"
+            src="https://i.postimg.cc/x1qQBJwJ/olimpiadas-jets.png"
             alt=""
           />
           <div className="capa-convo">
@@ -65,7 +65,7 @@ const Convocatorias = () => {
         <figure>
           <img
             className="img-convo"
-            src="https://i.postimg.cc/sxmDgFs6/rally.png"
+            src="https://i.postimg.cc/Cxt00M0v/rally-matematico.png"
             alt=""
           />
           <div className="capa-convo">
@@ -78,7 +78,7 @@ const Convocatorias = () => {
         <figure>
           <img
             className="img-convo"
-            src="https://i.postimg.cc/GmHhdSNK/talento.png"
+            src="https://i.postimg.cc/mrHsgx2T/concurso-de-talentos.png"
             alt=""
           />
           <div className="capa-convo">
