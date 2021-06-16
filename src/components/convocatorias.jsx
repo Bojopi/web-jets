@@ -29,7 +29,7 @@ const Convocatorias = () => {
           />
           <div className="capa-convo">
             <h2 className="tit-convo">CONVOCATORIA: CARRERA DE DRONES</h2>
-            <a className="btn-convo" href="https://drive.google.com/file/d/1BrV9ObZ29VkiDVNe1Wfx2aOrqsIfYw2d/view?usp=sharing">
+            <a className="btn-convo" href="https://drive.google.com/file/d/1j8-mQ_idh9eWaZPd3NrAWOZxt2A2LhBR/view?usp=sharing">
               Ver Convocatoria
             </a>
           </div>
