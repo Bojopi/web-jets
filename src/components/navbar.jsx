@@ -49,7 +49,7 @@ const Navbar = () => {
         to="convocatoria"
         spy={true}
         smooth={true}
-        offset={-150}
+        offset={-200}
         duration={500}
       >
         CONVOCATORIAS
