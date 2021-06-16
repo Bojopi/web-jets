@@ -138,15 +138,6 @@ const Informacion = () => {
                   <div>
                     <img
                       className="cuadro"
-                      src="https://i.postimg.cc/Hnz4GTG9/Mesa-de-trabajo-3-mobile-1.png"
-                      alt=""
-                    />
-                  </div>
-                </div>
-                <div className="dias">
-                  <div>
-                    <img
-                      className="cuadro"
                       src="https://i.postimg.cc/K8JJdjKS/Mesa-de-trabajo-1-dia-2-mobile.png"
                       alt=""
                     />
