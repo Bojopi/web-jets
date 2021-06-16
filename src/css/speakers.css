@@ -73,6 +73,18 @@
   transition: 0.5s;
 }
 
+ .cont-speakers .speakers .grid figure .imagen-speaker .unknown {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 5px 5px 10px -2px black;
+  z-index: 11;
+  transition: 0.5s;
+} 
+
 .cont-speakers .speakers .grid figcaption {
   position: absolute;
   top: 0;
@@ -253,8 +265,8 @@
 #carol:target,
 #leonardo:target,
 #dennis:target,
-#pedro:target,
-#lenka:target {
+#pedro:target
+/* #lenka:target */ {
   opacity: 1;
   pointer-events: auto;
 }
