@@ -120,7 +120,7 @@ const Informacion = () => {
                   <div>
                     <img
                       className="cuadro"
-                      src="https://i.postimg.cc/VkQFxQ2X/Mesa-de-trabajo-1-mobile.png"
+                      src="https://i.postimg.cc/vHFpCrqN/Mesa-de-trabajo-1-2-mobile.png"
                       alt=""
                     />
                   </div>
@@ -129,7 +129,7 @@ const Informacion = () => {
                   <div>
                     <img
                       className="cuadro"
-                      src="https://i.postimg.cc/KvhdxN6K/Mesa-de-trabajo-2-mobile-1.png"
+                      src="https://i.postimg.cc/HW7qSZ2M/Mesa-de-trabajo-2-1-mobile.png"
                       alt=""
                     />
                   </div>
@@ -237,7 +237,7 @@ const Informacion = () => {
             </div>
           </div>
           <div className="buttons">
-            <a href="https://drive.google.com/file/d/12JVWhGVRhXxfayaLhvB13ow6mEq2c6dh/view?usp=sharing" className="programa btn">
+            <a href="https://drive.google.com/file/d/1FN-VYOQdZ7iKsAMXInyxVytvucJx8S7A/view?usp=sharing" className="programa btn">
               PROGRAMA
             </a>
             <Link to={"/jets/memorias"} className="memorias btn">

@@ -94,6 +94,7 @@ const Navbar = () => {
         </li>
         <li className="toggle">
           <Enlace
+            className="enla"
             spy={true}
             smooth={true}
             duration={500}
