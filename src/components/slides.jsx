@@ -20,17 +20,12 @@ const Slides = () => {
         <Slide {...properties}>
           <div className="each-slide">
             <div>
-              <img src="https://i.postimg.cc/Qt4RNyhj/AAAAAAAAAAAAAAAA.png" alt="" />
+              <img src="https://i.postimg.cc/ZnwFb44q/BANNER1.png" alt="" />
             </div>
           </div>
           <div className="each-slide">
             <div>
-            <img src="https://i.postimg.cc/VLK95PCy/BBBBBBBBBBBBBBB.png" alt="" />
-            </div>
-          </div>
-          <div className="each-slide">
-            <div>
-            <img src="https://i.postimg.cc/BZCVfK0s/slide3.jpg" alt="" />
+            <img src="https://i.postimg.cc/rsVN2K6b/BANNER2.png" alt="" />
             </div>
           </div>
         </Slide>

@@ -72,7 +72,7 @@ const Memorias = () => {
               4342 estudiantes.
             </p>
           </div>
-          <img src="https://i.postimg.cc/R0YLYZqv/presentacion-jets17.png" alt="" />
+           <img src="https://i.postimg.cc/R0YLYZqv/presentacion-jets17.png" alt="" /> 
         </div>
         <div className="cont-estadistica">
           <div className="card-cont">

@@ -198,7 +198,7 @@ const Speakers = () => {
               </figure>
             </li>
             <li>
-              <figure>
+              {/* <figure>
                 <img
                   className="imagen-speaker"
                   src="https://i.postimg.cc/pVSLCCSs/lenka-nemer.png"
@@ -218,7 +218,7 @@ const Speakers = () => {
                     </div>
                   </div>
                 </figcaption>
-              </figure>
+              </figure> */}
             </li>
           </ul>
         </div>
