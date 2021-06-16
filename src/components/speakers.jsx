@@ -204,7 +204,7 @@ const Speakers = () => {
                   src="https://i.postimg.cc/4dKq1qSm/NI-A.png"
                   alt=""
                 />
-               {/*  <figcaption>
+                {/* <figcaption>
                   <h3>LENKA NEMER DIRPIC</h3>
                   <p>
                     Estudiante de la carrera de Relaciones Internacionales de la Universidad Tecnológica Privada de Santa Cruz.

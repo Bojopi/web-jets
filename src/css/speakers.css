@@ -209,6 +209,12 @@
   box-shadow: 0px 7px 15px -5px #000;
 }
 
+.cont-speakers .speakers .style figure:hover .unknown {
+  transform: none;
+  top: 20px;
+  box-shadow: 0px 7px 15px -5px #000;
+}
+
 .cont-speakers .speakers .style figcaption h3,
 .style figcaption p,
 .style figcaption .ver-mas {

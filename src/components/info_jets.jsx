@@ -23,7 +23,8 @@ const Informacion = () => {
           <p>
             La Universidad Tecnológica Privada de Santa Cruz – UTEPSA, organiza
             desde el año 2008 las “JORNADAS EMPRESARIALES, TECNOLÓGICAS SOCIALES
-            Y HUMANISTICAS - JETS”. 
+            Y HUMANÍSTICAS - JETS”. 
+            <br />
             <br />
             Este es un evento de orden regional, nacional e internacional que promueve 
             actividades complementarias para la formación integral e integradora de nuestros 
@@ -32,15 +33,16 @@ const Informacion = () => {
             emprendimiento y a la innovación. En estos espacios la comunidad en general, tiene la 
             oportunidad de compartir las experiencias y conocimientos de especialistas nacionales e 
             internacionales, generando de esta manera una vinculación entre empresas, universidades y 
-            representantes del Estado en sus diferentes niveles. Este año se llevará a cabo la décima 
-            tercera versión del JETS. 
+            representantes del Estado en sus diferentes niveles. 
             <br />
-            El tema central es “Líderes en Emprendimiento”, siendo el principal objetivo, potenciar 
+            <br />
+            Este año se llevará a cabo la décima tercera versión del JETS, con el tema central: <b>“Líderes en Emprendimiento”</b>, siendo el principal objetivo, potenciar 
             las habilidades, destrezas, actitudes y valores de emprendimiento a partir del liderazgo 
             de nuestros estudiantes y nuestra comunidad. La fecha del evento será del <b>28 de junio al 2 de julio</b>, 
             las actividades se desarrollarán principalmente en línea.  
             <br />
-            Los invitamos a participar de las actividades para formarse como líderes en emprendimiento.
+            <br />
+            Los invitamos a participar del programa para formarse como líderes en emprendimiento.
           </p>
         </div>
         <div className="cont-info">
