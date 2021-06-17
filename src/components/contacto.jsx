@@ -1,5 +1,6 @@
-import React, { Fragment } from "react";
-import emailjs from 'emailjs-com'
+import React, { Fragment, useState } from "react";
+import emailjs from "emailjs-com";
+import { useForm } from "react-hook-form";
 
 import { ImLocation } from "react-icons/im";
 import { ImPhone } from "react-icons/im";
@@ -9,22 +10,45 @@ import { CgWebsite } from "react-icons/cg";
 import "../css/contacto.css";
 
 const Contacto = () => {
+  //State para enviar mensaje
+  const [correo, guardarCorreo] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+
+  //extraer mensaje
+  const { name, email, message } = correo;
+
+  const onChange = (e) => {
+    guardarCorreo({
+      ...correo,
+      [e.target.name]: e.target.value,
+    });
+  };
 
   const sendEmail = (e) => {
-    e.preventDefault()
+    e.preventDefault();
 
-    // const nombre = document.getElementById('name')
-    // const correo = document.getElementById('email')
-    // const mensaje = document.getElementById('message')
-
-    emailjs.sendForm('service_efdlz8h', 'template_71ab3rs', e.target, 'user_frZYFUT1O6bOlc5RBRWUk')
-    .then((result) => {
-      console.log(result.text)
-    }, (error) => {
-      console.log(error.text)
-    })
-    e.target.reset()
-  }
+    emailjs
+      .sendForm(
+        "service_efdlz8h",
+        "template_71ab3rs",
+        e.target,
+        "user_frZYFUT1O6bOlc5RBRWUk"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          // alert("Mensaje enviado");
+        },
+        (error) => {
+          console.log(error.text);
+          // alert("Por favor rellenar todos los campos");
+        }
+      );
+    e.target.reset();
+  };
 
   return (
     <Fragment>
@@ -51,11 +75,29 @@ const Contacto = () => {
               Ante cualquier duda o consulta puedes enviarnos tus comentarios
               mediante el siguiente formulario, todos los campos son necesarios.
             </p>
-            <form className="form-info" onSubmit={sendEmail}>
-                <input type="text" id="nombre" name="name" placeholder="Nombre Completo:"/>
-                <input type="email" id="email" name="email" placeholder="Correo Electrónico:"/>
-                <input type="text" id="mensaje" name="message" placeholder="Mensaje:"/>
-                <button type="submit">ENVIAR</button>
+            <form className="form-info" onSubmit={sendEmail} noValidate>
+              <input
+                type="text"
+                id="nombre"
+                name="name"
+                placeholder="Nombre Completo:"
+                onChange={onChange}
+              />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Correo Electrónico:"
+                onChange={onChange}
+              />
+              <input
+                type="text"
+                id="mensaje"
+                name="message"
+                placeholder="Mensaje:"
+                onChange={onChange}
+              />
+              <button type="submit">ENVIAR</button>
             </form>
           </div>
         </div>
