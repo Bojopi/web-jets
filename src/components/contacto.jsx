@@ -12,9 +12,9 @@ import "../css/contacto.css";
 const Contacto = () => {
   //State para enviar mensaje
   const [correo, guardarCorreo] = useState({
-    name: '',
-    email: '',
-    message: '',
+    name: "",
+    email: "",
+    message: "",
   });
 
   //extraer mensaje
@@ -30,23 +30,31 @@ const Contacto = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_efdlz8h",
-        "template_71ab3rs",
-        e.target,
-        "user_frZYFUT1O6bOlc5RBRWUk"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          // alert("Mensaje enviado");
-        },
-        (error) => {
-          console.log(error.text);
-          // alert("Por favor rellenar todos los campos");
-        }
-      );
+    //campos vacíos
+    if (name.trim() === "" || email.trim() === "" || message.trim() === "") {
+      alert("Debe rellenar todos los campos");
+      e.target.reset();
+      // return;
+    } else {
+      emailjs
+        .sendForm(
+          "service_efdlz8h",
+          "template_71ab3rs",
+          e.target,
+          "user_frZYFUT1O6bOlc5RBRWUk"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+            alert("Mensaje enviado");
+          },
+          (error) => {
+            console.log(error.text);
+            // alert("Por favor rellenar todos los campos");
+          }
+        );
+      e.target.reset();
+    }
     e.target.reset();
   };
 

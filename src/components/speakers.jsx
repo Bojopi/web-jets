@@ -8,7 +8,7 @@ const Speakers = () => {
   return (
     <Fragment>
       <div className="cont-speakers" id="speakers">
-        <h1>SPEAKERS</h1>
+        <h1>EXPOSITORES</h1>
         <div className="speakers">
           <ul className="grid style">
             <li>
