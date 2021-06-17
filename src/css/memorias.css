@@ -97,6 +97,10 @@
   justify-content: center;
   box-shadow: 5px 5px 10px -2px black;
   cursor: pointer;
+}
+
+.memorias .memoria figure .capa .btn .enlace {
+  text-decoration: none;
   color: white;
 }
 
