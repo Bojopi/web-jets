@@ -75,6 +75,11 @@
 
 .info-jets .cont-info .cronograma .tabla .dias img {
   width: 100%;
+  transition: .3s;
+}
+
+.info-jets .cont-info .cronograma .tabla .dias img:hover {
+  transform: scale(1.5);
 }
 
 .info-jets .cont-info .cronograma .tabla .slide {
@@ -123,7 +128,30 @@
   transform: scale(0.8);
 }
 
+@media screen and (max-width: 1920px) {
+  .info-jets {
+    height: 930px;
+  }
 
+  .info-jets .historia p {
+    padding: 50px 70px 0 70px;
+    text-align: justify;
+    line-height: 35px;
+  }
+
+  .info-jets .cont-info .cronograma .tabla .dias {
+    height: 800px;
+  }
+
+  .info-jets .cont-info .cronograma .tabla .dias img {
+    width: 100%;
+    transition: .3s;
+  }
+  
+  .info-jets .cont-info .cronograma .tabla .dias img:hover {
+    transform: scale(1.5);
+  }
+}
 
 @media screen and (max-width: 1550px) {
   .info-jets .historia p {

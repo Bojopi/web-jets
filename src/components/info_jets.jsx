@@ -134,7 +134,16 @@ const Informacion = () => {
                   <div>
                     <img
                       className="cuadro10 img"
-                      src="https://i.postimg.cc/1zK39H4Z/Mesa-de-trabajo-7.jpg"
+                      src="https://i.postimg.cc/RVTYRksv/dia-4-1-web.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div className="dias">
+                  <div>
+                    <img
+                      className="cuadro11 img"
+                      src="https://i.postimg.cc/28YJnkxH/dia-4-2-web.png"
                       alt=""
                     />
                   </div>
@@ -246,7 +255,7 @@ const Informacion = () => {
                   <div>
                     <img
                       className="cuadro"
-                      src="https://i.postimg.cc/pdqftfRt/Mesa-de-trabajo-4-dia-3-mobile.png"
+                      src="https://i.postimg.cc/hGvNh20c/dia-4-1-mobile.png"
                       alt=""
                     />
                   </div>
@@ -255,16 +264,7 @@ const Informacion = () => {
                   <div>
                     <img
                       className="cuadro"
-                      src="https://i.postimg.cc/k5RKfgKy/Mesa-de-trabajo-1-dia-4-mobile.png"
-                      alt=""
-                    />
-                  </div>
-                </div>
-                <div className="dias">
-                  <div>
-                    <img
-                      className="cuadro"
-                      src="https://i.postimg.cc/k4r8ZPyP/Mesa-de-trabajo-2-dia-4-mobile.png"
+                      src="https://i.postimg.cc/GmcWnL8B/dia-4-2-mobile.png"
                       alt=""
                     />
                   </div>
@@ -279,7 +279,7 @@ const Informacion = () => {
             <Link to={"/jets/memorias"} className="memorias btn">
               MEMORIAS
             </Link>
-            <Link to="/jets" className="certificados btn">
+            <Link to={"/jets/certificados"} className="certificados btn">
               CERTIFICADOS
             </Link>
           </div>
