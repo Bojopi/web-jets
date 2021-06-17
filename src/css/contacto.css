@@ -5,7 +5,7 @@
 
 .contenedor-contacto {
   width: 100%;
-  height: 700px;
+  height: 600px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   box-sizing: border-box;
@@ -120,7 +120,7 @@
 
 @media screen and (max-width: 1550px) {
   .contenedor-contacto {
-    height: 500px;
+    height: 600px;
     margin-bottom: 60px;
   }
   

@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import emailjs from 'emailjs-com'
 
 import { ImLocation } from "react-icons/im";
 import { ImPhone } from "react-icons/im";
@@ -8,6 +9,23 @@ import { CgWebsite } from "react-icons/cg";
 import "../css/contacto.css";
 
 const Contacto = () => {
+
+  const sendEmail = (e) => {
+    e.preventDefault()
+
+    // const nombre = document.getElementById('name')
+    // const correo = document.getElementById('email')
+    // const mensaje = document.getElementById('message')
+
+    emailjs.sendForm('service_efdlz8h', 'template_71ab3rs', e.target, 'user_frZYFUT1O6bOlc5RBRWUk')
+    .then((result) => {
+      console.log(result.text)
+    }, (error) => {
+      console.log(error.text)
+    })
+    e.target.reset()
+  }
+
   return (
     <Fragment>
       <div className="contenedor-contacto" id="contacto">
@@ -33,12 +51,12 @@ const Contacto = () => {
               Ante cualquier duda o consulta puedes enviarnos tus comentarios
               mediante el siguiente formulario, todos los campos son necesarios.
             </p>
-            <div className="form-info">
-                <input type="text" id="nombre" placeholder="Nombre Completo:"/>
-                <input type="email" id="email" placeholder="Correo Electrónico:"/>
-                <input type="text" id="mensaje" placeholder="Mensaje:"/>
+            <form className="form-info" onSubmit={sendEmail}>
+                <input type="text" id="nombre" name="name" placeholder="Nombre Completo:"/>
+                <input type="email" id="email" name="email" placeholder="Correo Electrónico:"/>
+                <input type="text" id="mensaje" name="message" placeholder="Mensaje:"/>
                 <button type="submit">ENVIAR</button>
-            </div>
+            </form>
           </div>
         </div>
       </div>
