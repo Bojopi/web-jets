@@ -4,7 +4,7 @@
 }
 
 .tit-convocatorias {
-  font-family: 'Antonio';
+  font-family: "Antonio";
   margin-left: 50px;
   /* font-size: 20px; */
 }
@@ -23,7 +23,6 @@
 .cont-convocatorias .convo figure {
   position: relative;
   width: 100%;
-  /* height: 100%; */
   overflow: hidden;
 }
 
@@ -82,6 +81,11 @@
 }
 
 @media screen and (max-width: 768px) {
+  .tit-convocatorias {
+    margin-left: 10px;
+    font-size: 20px;
+  }
+
   .cont-convocatorias {
     grid-template-columns: repeat(1, 1fr);
   }

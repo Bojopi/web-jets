@@ -9,18 +9,20 @@
 }
 
 .cont-speakers {
-  margin: 10px 50px 200px 50px;
+  /* margin: 10px 50px 200px 50px; */
   padding-top: 150px;
 }
 
 .cont-speakers h1 {
+  margin-left: 50px;
   font-family: "Antonio";
 }
 
 .cont-speakers .speakers {
-  width: 100%;
+  width: 90%;
   height: 100%;
   box-sizing: border-box;
+  margin: 0 auto;
 }
 
 .cont-speakers .speakers .grid {
@@ -72,18 +74,6 @@
   z-index: 11;
   transition: 0.5s;
 }
-
- .cont-speakers .speakers .grid figure .imagen-speaker .unknown {
-  width: 80%;
-  margin: 0 auto;
-  display: block;
-  position: relative;
-  border-radius: 50%;
-  border: 5px solid #fff;
-  box-shadow: 5px 5px 10px -2px black;
-  z-index: 11;
-  transition: 0.5s;
-} 
 
 .cont-speakers .speakers .grid figcaption {
   position: absolute;
@@ -211,8 +201,8 @@
 
 .cont-speakers .speakers .style figure:hover .unknown {
   transform: none;
-  top: 20px;
-  box-shadow: 0px 7px 15px -5px #000;
+  top: 0px;
+  box-shadow: 5px 5px 10px -2px black;
 }
 
 .cont-speakers .speakers .style figcaption h3,
@@ -322,7 +312,12 @@
 }
 
 @media screen and (max-width: 768px) {
+  .cont-speakers {
+    margin-bottom: 50px;
+  }
+
   .cont-speakers h1 {
+    margin-left: 10px;
     font-size: 20px;
     margin-bottom: 20px;
   }

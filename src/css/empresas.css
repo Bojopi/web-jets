@@ -9,7 +9,6 @@
   }
   100% {
     transform: translateX(calc(-150px * 2));
-    /* transform: translateX(-270%); */
   }
 }
 
@@ -74,8 +73,7 @@
       transform: translateX(0);
     }
     100% {
-      transform: translateX(calc(-250px * 5));
-      /* transform: translateX(-270%); */
+      transform: translateX(calc(-150px * 6.2));
     }
   }
 
@@ -90,7 +88,10 @@
   }
 
   .contenedor .slider .slider-track .listas img {
-    height: 70px;
-    width: 120px;
+    height: 40px;
+  }
+
+  .contenedor .slider .slider-track {
+    animation: scroll 12s linear infinite;
   }
 }
