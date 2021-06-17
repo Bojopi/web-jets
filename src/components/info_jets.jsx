@@ -115,7 +115,7 @@ const Informacion = () => {
                 <div className="dias">
                   <div>
                     <img
-                      className="cuadro7 img"
+                      className="cuadro8 img"
                       src="https://i.postimg.cc/Sxtjw759/dia-3-2-web.png"
                       alt=""
                     />
@@ -124,8 +124,17 @@ const Informacion = () => {
                 <div className="dias">
                   <div>
                     <img
-                      className="cuadro7 img"
+                      className="cuadro9 img"
                       src="https://i.postimg.cc/6pQyj1Hw/dia-3-3-web.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div className="dias">
+                  <div>
+                    <img
+                      className="cuadro10 img"
+                      src="https://i.postimg.cc/1zK39H4Z/Mesa-de-trabajo-7.jpg"
                       alt=""
                     />
                   </div>
