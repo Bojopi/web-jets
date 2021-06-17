@@ -74,13 +74,13 @@
 }
 
 .info-jets .cont-info .cronograma .tabla .dias img {
-  width: 100%;
-  transition: .3s;
-}
-
-.info-jets .cont-info .cronograma .tabla .dias img:hover {
-  transform: scale(1.5);
-}
+    width: 100%;
+    transition: .3s;
+  }
+  
+  .info-jets .cont-info .cronograma .tabla .dias img:hover {
+    transform: scale(1.5);
+  }
 
 .info-jets .cont-info .cronograma .tabla .slide {
   margin: 0;
