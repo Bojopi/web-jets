@@ -8,7 +8,7 @@ const properties = {
   // duration: 2000,
   transitionDuration: 1000,
   infinite: true,
-  indicators: true,
+  indicators: false,
   arrows: true,
   autoplay: false,
 };

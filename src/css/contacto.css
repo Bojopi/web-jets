@@ -5,7 +5,7 @@
 
 .contenedor-contacto {
   width: 100%;
-  height: 600px;
+  height: 700px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   box-sizing: border-box;
@@ -64,6 +64,7 @@
   width: 70%;
   height: 20%;
   margin: 50px auto 0 auto;
+  color: black !important;
 }
 
 .contenedor-contacto .form-contacto .cont-formulario .form-info {

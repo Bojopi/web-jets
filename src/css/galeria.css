@@ -61,8 +61,8 @@
 }
 
 .galeria .cont-galeria .grupo-galeria .cont-cards .card-galeria {
-  width: 450px;
-  height: 300px;
+  width: 470px;
+  /* height: 300px; */
   border-radius: 20px;
   margin: 0 auto;
   position: relative;
@@ -155,8 +155,12 @@
     font-size: 20px;
   }
 
+  .galeria .cont-galeria .grupo-galeria:first-child {
+    margin-top: 20px;
+  }
+
   .galeria .cont-galeria .grupo-galeria {
-    height: 200px;
+    height: 180px;
   }
 
   .galeria .cont-galeria .grupo-galeria .tit-categoria p {
@@ -164,8 +168,8 @@
   }
 
   .galeria .cont-galeria .grupo-galeria .cont-cards .card-galeria {
-    width: 110px;
-    height: 80%;
+    height: 100%;
+    margin: 0 5px;
   }
 
   .galeria .cont-galeria .grupo-galeria .cont-card-galeria .nav {
