@@ -268,11 +268,23 @@
   .cont-speakers .speakers .style figcaption .ver-mas .img img {
     height: 100%;
   }
+
+  .cont-speakers .speakers .style figure:hover .unknown {
+    transform: none;
+    top: 0px;
+    box-shadow: 5px 5px 10px -2px black;
+  }
 }
 
 @media screen and (max-width: 1370px) {
   .cont-speakers .speakers .grid li {
     width: 20%;
+  }
+
+  .cont-speakers .speakers .style figure:hover .unknown {
+    transform: none;
+    top: 0px;
+    box-shadow: 5px 5px 10px -2px black;
   }
 }
 
@@ -294,6 +306,12 @@
   .cont-speakers .speakers .grid figure .imagen-speaker {
     width: 60%;
   }
+
+  .cont-speakers .speakers .style figure:hover .unknown {
+    transform: none;
+    top: 0px;
+    box-shadow: 5px 5px 10px -2px black;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -313,7 +331,8 @@
   }
 
   .cont-speakers .speakers .grid li {
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
     padding: 0px;
   }
 

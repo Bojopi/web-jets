@@ -113,7 +113,7 @@ const Navbar = () => {
               </Enlace>
             </li>
             <li class="nav-item">
-              <Link to={"/jets/temporizador"} className="entrar-juego nav-link">
+              <Link to={"/jets/evento"} className="entrar-juego nav-link">
                 EVENTO ONLINE
               </Link>
             </li>

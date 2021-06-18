@@ -62,11 +62,11 @@ const Speakers = () => {
               <figure>
                 <img
                   className="imagen-speaker"
-                  src="https://i.postimg.cc/cCh5k4gW/RODRIGO-BARBOZA.png"
+                  src="https://i.postimg.cc/sDB5qFNh/rodrigo-barbosa-1.png"
                   alt=""
                 />
                 <figcaption>
-                  <h3>RODRIGO BARBOZA</h3>
+                  <h3>RODRIGO BARBOSA</h3>
                   <p>
                     C.E.O. Aura Minerals Miami, Florida, Estados Unidos
                     <a href="#rodrigo">...Leer más</a>
@@ -253,7 +253,7 @@ const Speakers = () => {
             <IoMdCloseCircle />
           </a>
           <img
-            src="https://i.postimg.cc/CLSrqDZQ/RODRIGO-BARBOSA.png"
+            src="https://i.postimg.cc/NfTxJ9FX/RODRIGO-BARBOSA-horizontal.png"
             alt=""
           />
         </div>
