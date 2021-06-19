@@ -1,6 +1,5 @@
 import React, { Fragment, useState } from "react";
 import emailjs from "emailjs-com";
-import { useForm } from "react-hook-form";
 
 import { ImLocation } from "react-icons/im";
 import { ImPhone } from "react-icons/im";
@@ -31,31 +30,53 @@ const Contacto = () => {
     e.preventDefault();
 
     //campos vacíos
-    if (name.trim() === "" || email.trim() === "" || message.trim() === "") {
-      alert("Debe rellenar todos los campos");
-      e.target.reset();
+    const nombre = document.getElementById("nombre");
+    const correo = document.getElementById("email");
+    const mensaje = document.getElementById("mensaje");
+    if (name.trim() === "") {
+      nombre.style.borderBottomColor = "red";
+      nombre.placeholder = "Debe escribir un nombre";
       // return;
     } else {
-      emailjs
-        .sendForm(
-          "service_efdlz8h",
-          "template_71ab3rs",
-          e.target,
-          "user_frZYFUT1O6bOlc5RBRWUk"
-        )
-        .then(
-          (result) => {
-            console.log(result.text);
-            alert("Mensaje enviado");
-          },
-          (error) => {
-            console.log(error.text);
-            // alert("Por favor rellenar todos los campos");
-          }
-        );
-      e.target.reset();
+      nombre.style.borderBottomColor = "#555759";
+      if (email.trim() === "") {
+        correo.style.borderBottomColor = "red";
+        correo.placeholder = "Debe escribir un correo";
+        // return;
+      } else {
+        correo.style.borderBottomColor = "#555759";
+        if (message.trim() === "") {
+          mensaje.style.borderBottomColor = "red";
+          mensaje.placeholder = "Debe escribir un mensaje";
+          // alert("Debe rellenar todos los campos");
+          // return;
+        } else {
+          mensaje.style.borderBottomColor = "#555759";
+
+          emailjs
+            .sendForm(
+              "service_efdlz8h",
+              "template_71ab3rs",
+              e.target,
+              "user_frZYFUT1O6bOlc5RBRWUk"
+            )
+            .then(
+              (result) => {
+                console.log(result.text);
+                alert("Mensaje enviado");
+                guardarCorreo({
+                  name: "",
+                  email: "",
+                  message: "",
+                });
+              },
+              (error) => {
+                console.log(error.text);
+              }
+            );
+        }
+      }
     }
-    e.target.reset();
   };
 
   return (
@@ -88,6 +109,7 @@ const Contacto = () => {
                 type="text"
                 id="nombre"
                 name="name"
+                value={name}
                 placeholder="Nombre Completo:"
                 onChange={onChange}
               />
@@ -95,6 +117,7 @@ const Contacto = () => {
                 type="email"
                 id="email"
                 name="email"
+                value={email}
                 placeholder="Correo Electrónico:"
                 onChange={onChange}
               />
@@ -102,6 +125,7 @@ const Contacto = () => {
                 type="text"
                 id="mensaje"
                 name="message"
+                value={message}
                 placeholder="Mensaje:"
                 onChange={onChange}
               />
