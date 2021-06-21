@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.tit-convocatorias {
+  font-family: "Antonio";
+  margin-left: 50px;
+  /* font-size: 20px; */
+}
+
+.cont-convocatorias {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+.cont-convocatorias .convo {
+  width: 50%;
+}
+
+.cont-convocatorias .convo figure {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.cont-convocatorias .convo figure .img-convo {
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s;
+}
+
+.cont-convocatorias .convo figure .capa-convo {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+
+.cont-convocatorias .convo figure:hover > .capa-convo {
+  opacity: 1;
+  visibility: visible;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.cont-convocatorias .convo figure:hover > .img-convo {
+  filter: blur(5px);
+}
+
+.cont-convocatorias .convo figure .capa-convo .tit-convo {
+  width: 95%;
+  font-size: 18px;
+  color: whitesmoke;
+  text-shadow: 2px 3px 2px black;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.cont-convocatorias .convo figure .capa-convo .btn-convo {
+  width: 55%;
+  padding: 10px;
+  background-color: #cf0a2c;
+  color: white;
+  align-self: center;
+  text-decoration: none;
+  border-radius: 20px;
+  box-shadow: 8px 8px 15px 1px rgba(221, 70, 95, 1);
+}
+
+@media screen and (max-width: 1550px) {
+  .cont-convocatorias .convo figure .capa-convo .btn-convo {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+}
+
+@media screen and (max-width: 768px) {
+  .tit-convocatorias {
+    margin-left: 25px;
+    font-size: 25px;
+  }
+
+  .cont-convocatorias {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .cont-convocatorias .convo {
+    width: 70%;
+  }
+
+  .cont-convocatorias .convo figure .capa-convo .tit-convo {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+
+  .cont-convocatorias .convo figure .capa-convo .btn-convo {
+    width: 40%;
+    font-size: 12px;
+  }
+}

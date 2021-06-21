@@ -4,41 +4,11 @@ import { Slide } from "react-slideshow-image";
 import "../css/galeria.css";
 import "react-slideshow-image/dist/styles.css";
 
-//imagenes
-import img1 from "../images/img1.jpg";
-import IMG_7748 from '../images/galeria/INAUGURACION/IMG_7748.JPG'
-import IMG_7758 from '../images/galeria/INAUGURACION/IMG_7758.JPG'
-import IMG_7763 from '../images/galeria/INAUGURACION/IMG_7763.JPG'
-import IMG_7778 from '../images/galeria/INAUGURACION/IMG_7778.JPG'
-import IMG_7780 from '../images/galeria/INAUGURACION/IMG_7780.JPG'
-import IMG_7810 from '../images/galeria/INAUGURACION/IMG_7810.JPG'
-
-import DSC_0002 from '../images/galeria/FORO/DSC_0002.JPG'
-import DSC_0014 from '../images/galeria/FORO/DSC_0014.JPG'
-import IMG_8348 from '../images/galeria/FORO/IMG_8348.JPG'
-import IMG_8382 from '../images/galeria/FORO/IMG_8382.JPG'
-import IMG_8384 from '../images/galeria/FORO/IMG_8384.JPG'
-import IMG_8387 from '../images/galeria/FORO/IMG_8387.JPG'
-
-import IMG_8396 from '../images/galeria/POSTAS/IMG_8396.JPG'
-import IMG_8438 from '../images/galeria/POSTAS/IMG_8438.JPG'
-import IMG_8442 from '../images/galeria/POSTAS/IMG_8442.JPG'
-import IMG_8488 from '../images/galeria/POSTAS/IMG_8488.JPG'
-import IMG_8528 from '../images/galeria/POSTAS/IMG_8528.JPG'
-import IMG_8556 from '../images/galeria/POSTAS/IMG_8556.JPG'
-
-import DSC_0008 from '../images/galeria/COLEGIOS/DSC_0008.JPG'
-import DSC_0013 from '../images/galeria/COLEGIOS/DSC_0013.JPG'
-import DSC_0017 from '../images/galeria/COLEGIOS/DSC_0017.JPG'
-import IMG_9207 from '../images/galeria/COLEGIOS/IMG_9207.JPG'
-import IMG_9222 from '../images/galeria/COLEGIOS/IMG_9222.JPG'
-import IMG_9252 from '../images/galeria/COLEGIOS/IMG_9252.JPG'
-
 const properties = {
   // duration: 2000,
   transitionDuration: 1000,
   infinite: true,
-  indicators: true,
+  indicators: false,
   arrows: true,
   autoplay: false,
 };
@@ -46,17 +16,22 @@ const properties = {
 const Galeria = () => {
   return (
     <Fragment>
-      <div className="galeria">
-        <h1>GALERIA DE IMAGENES</h1>
+      <div className="galeria" id="galeria">
+        <h1>GALERÍA DE IMÁGENES</h1>
         <div className="cont-galeria">
           <div className="grupo-galeria" id="inauguración">
-            <p className="tit-categoria">INAUGURACIÓN</p>
+            <div className="tit-categoria">
+              <p>INAUGURACIÓN</p>
+            </div>
             <div className="cont-card-galeria">
               <Slide {...properties}>
                 <div className="cont-cards">
                   <div className="card-galeria">
                     <div className="img">
-                      <img src={IMG_7748} alt="" />
+                      <img
+                        src="https://i.postimg.cc/SR9tq7vy/IMG-7758.jpg"
+                        alt=""
+                      />
                     </div>
                     <span>
                       <h3>Este es el titulo</h3>
@@ -65,7 +40,10 @@ const Galeria = () => {
                   </div>
                   <div className="card-galeria">
                     <div className="img">
-                      <img src={IMG_7758} alt="" />
+                      <img
+                        src="https://i.postimg.cc/fRCqwbB0/IMG-7763.jpg"
+                        alt=""
+                      />
                     </div>
                     <span>
                       <h3>Este es el titulo</h3>
@@ -74,7 +52,10 @@ const Galeria = () => {
                   </div>
                   <div className="card-galeria">
                     <div className="img">
-                      <img src={IMG_7763} alt="" />
+                      <img
+                        src="https://i.postimg.cc/VLjHVgtg/IMG-7778.jpg"
+                        alt=""
+                      />
                     </div>
                     <span>
                       <h3>Este es el titulo</h3>
@@ -85,7 +66,10 @@ const Galeria = () => {
                 <div className="cont-cards">
                   <div className="card-galeria">
                     <div className="img">
-                      <img src={IMG_7778} alt="" />
+                      <img
+                        src="https://i.postimg.cc/L8tvx8rb/IMG-7810.jpg"
+                        alt=""
+                      />
                     </div>
                     <span>
                       <h3>Este es el titulo</h3>
@@ -94,7 +78,10 @@ const Galeria = () => {
                   </div>
                   <div className="card-galeria">
                     <div className="img">
-                      <img src={IMG_7780} alt="" />
+                      <img
+                        src="https://i.postimg.cc/VkmHQtB8/IMG-7748.jpg"
+                        alt=""
+                      />
                     </div>
                     <span>
                       <h3>Este es el titulo</h3>
@@ -103,7 +90,10 @@ const Galeria = () => {
                   </div>
                   <div className="card-galeria">
                     <div className="img">
-                      <img src={IMG_7810} alt="" />
+                      <img
+                        src="https://i.postimg.cc/ZK31hZGr/IMG-7780.jpg"
+                        alt=""
+                      />
                     </div>
                     <span>
                       <h3>Este es el titulo</h3>
@@ -115,13 +105,18 @@ const Galeria = () => {
             </div>
           </div>
           <div className="grupo-galeria" id="foros">
-            <p className="tit-categoria">FOROS</p>
+            <div className="tit-categoria">
+              <p>FOROS</p>
+            </div>
             <div className="cont-card-galeria">
               <Slide {...properties}>
                 <div className="cont-cards">
                   <div className="card-galeria">
                     <div className="img">
-                      <img src={DSC_0002} alt="" />
+                      <img
+                        src="https://i.postimg.cc/DfpNGmTQ/DSC-0002.jpg"
+                        alt=""
+                      />
                     </div>
                     <span>
                       <h3>Este es el titulo</h3>
@@ -130,7 +125,10 @@ const Galeria = () => {
                   </div>
                   <div className="card-galeria">
                     <div className="img">
-                      <img src={DSC_0014} alt="" />
+                      <img
+                        src="https://i.postimg.cc/mkn6Wpwp/DSC-0014.jpg"
+                        alt=""
+                      />
                     </div>
                     <span>
                       <h3>Este es el titulo</h3>
@@ -139,7 +137,10 @@ const Galeria = () => {
                   </div>
                   <div className="card-galeria">
                     <div className="img">
-                      <img src={IMG_8348} alt="" />
+                      <img
+                        src="https://i.postimg.cc/1t5Wn17Y/IMG-8348.jpg"
+                        alt=""
+                      />
                     </div>
                     <span>
                       <h3>Este es el titulo</h3>
@@ -150,7 +151,10 @@ const Galeria = () => {
                 <div className="cont-cards">
                   <div className="card-galeria">
                     <div className="img">
-                      <img src={IMG_8382} alt="" />
+                      <img
+                        src="https://i.postimg.cc/jjhgSSc7/IMG-8382.jpg"
+                        alt=""
+                      />
                     </div>
                     <span>
                       <h3>Este es el titulo</h3>
@@ -159,7 +163,10 @@ const Galeria = () => {
                   </div>
                   <div className="card-galeria">
                     <div className="img">
-                      <img src={IMG_8384} alt="" />
+                      <img
+                        src="https://i.postimg.cc/zBtxT29D/IMG-8384.jpg"
+                        alt=""
+                      />
                     </div>
                     <span>
                       <h3>Este es el titulo</h3>
@@ -168,7 +175,10 @@ const Galeria = () => {
                   </div>
                   <div className="card-galeria">
                     <div className="img">
-                      <img src={IMG_8387} alt="" />
+                      <img
+                        src="https://i.postimg.cc/q7rDr3sr/IMG-8387.jpg"
+                        alt=""
+                      />
                     </div>
                     <span>
                       <h3>Este es el titulo</h3>
@@ -180,13 +190,18 @@ const Galeria = () => {
             </div>
           </div>
           <div className="grupo-galeria" id="postas">
-            <p className="tit-categoria">POSTAS</p>
+            <div className="tit-categoria">
+              <p>COMPETENCIAS</p>
+            </div>
             <div className="cont-card-galeria">
               <Slide {...properties}>
                 <div className="cont-cards">
                   <div className="card-galeria">
                     <div className="img">
-                      <img src={IMG_8396} alt="" />
+                      <img
+                        src="https://i.postimg.cc/CLHmN1y6/IMG-8396.jpg"
+                        alt=""
+                      />
                     </div>
                     <span>
                       <h3>Este es el titulo</h3>
@@ -195,7 +210,10 @@ const Galeria = () => {
                   </div>
                   <div className="card-galeria">
                     <div className="img">
-                      <img src={IMG_8438} alt="" />
+                      <img
+                        src="https://i.postimg.cc/g2gsCT2V/IMG-8438.jpg"
+                        alt=""
+                      />
                     </div>
                     <span>
                       <h3>Este es el titulo</h3>
@@ -204,7 +222,10 @@ const Galeria = () => {
                   </div>
                   <div className="card-galeria">
                     <div className="img">
-                      <img src={IMG_8442} alt="" />
+                      <img
+                        src="https://i.postimg.cc/1zTHtV64/IMG-8442.jpg"
+                        alt=""
+                      />
                     </div>
                     <span>
                       <h3>Este es el titulo</h3>
@@ -215,7 +236,10 @@ const Galeria = () => {
                 <div className="cont-cards">
                   <div className="card-galeria">
                     <div className="img">
-                      <img src={IMG_8488} alt="" />
+                      <img
+                        src="https://i.postimg.cc/zBgkRDS7/IMG-8488.jpg"
+                        alt=""
+                      />
                     </div>
                     <span>
                       <h3>Este es el titulo</h3>
@@ -224,7 +248,10 @@ const Galeria = () => {
                   </div>
                   <div className="card-galeria">
                     <div className="img">
-                      <img src={IMG_8528} alt="" />
+                      <img
+                        src="https://i.postimg.cc/s21ms4Mt/IMG-8528.jpg"
+                        alt=""
+                      />
                     </div>
                     <span>
                       <h3>Este es el titulo</h3>
@@ -233,7 +260,10 @@ const Galeria = () => {
                   </div>
                   <div className="card-galeria">
                     <div className="img">
-                      <img src={IMG_8556} alt="" />
+                      <img
+                        src="https://i.postimg.cc/g2z4BWmc/IMG-8556.jpg"
+                        alt=""
+                      />
                     </div>
                     <span>
                       <h3>Este es el titulo</h3>
@@ -245,13 +275,18 @@ const Galeria = () => {
             </div>
           </div>
           <div className="grupo-galeria" id="colegios">
-            <p className="tit-categoria">VISITAS DE LOS COLEGIOS</p>
+            <div className="tit-categoria">
+              <p>VISITAS DE LOS COLEGIOS</p>
+            </div>
             <div className="cont-card-galeria">
               <Slide {...properties}>
                 <div className="cont-cards">
                   <div className="card-galeria">
                     <div className="img">
-                      <img src={DSC_0008} alt="" />
+                      <img
+                        src="https://i.postimg.cc/BbhfLCC2/DSC-0008.jpg"
+                        alt=""
+                      />
                     </div>
                     <span>
                       <h3>Este es el titulo</h3>
@@ -260,7 +295,10 @@ const Galeria = () => {
                   </div>
                   <div className="card-galeria">
                     <div className="img">
-                      <img src={DSC_0013} alt="" />
+                      <img
+                        src="https://i.postimg.cc/tJ4LjxHJ/DSC-0013.jpg"
+                        alt=""
+                      />
                     </div>
                     <span>
                       <h3>Este es el titulo</h3>
@@ -269,7 +307,10 @@ const Galeria = () => {
                   </div>
                   <div className="card-galeria">
                     <div className="img">
-                      <img src={DSC_0017} alt="" />
+                      <img
+                        src="https://i.postimg.cc/hvZNPtSr/DSC-0017.jpg"
+                        alt=""
+                      />
                     </div>
                     <span>
                       <h3>Este es el titulo</h3>
@@ -280,7 +321,10 @@ const Galeria = () => {
                 <div className="cont-cards">
                   <div className="card-galeria">
                     <div className="img">
-                      <img src={IMG_9207} alt="" />
+                      <img
+                        src="https://i.postimg.cc/x1XnmBh8/IMG-9222.jpg"
+                        alt=""
+                      />
                     </div>
                     <span>
                       <h3>Este es el titulo</h3>
@@ -289,7 +333,10 @@ const Galeria = () => {
                   </div>
                   <div className="card-galeria">
                     <div className="img">
-                      <img src={IMG_9222} alt="" />
+                      <img
+                        src="https://i.postimg.cc/vHqGcGPC/IMG-9207.jpg"
+                        alt=""
+                      />
                     </div>
                     <span>
                       <h3>Este es el titulo</h3>
@@ -298,7 +345,10 @@ const Galeria = () => {
                   </div>
                   <div className="card-galeria">
                     <div className="img">
-                      <img src={IMG_9252} alt="" />
+                      <img
+                        src="https://i.postimg.cc/t48yN2G5/IMG-9252.jpg"
+                        alt=""
+                      />
                     </div>
                     <span>
                       <h3>Este es el titulo</h3>

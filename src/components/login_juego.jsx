@@ -4,12 +4,8 @@ import {Link} from 'react-router-dom'
 import '../css/login_juego.css'
 
 //iconos
-// import { FaUser } from 'react-icons/fa'
-// import { RiLockPasswordFill } from 'react-icons/ri'
 import { BsArrowLeftShort } from 'react-icons/bs'
 
-//logo
-import logo from '../images/ICONO-JETS-ROJO.png'
 
 const LoginJuego = () => {
 	//State para iniciar sesión
@@ -40,7 +36,7 @@ const LoginJuego = () => {
 		<div id="login-juego" className="login-juego">
 			<div className="contenedor-login">
 				<div className="top">
-					<img src={logo} alt="" className="logo" />
+					<img src="https://i.postimg.cc/RZ0rDT6j/ICONO-JETS-ROJO.png" alt="" className="logo" />
 					<h1>INICIAR SESION</h1>
 				</div>
 				<div className="formulario">

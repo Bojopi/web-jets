@@ -6,11 +6,7 @@
 .footer {
     width: 100%;
     height: 50px;
-    /* position: fixed;
-    bottom: 0;
-    overflow: hidden; */
     background-color: black;
-    /* z-index: 10; */
 }
 
 .footer .redes-sociales {
@@ -20,6 +16,10 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+}
+
+.footer .copyright p {
+    margin: 0;
 }
 
 .footer .copyright {
@@ -36,4 +36,29 @@
     width: 25px;
     height: 25px;
     margin-right: 20px;
+    transition: all .3s;
+}
+
+.img-redes:hover {
+    transform: rotate3d(5px, 5px, 5px);
+}
+
+@media screen and (max-width: 768px) { 
+    .footer .redes-sociales {
+        width: 60%;
+    }
+
+    .footer .copyright {
+        width: 40%;
+    }
+    
+    .footer .copyright p {
+        font-size: 11px;
+    }
+    
+    .img-redes {
+        width: 20px;
+        height: 20px;
+        margin-right: 15px;
+    }
 }

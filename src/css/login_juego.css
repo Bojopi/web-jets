@@ -12,7 +12,7 @@
     width: 100%;
     height: 100vh;
     display: flex;
-    background: url('../images/fondoutepsa.jpeg');
+    background: url('https://i.postimg.cc/FRNw0g4W/fondoutepsa.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -21,19 +21,16 @@
 .login-juego .contenedor-login {
     width: 600px;
     height: 330px;
-    /* background-color: lawngreen; */
     margin: auto;
     border-radius: 20px;
     box-shadow: 5px 8px 20px 5px #000;
     backdrop-filter: blur(10px);
     background: rgba(255, 255, 255, 0.6);
-    /* background: rgba(0, 0, 0, 0.3); */
 }
 
 .login-juego .contenedor-login .top {
     width: 100%;
     height: 25%;
-    /* background-color: #cf0a2c; */
     border-radius: 20px 20px 0 0;
     display: flex;
     padding: 10px;
@@ -43,11 +40,11 @@
 .login-juego .contenedor-login .top .logo {
     width: 55px;
     margin: auto;
-    transition: .5s;
+    transition: 1s;
 }
 
 .login-juego .contenedor-login .top .logo:hover {
-    transform: rotate(180deg);
+    transform: rotate(360deg);
 }
 
 .login-juego .contenedor-login .top h1{
@@ -66,18 +63,15 @@
 .login-juego .contenedor-login .formulario {
     width: 100%;
     height: 75%;
-    /* height: 350px; */
     box-sizing: border-box;
     border-radius: 0 0 20px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: #f3f4f4; */
 }
 
 .login-juego .contenedor-login .formulario .inicio {
-    /* padding-left: 30px; */
     box-sizing: border-box;
     color: #cf0a2c;
     text-decoration: none;

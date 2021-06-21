@@ -1,53 +1,58 @@
 import React, { Fragment } from "react";
 
+import { IoMdCloseCircle } from "react-icons/io";
+
 import "../css/speakers.css";
-
-//imagenes
-import javier from "../images/speakers/JAVIER DE LA FUENTE.png";
-import rodrigo from "../images/speakers/RODRIGO BARBOZA.png";
-import canales from "../images/speakers/RODRIGO CANALES.png";
-import ignacio from "../images/speakers/IGNACIO RUIZ GUERRA.png";
-import leonardo from "../images/speakers/LEONARDO MARTÍNEZ.png";
-import dennis from "../images/speakers/DENNIS NAKAMURA.png";
-import pedro from "../images/speakers/Pedro López Sáez.png";
-import monica from "../images/speakers/Monica Isabel Martinez.png";
-
-import icono from "../images/ICONO-JETS-ROJO.png";
-
-import AuraMineralsInc from "../images/universidades/AuraMineralsInc.png";
-import MITSloanSchoolOfManagemen from "../images/universidades/MITSloanSchoolOfManagemen.png";
-import TecnologicoDeMonterrey from "../images/universidades/TecnologicoDeMonterrey.png";
-import UniversidadComplutenseMadrid from "../images/universidades/UniversidadComplutenseMadrid.png";
-import UniversidadDeCantabria from "../images/universidades/UniversidadDeCantabria.jpeg";
-import UniversityOfSouthernCalifornia from "../images/universidades/UniversityOfSouthernCalifornia.png";
-import YaleSchoolOfManagement from "../images/universidades/YaleSchoolOfManagement.png";
 
 const Speakers = () => {
   return (
     <Fragment>
-      <div className="cont-speakers">
-        <h1>SPEAKERS</h1>
+      <div className="cont-speakers" id="speakers">
+        <h1>EXPOSITORES</h1>
         <div className="speakers">
           <ul className="grid style">
             <li>
               <figure>
-                <img className="imagen-speaker" src={javier} />
+                <img
+                  className="imagen-speaker"
+                  src="https://i.postimg.cc/Kzjh73b5/MAIRA-ARI-EZ.png"
+                  alt=""
+                />
+                <figcaption>
+                  <h3>MAIRA A. ARIÑEZ VERA</h3>
+                  <p>
+                    Magíster en Derecho de la Empresa por la Pontificia Universidad Católica del Perú.
+                    <a href="#maira">...Leer más</a>
+                  </p>
+                  <div className="ver-mas">
+                    <div className="uni">
+                    </div>
+                    <div className="img">
+                      <img src="https://i.postimg.cc/RZ0rDT6j/ICONO-JETS-ROJO.png" alt="" />
+                    </div>
+                  </div>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img
+                  className="imagen-speaker"
+                  src="https://i.postimg.cc/wTxryJZj/JAVIER-DE-LA-FUENTE.png"
+                  alt=""
+                />
                 <figcaption>
                   <h3>JAVIER DE LA FUENTE</h3>
                   <p>
                     Director Regional del Departamento de Emprendimiento Región
                     Norte en Tecnológico de Monterrey.
-                    <span>...Leer más</span>
+                    <a href="#javier">...Leer más</a>
                   </p>
                   <div className="ver-mas">
                     <div className="uni">
-                      {/* <img src={TecnologicoDeMonterrey} alt="" /> */}
-                      <p>Tecnológico de Monterrey</p>
-                      {/* <img src={UniversidadDeCantabria} alt="" /> */}
-                      <p>Universidad de Cantabria</p>
                     </div>
                     <div className="img">
-                      <img src={icono} alt="" />
+                      <img src="https://i.postimg.cc/RZ0rDT6j/ICONO-JETS-ROJO.png" alt="" />
                     </div>
                   </div>
                 </figcaption>
@@ -55,25 +60,22 @@ const Speakers = () => {
             </li>
             <li>
               <figure>
-                <img className="imagen-speaker" src={rodrigo} />
+                <img
+                  className="imagen-speaker"
+                  src="https://i.postimg.cc/sDB5qFNh/rodrigo-barbosa-1.png"
+                  alt=""
+                />
                 <figcaption>
-                  <h3>RODRIGO BARBOZA</h3>
+                  <h3>RODRIGO BARBOSA</h3>
                   <p>
                     C.E.O. Aura Minerals Miami, Florida, Estados Unidos
-                    <span>...Leer más</span>
+                    <a href="#rodrigo">...Leer más</a>
                   </p>
                   <div className="ver-mas">
                     <div className="uni">
-                      {/* <img src={AuraMineralsInc} alt="" /> */}
-                      <p>Aura Minerals Inc.</p>
-                      {/* <img src={UniversityOfSouthernCalifornia} alt="" /> */}
-                      <p>
-                        Universiy of Southern California - Marshall School of
-                        Business
-                      </p>
                     </div>
                     <div className="img">
-                      <img src={icono} alt="" />
+                      <img src="https://i.postimg.cc/RZ0rDT6j/ICONO-JETS-ROJO.png" alt="" />
                     </div>
                   </div>
                 </figcaption>
@@ -81,21 +83,23 @@ const Speakers = () => {
             </li>
             <li>
               <figure>
-                <img className="imagen-speaker" src={ignacio} />
+                <img
+                  className="imagen-speaker"
+                  src="https://i.postimg.cc/0503yZt4/IGNACIO-RUIZ-GUERRA.png"
+                  alt=""
+                />
                 <figcaption>
                   <h3>IGNACIO RUIZ GUERRA</h3>
                   <p>
                     Facultad de Comercio y Turismo Seminario de Organización de
                     Empresas y Marketing PDI Laboral
-                    <span>...Leer más</span>
+                    <a href="#ignacio">...Leer más</a>
                   </p>
                   <div className="ver-mas">
                     <div className="uni">
-                      {/* <img src={UniversidadComplutenseMadrid} alt="" /> */}
-                      <p>Universidad Complutense de Madrid</p>
                     </div>
                     <div className="img">
-                      <img src={icono} alt="" />
+                      <img src="https://i.postimg.cc/RZ0rDT6j/ICONO-JETS-ROJO.png" alt="" />
                     </div>
                   </div>
                 </figcaption>
@@ -103,22 +107,44 @@ const Speakers = () => {
             </li>
             <li>
               <figure>
-                <img className="imagen-speaker" src={leonardo} />
+                <img
+                  className="imagen-speaker"
+                  src="https://i.postimg.cc/mrpLvhvp/CAROL-ILIEVSKI.png"
+                  alt=""
+                />
+                <figcaption>
+                  <h3>CAROL ILIEVSKI</h3>
+                  <p>
+                    Directora CEO NovoAndina International Corporation Boston - MA
+                    <a href="#carol">...Leer más</a>
+                  </p>
+                  <div className="ver-mas">
+                    <div className="uni">
+                    </div>
+                    <div className="img">
+                      <img src="https://i.postimg.cc/RZ0rDT6j/ICONO-JETS-ROJO.png" alt="" />
+                    </div>
+                  </div>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img
+                  className="imagen-speaker"
+                  src="https://i.postimg.cc/C5SQ4fKJ/LEONARDO-MARTINEZ.png"
+                  alt=""
+                />
                 <figcaption>
                   <h3>LEONARDO MARTÍNEZ</h3>
                   <p>
                     Ingeniero en sistemas
-                    <span>...Leer más</span>
+                    <a href="#leonardo">...Leer más</a>
                   </p>
                   <div className="ver-mas">
-                    <div className="uni">
-                      {/* <img src={TecnologicoDeMonterrey} alt="" />
-                      <p>Tecnológico de Monterrey</p>
-                      <img src={UniversidadDeCantabria} alt="" />
-                      <p>Universidad de Cantabria</p> */}
-                    </div>
+                    <div className="uni"></div>
                     <div className="img">
-                      <img src={icono} alt="" />
+                      <img src="https://i.postimg.cc/RZ0rDT6j/ICONO-JETS-ROJO.png" alt="" />
                     </div>
                   </div>
                 </figcaption>
@@ -126,79 +152,176 @@ const Speakers = () => {
             </li>
             <li>
               <figure>
-                <img className="imagen-speaker" src={dennis} />
+                <img
+                  className="imagen-speaker"
+                  src="https://i.postimg.cc/zBmMVQZs/DENNIS-NAKAMURA.png"
+                  alt=""
+                />
                 <figcaption>
                   <h3>DENNIS NAKAMURA</h3>
                   <p>
                     Ingeniero ambiental por Poli-USP - Brasil, especialista en
                     financiamiento de proyectos por FGV.
-                    <span>...Leer más</span>
+                    <a href="#dennis">...Leer más</a>
                   </p>
                   <div className="ver-mas">
-                    <div className="uni">
-                      {/* <img src={TecnologicoDeMonterrey} alt="" />
-                      <p>Tecnológico de Monterrey</p>
-                      <img src={UniversidadDeCantabria} alt="" />
-                      <p>Universidad de Cantabria</p> */}
-                    </div>
+                    <div className="uni"></div>
                     <div className="img">
-                      <img src={icono} alt="" />
+                      <img src="https://i.postimg.cc/RZ0rDT6j/ICONO-JETS-ROJO.png" alt="" />
                     </div>
                   </div>
                 </figcaption>
               </figure>
             </li>
-            <li></li>
             <li>
               <figure>
-                <img className="imagen-speaker" src={pedro} />
+                <img
+                  className="imagen-speaker"
+                  src="https://i.postimg.cc/SsWP8GmJ/PEDRO-LOPEZ-SAEZ.png"
+                  alt=""
+                />
                 <figcaption>
                   <h3>PEDRO LOPEZ SAEZ</h3>
                   <p>
                     Profesor de Administración de Empresas de la Universidad
                     Complutense de Madrid.
-                    <span>...Leer más</span>
+                    <a href="#pedro">...Leer más</a>
                   </p>
                   <div className="ver-mas">
                     <div className="uni">
-                      {/* <img src={TecnologicoDeMonterrey} alt="" />
-                      <p>Tecnológico de Monterrey</p>
-                      <img src={UniversidadDeCantabria} alt="" />
-                      <p>Universidad de Cantabria</p> */}
                     </div>
                     <div className="img">
-                      <img src={icono} alt="" />
+                      <img src="https://i.postimg.cc/RZ0rDT6j/ICONO-JETS-ROJO.png" alt="" />
                     </div>
                   </div>
                 </figcaption>
               </figure>
             </li>
-            <li></li>
             <li>
               <figure>
-                <img className="imagen-speaker" src={monica} />
-                <figcaption>
-                  <h3>MONICA ISABEL MARTINEZ</h3>
+                <img
+                  className="imagen-speaker unknown"
+                  src="https://i.postimg.cc/4dKq1qSm/NI-A.png"
+                  alt=""
+                />
+                {/* <figcaption>
+                  <h3>LENKA NEMER DIRPIC</h3>
                   <p>
-                    Master en tecnología educativa. Innovadora certificada por
-                    Google.
-                    <span>...Leer más</span>
+                    Estudiante de la carrera de Relaciones Internacionales de la Universidad Tecnológica Privada de Santa Cruz.
+                    <a href="#lenka">...Leer más</a>
                   </p>
                   <div className="ver-mas">
                     <div className="uni">
-                      {/* <img src={TecnologicoDeMonterrey} alt="" />
-                      <p>Tecnológico de Monterrey</p>
-                      <img src={UniversidadDeCantabria} alt="" />
-                      <p>Universidad de Cantabria</p> */}
                     </div>
                     <div className="img">
-                      <img src={icono} alt="" />
+                      <img src="https://i.postimg.cc/RZ0rDT6j/ICONO-JETS-ROJO.png" alt="" />
                     </div>
                   </div>
-                </figcaption>
+                </figcaption> */}
               </figure>
             </li>
           </ul>
+        </div>
+      </div>
+
+      {/* ventanas modales */}
+      <div id="maira" className="modal">
+        <div className="modal-contenido">
+          <a href="#speakers">
+            <IoMdCloseCircle />
+          </a>
+          <img
+            src="https://i.postimg.cc/pXf8MmNC/MAIRA-ARI-EZ-VERA.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div id="javier" className="modal">
+        <div className="modal-contenido">
+          <a href="#speakers">
+            <IoMdCloseCircle />
+          </a>
+          <img
+            src="https://i.postimg.cc/P5HZSzbm/javier-de-la-fuente.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div id="rodrigo" className="modal">
+        <div className="modal-contenido">
+          <a href="#speakers">
+            <IoMdCloseCircle />
+          </a>
+          <img
+            src="https://i.postimg.cc/NfTxJ9FX/RODRIGO-BARBOSA-horizontal.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div id="ignacio" className="modal">
+        <div className="modal-contenido">
+          <a href="#speakers">
+            <IoMdCloseCircle />
+          </a>
+          <img
+            src="https://i.postimg.cc/BQpYc6HQ/ignacio-Ruis-guerra.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div id="carol" className="modal">
+        <div className="modal-contenido">
+          <a href="#speakers">
+            <IoMdCloseCircle />
+          </a>
+          <img
+            src="https://i.postimg.cc/kXzxmRj6/CAROL-I.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div id="leonardo" className="modal">
+        <div className="modal-contenido">
+          <a href="#speakers">
+            <IoMdCloseCircle />
+          </a>
+          <img
+            src="https://i.postimg.cc/bYQFrLvn/LEONARDO-MARTINES-1.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div id="dennis" className="modal">
+        <div className="modal-contenido">
+          <a href="#speakers">
+            <IoMdCloseCircle />
+          </a>
+          <img
+            src="https://i.postimg.cc/RhCyf296/JETS-DENNIS-NAKAMURA.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div id="pedro" className="modal">
+        <div className="modal-contenido">
+          <a href="#speakers">
+            <IoMdCloseCircle />
+          </a>
+          <img
+            src="https://i.postimg.cc/15QcWDNB/PEDRO-L-PEZ.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div id="lenka" className="modal">
+        <div className="modal-contenido">
+          <a href="#speakers">
+            <IoMdCloseCircle />
+          </a>
+          <img
+            src="https://i.postimg.cc/CLKbBcqJ/Lenka-Nemer-Dirpic.jpg"
+            alt=""
+          />
         </div>
       </div>
     </Fragment>

@@ -1,55 +1,95 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 @keyframes scroll {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(calc(-250px * 5));
-    }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-150px * 2));
+  }
 }
 
 .contenedor {
-    width: 100%;
-    height: 200px;
-    margin-top: 60px;
-    /* background-color: darkolivegreen; */
+  width: 100%;
+  height: 100%;
+  margin: 60px 0;
 }
 
 .contenedor .tit-empresas {
-    height: 30%;
-    display: flex;
-    align-items: center;
-    /* background-color: darkolivegreen; */
+  height: 30%;
+  display: flex;
+  align-items: center;
 }
 
 .contenedor .tit-empresas h1 {
-    margin-left: 50px;
+  margin-left: 50px;
+  font-family: 'Antonio';
 }
 
 .contenedor .slider {
-    height: 65%;
-    width: 80%;
-    /* box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125); */
-    margin: auto;
-    overflow: hidden;
-    position: relative;
+  height: 30%;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  padding-top: 40px;
 }
 
 .contenedor .slider .slider-track {
-    animation: scroll 10s linear infinite;
-    display: flex;
+  animation: scroll 5s linear infinite;
+  display: flex;
+}
+
+.contenedor .slider .slider-track .listas {
+  margin-right: 15px;
 }
 
 .contenedor .slider .slider-track .listas img {
-    height: 100px;
-    width: 250px;
+  height: 50px;
 }
 
 .react-slideshow-container .nav {
-    z-index: 9;
+  z-index: 9;
 }
 
+@media screen and (max-width: 960px) {
+  .contenedor {
+    margin-top: 40px;
+  }
+
+  .contenedor .tit-empresas h1 {
+    margin-left: 30px;
+    font-size: 27px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-150px * 6.2));
+    }
+  }
+
+  .contenedor {
+    margin: 20px 0;
+  }
+
+  .contenedor .tit-empresas h1 {
+    margin-left: 25px;
+    font-size: 25px;
+  }
+
+  .contenedor .slider .slider-track .listas img {
+    height: 40px;
+  }
+
+  .contenedor .slider .slider-track {
+    animation: scroll 12s linear infinite;
+  }
+}
