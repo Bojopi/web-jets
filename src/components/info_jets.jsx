@@ -108,7 +108,7 @@ const Informacion = () => {
                 <div className="dias">
                   <div>
                     <InnerImageZoom
-                      src="https://i.postimg.cc/8C2cCkTP/dia-3-1-web.png"
+                      src="https://i.postimg.cc/pVjSgBYD/dia-3-1-web.png"
                       moveType="drag"
                     />
                   </div>
@@ -116,7 +116,7 @@ const Informacion = () => {
                 <div className="dias">
                   <div>
                     <InnerImageZoom
-                      src="https://i.postimg.cc/Sxtjw759/dia-3-2-web.png"
+                      src="https://i.postimg.cc/xCJZjGrV/dia-3-2-web.png"
                       moveType="drag"
                     />
                   </div>
@@ -124,7 +124,7 @@ const Informacion = () => {
                 <div className="dias">
                   <div>
                     <InnerImageZoom
-                      src="https://i.postimg.cc/6pQyj1Hw/dia-3-3-web.png"
+                      src="https://i.postimg.cc/Y0QyYpqX/dia-3-3-web.png"
                       moveType="drag"
                     />
                   </div>
@@ -132,7 +132,7 @@ const Informacion = () => {
                 <div className="dias">
                   <div>
                     <InnerImageZoom
-                      src="https://i.postimg.cc/RVTYRksv/dia-4-1-web.png"
+                      src="https://i.postimg.cc/PxgRCLhp/dia-3-4-web.png"
                       moveType="drag"
                     />
                   </div>
@@ -140,7 +140,15 @@ const Informacion = () => {
                 <div className="dias">
                   <div>
                     <InnerImageZoom
-                      src="https://i.postimg.cc/28YJnkxH/dia-4-2-web.png"
+                      src="https://i.postimg.cc/Bnk3MSGq/dia-4-1-web.png"
+                      moveType="drag"
+                    />
+                  </div>
+                </div>
+                <div className="dias">
+                  <div>
+                    <InnerImageZoom
+                      src="https://i.postimg.cc/qRdTH1RS/dia-4-2-web.png"
                       moveType="drag"
                     />
                   </div>
@@ -208,7 +216,7 @@ const Informacion = () => {
                 <div className="dias">
                   <div>
                     <InnerImageZoom
-                      src="https://i.postimg.cc/HLRc749m/dia-3-1-mobile.png"
+                      src="https://i.postimg.cc/zXK1FrcY/dia-3-1-mobile.png"
                       moveType="drag"
                       fullscreenOnMobile={true}
                     />
@@ -217,7 +225,7 @@ const Informacion = () => {
                 <div className="dias">
                   <div>
                     <InnerImageZoom
-                      src="https://i.postimg.cc/sxRMTjL0/dia-3-2-mobile.png"
+                      src="https://i.postimg.cc/g2KF1KpM/dia-3-2-mobile.png"
                       moveType="drag"
                       fullscreenOnMobile={true}
                     />
@@ -226,7 +234,7 @@ const Informacion = () => {
                 <div className="dias">
                   <div>
                     <InnerImageZoom
-                      src="https://i.postimg.cc/BbcXkW9Z/dia-3-3-mobile.png"
+                      src="https://i.postimg.cc/9Q2Hxn6R/dia-3-3-mobile.png"
                       moveType="drag"
                       fullscreenOnMobile={true}
                     />
@@ -235,7 +243,7 @@ const Informacion = () => {
                 <div className="dias">
                   <div>
                     <InnerImageZoom
-                      src="https://i.postimg.cc/hjmJ8z2d/dia-3-4-mobile.png"
+                      src="https://i.postimg.cc/q7MVrCMp/dia-3-4-mobile.png"
                       moveType="drag"
                       fullscreenOnMobile={true}
                     />
@@ -244,7 +252,7 @@ const Informacion = () => {
                 <div className="dias">
                   <div>
                     <InnerImageZoom
-                      src="https://i.postimg.cc/hGvNh20c/dia-4-1-mobile.png"
+                      src="https://i.postimg.cc/wvK6T6WW/dia-4-1-mobile.png"
                       moveType="drag"
                       fullscreenOnMobile={true}
                     />
@@ -253,7 +261,7 @@ const Informacion = () => {
                 <div className="dias">
                   <div>
                     <InnerImageZoom
-                      src="https://i.postimg.cc/GmcWnL8B/dia-4-2-mobile.png"
+                      src="https://i.postimg.cc/rmSqDv3q/dia-4-2-mobile.png"
                       moveType="drag"
                       fullscreenOnMobile={true}
                     />
