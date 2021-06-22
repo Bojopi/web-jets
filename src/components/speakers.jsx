@@ -200,6 +200,29 @@ const Speakers = () => {
             {/* <li>
               <figure>
                 <img
+                  className="imagen-speaker"
+                  src="https://i.postimg.cc/J0fQbQ33/franklin-molina-ortiz.png"
+                  alt=""
+                />
+                <figcaption>
+                  <h3>FRANKLIN MOLINA ORTIZ</h3>
+                  <p>
+                    Cruceño y consultor de la industria energética.
+                    <a href="#franklin">...Leer más</a>
+                  </p>
+                  <div className="ver-mas">
+                    <div className="uni">
+                    </div>
+                    <div className="img">
+                      <img src="https://i.postimg.cc/RZ0rDT6j/ICONO-JETS-ROJO.png" alt="" />
+                    </div>
+                  </div>
+                </figcaption>
+              </figure>
+            </li> */}
+            {/* <li>
+              <figure>
+                <img
                   className="imagen-speaker unknown"
                   src="https://i.postimg.cc/4dKq1qSm/NI-A.png"
                   alt=""
@@ -313,13 +336,13 @@ const Speakers = () => {
           />
         </div>
       </div>
-      <div id="lenka" className="modal">
+      <div id="franklin" className="modal">
         <div className="modal-contenido">
           <a href="#speakers">
             <IoMdCloseCircle />
           </a>
           <img
-            src="https://i.postimg.cc/CLKbBcqJ/Lenka-Nemer-Dirpic.jpg"
+            src="https://i.postimg.cc/3NxcN98t/FRANKLIN-MOLINA.png"
             alt=""
           />
         </div>

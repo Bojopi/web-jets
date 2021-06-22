@@ -9,7 +9,7 @@
 }
 
 .cont-speakers {
-  padding-top: 170px;
+  padding: 150px 0;
 }
 
 .cont-speakers h1 {
@@ -239,6 +239,7 @@
   align-items: center;
 }
 
+/* #franklin:target, */
 #maira:target,
 #javier:target,
 #rodrigo:target,
@@ -252,7 +253,7 @@
   pointer-events: auto;
 }
 
-@media screen and (max-width: 1550px) {
+@media screen and (max-width: 2560px) {
   .cont-speakers .speakers .grid figure .imagen-speaker {
     width: 60%;
   }

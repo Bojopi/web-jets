@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 
 import "../css/cronometro.css";
 
@@ -7,6 +7,9 @@ import "../css/cronometro.css";
 import { BsArrowLeftShort } from "react-icons/bs";
 
 const Cronometro = () => {
+
+  let history = useHistory()
+
   const [timerDays, setTimerDays] = useState("00");
   const [timerHours, setTimerHours] = useState("00");
   const [timerMinutes, setTimerMinutes] = useState("00");
@@ -31,6 +34,10 @@ const Cronometro = () => {
       if (distance < 0) {
         //stop our timer
         clearInterval(interval.current);
+
+        //redirigir al inicio de sesión del juego
+        history.push('/jets/login-juego')
+
       } else {
         //actualizar timer
         setTimerDays(days);

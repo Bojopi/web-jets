@@ -11,12 +11,12 @@ const Empresas = () => {
         </div>
         <div className="slider">
           <div className="slider-track">
-            <div className="listas">
+            {/* <div className="listas">
               <img
                 src="https://res.cloudinary.com/utepsajets/image/upload/v1623158712/jets/empresas/WIST_UPIKU_LOGO_lqtwot.png"
                 alt=""
               />
-            </div>
+            </div> */}
             <div className="listas">
               <img
                 src="https://res.cloudinary.com/utepsajets/image/upload/v1623717856/jets/empresas/FARMACORP_LOGO_nm1g7m.png"
@@ -86,6 +86,12 @@ const Empresas = () => {
             <div className="listas">
               <img
                 src="https://res.cloudinary.com/utepsajets/image/upload/v1623785530/jets/empresas/ministerio2_za7wao.jpg"
+                alt=""
+              />
+            </div>
+            <div className="listas">
+              <img
+                src="https://res.cloudinary.com/utepsajets/image/upload/v1624382875/jets/empresas/GRUPO_LA_PAPELERA_hlejto.png"
                 alt=""
               />
             </div>

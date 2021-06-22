@@ -61,7 +61,7 @@ const LoginJuego = () => {
 						/>
 						<input type="submit" value="ACCEDER" className="btn-enviar" />
 					</form>
-					<Link to="/" className="inicio">
+					<Link to="/jets" className="inicio">
 						<BsArrowLeftShort/>
 						Página de inicio
 					</Link>
