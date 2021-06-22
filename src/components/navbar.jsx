@@ -113,6 +113,11 @@ const Navbar = () => {
               </Enlace>
             </li>
             <li class="nav-item">
+              <Link to={"/jets/inscripcion"} className="inscribirse nav-link">
+                INSCRÍBETE AHORA
+              </Link>
+            </li>
+            <li class="nav-item">
               <Link to={"/jets/evento"} className="entrar-juego nav-link">
                 EVENTO ONLINE
               </Link>
