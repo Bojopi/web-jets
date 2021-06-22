@@ -30,6 +30,16 @@
 .navbar-nav {
   text-align: center;
 }
+
+.inscribir-nav {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .inscribir-nav {
+    display: block;
+  }
+}
 /* .navbar {
   width: 100%;
   height: 50px;

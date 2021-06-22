@@ -1,16 +1,60 @@
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .menu-inscripcion {
-	width: 100%;
-	height: 100vh;
-	padding: 100px 0 50px 0;
-	display: flex;
-	flex-wrap: wrap;
+  display: none;
 }
 
+@media screen and (max-width: 768px) {
+  .menu-inscripcion {
+    display: block;
+    width: 100%;
+    padding: 50px 50px;
+  }
+
+  .menu-inscripcion .contenedor-inscrito {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tit-inscripcion {
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .tit-inscripcion .span-utepsa {
+    margin-left: 5px;
+    font-weight: 800;
+  }
+
+  .btn-inscripcion {
+    background-color: #cf0a2c;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 25px;
+  }
+
+  .btn-inscripcion:hover {
+    background-color: #da3652;
+    color: white;
+  }
+
+  .btn-inscripcion:focus {
+    background-color: #da3652;
+    color: white;
+  }
+}
+
+/*
 .contenedor-img,
 .contenedor-sesion {
 	width: 50%;
@@ -28,8 +72,6 @@
 }
 
 .contenedor-sesion {
-	/* background-color: #d1e6ee; */
-	/* background-color: #1e3d52; */
 	background-color: #004f84;
 }
 
@@ -44,7 +86,6 @@
 
 .form .grupo-form {
 	width: 100%;
-	/* height: 60px; */
 	display: flex;
 	flex-direction: column;
 }
@@ -75,10 +116,4 @@
     border: 3px solid #357791;
     box-shadow: 1px 1px 10px 5px #91d2ec;
     background-color: rgba(255, 255, 255, 0.8);
-}
-
-.footer {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-}
+} */

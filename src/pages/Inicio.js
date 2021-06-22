@@ -13,6 +13,7 @@ import Speakers from '../components/speakers'
 import Contacto from '../components/contacto'
 import Convocatorias from '../components/convocatorias'
 import Universidades from '../components/universidades'
+import Inscripcion from '../components/inscripcion'
 
 function Inicio() {
   return (
@@ -27,6 +28,7 @@ function Inicio() {
         <Convocatorias/>
         <Galeria/>
         <Contacto/>
+        <Inscripcion />
         <Footer/>
     </Fragment>
   );

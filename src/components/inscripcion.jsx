@@ -1,11 +1,18 @@
 import React from 'react'
 
-// import '../css/inscripcion.css'
+import '../css/inscripcion.css'
 
 const Inscripcion = () => {
     return(
         <div className="menu-inscripcion" id="inscripcion">
-            <div className="contenedor-img">
+            <div className="contenedor-inscrito">
+                <p className="tit-inscripcion">Inscripción de estudiantes <span className="span-utepsa">UTEPSA</span></p>
+                <a href="https://api-jets-3.herokuapp.com/" className="btn-inscripcion">
+                    INSCRIBIRSE
+                </a>
+            </div>
+
+            {/* <div className="contenedor-img">
                 <h1>INICIA SESIÓN PARA INSCRIBIRTE</h1>
             </div>
             <div className="contenedor-sesion">
@@ -25,7 +32,7 @@ const Inscripcion = () => {
                         <input type="submit" value="ACCEDER" />
                     </div>
                 </form>
-            </div>
+            </div> */}
         </div>
     )
 }

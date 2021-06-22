@@ -112,11 +112,23 @@ const Navbar = () => {
                 CONTÁCTANOS
               </Enlace>
             </li>
-            <li class="nav-item">
+            <li class="nav-item inscribir-nav">
+              <Enlace
+                className="nav-link"
+                to="inscripcion"
+                spy={true}
+                smooth={true}
+                offset={-150}
+                duration={500}
+              >
+                INSCRÍBETE AHORA
+              </Enlace>
+            </li>
+            {/* <li class="nav-item">
               <Link to={"/jets/inscripcion"} className="inscribirse nav-link">
                 INSCRÍBETE AHORA
               </Link>
-            </li>
+            </li> */}
             <li class="nav-item">
               <Link to={"/jets/evento"} className="entrar-juego nav-link">
                 EVENTO ONLINE
