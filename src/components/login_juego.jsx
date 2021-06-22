@@ -37,7 +37,7 @@ const LoginJuego = () => {
 			<div className="contenedor-login">
 				<div className="top">
 					<img src="https://i.postimg.cc/RZ0rDT6j/ICONO-JETS-ROJO.png" alt="" className="logo" />
-					<h1>INICIAR SESION</h1>
+					<h1>INICIAR SESIÓN</h1>
 				</div>
 				<div className="formulario">
 					<form onSubmit={onSubmit}>
