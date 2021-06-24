@@ -55,10 +55,16 @@ const Empresas = () => {
             </div>
             <div className="listas">
               <img
-                src="https://res.cloudinary.com/utepsajets/image/upload/v1623436507/jets/empresas/BANCO_GANADERO_LOGO_udt3yy.png"
+                src="https://res.cloudinary.com/utepsajets/image/upload/v1624550798/jets/empresas/BANCO_GANADERO_LOGO_2_rdcho7.png"
                 alt=""
               />
             </div>
+            {/* <div className="listas">
+              <img
+                src="https://res.cloudinary.com/utepsajets/image/upload/v1623436507/jets/empresas/BANCO_GANADERO_LOGO_udt3yy.png"
+                alt=""
+              />
+            </div> */}
             <div className="listas">
               <img
                 src="https://res.cloudinary.com/utepsajets/image/upload/v1622986942/jets/empresas/CAINCO_LOGO_gzhyxn.png"
@@ -136,10 +142,16 @@ const Empresas = () => {
             </div>
             <div className="listas">
               <img
-                src="https://res.cloudinary.com/utepsajets/image/upload/v1623436507/jets/empresas/BANCO_GANADERO_LOGO_udt3yy.png"
+                src="https://res.cloudinary.com/utepsajets/image/upload/v1624550798/jets/empresas/BANCO_GANADERO_LOGO_2_rdcho7.png"
                 alt=""
               />
             </div>
+            {/* <div className="listas">
+              <img
+                src="https://res.cloudinary.com/utepsajets/image/upload/v1623436507/jets/empresas/BANCO_GANADERO_LOGO_udt3yy.png"
+                alt=""
+              />
+            </div> */}
             <div className="listas">
               <img
                 src="https://res.cloudinary.com/utepsajets/image/upload/v1622986942/jets/empresas/CAINCO_LOGO_gzhyxn.png"

@@ -331,7 +331,7 @@ const Speakers = () => {
             <IoMdCloseCircle />
           </a>
           <img
-            src="https://i.postimg.cc/15QcWDNB/PEDRO-L-PEZ.png"
+            src="https://i.postimg.cc/CLwPQBRG/jets-horizontal-rodrigo-final-de-bryana.png"
             alt=""
           />
         </div>
