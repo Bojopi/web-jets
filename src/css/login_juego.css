@@ -108,8 +108,10 @@
 }
 
 .login-juego .contenedor-login .formulario form .campo-input:focus {
-    border: 2px solid #cf0a2c;
-    box-shadow: 2px 2px 10px 5px #e63e5a;
+    /* border: 2px solid #cf0a2c;
+    box-shadow: 2px 2px 10px 5px #e63e5a; */
+    border: 3px solid rgb(76, 152, 196);
+    box-shadow: 2px 2px 10px 5px rgb(125, 192, 231);
     /* box-shadow: 2px 2px 10px 5px rgb(109, 106, 106); */
     border-radius: 20px;
 }

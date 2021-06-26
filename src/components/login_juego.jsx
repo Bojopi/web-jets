@@ -28,7 +28,22 @@ const LoginJuego = () => {
 	const onSubmit = (e) => {
 		e.preventDefault()
 		//validación de campos vacíos
+		const usu = document.getElementById("user")
+		const pass = document.getElementById("password")
 
+		if (user.trim() === "") {
+			usu.style.border = "3px solid #cf0a2c"
+			usu.style.borderRadius = "20px"
+			usu.placeholder = "Nombre de usuario obligatorio"
+		} else {
+			if (password.trim() === "") {
+				pass.style.border = "3px solid #cf0a2c"
+				pass.style.borderRadius = "20px"
+				pass.placeholder = "Nombre de usuario obligatorio"
+			} else {
+				alert(`El usuario ${user} y la contraseña ${password} están logueados`)
+			}
+		}
 		//pasar al action
 	}
 
@@ -40,7 +55,7 @@ const LoginJuego = () => {
 					<h1>INICIAR SESIÓN</h1>
 				</div>
 				<div className="formulario">
-					<form onSubmit={onSubmit}>
+					<form onSubmit={onSubmit} noValidate>
 						<input
 							className="campo-input"
 							type="text"
