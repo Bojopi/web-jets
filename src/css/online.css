@@ -1,0 +1,114 @@
+
+.cont-juegoOnline {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.juego {
+    width: 100%;
+    height: 92%;
+    display: flex;
+    justify-content: center;
+}
+
+.juego-capa {
+    width: 100%;
+    height: 100%;
+}
+
+.header-juego{
+    background-color: #cf0a2c;
+    color: white;
+    width: 100%;
+    height: 8%;
+}
+
+.cerrar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cerrar-sesion {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.header-juego .titulo-juego{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.header-juego .titulo-juego .logo-juego {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-juego .titulo-juego .logo-juego .icono-juego {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-juego .titulo-juego .logo-juego .icono-juego img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.header-juego .titulo-juego .logo-juego .icono-juego img:hover {
+    transform: rotate(360deg);
+}
+
+.header-juego .titulo-juego .cont-tit-juego {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.header-juego .titulo-juego .cont-tit-juego .tit-jets-juego {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.header-juego .titulo-juego .cont-tit-juego .tit-jets-juego h1 {
+    font-family: 'NFL RedZone';
+    margin: 0;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.header-juego .titulo-juego .cont-tit-juego .tit-texto-juego {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-juego .titulo-juego .tit-texto-juego h3 {
+    width: 70%;
+    text-align: center;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 770;
+}

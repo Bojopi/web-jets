@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 
 import Login from '../components/login_juego'
 
-function Inicio() {
+function LogIn() {
   return (
     <Fragment>
       <div className="container">
@@ -12,4 +12,4 @@ function Inicio() {
   );
 }
 
-export default Inicio;
+export default LogIn;

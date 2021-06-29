@@ -18,7 +18,7 @@ const LoginJuego = () => {
 	useEffect(() => {
 		if (autenticado) {
 			// history.push('/jets')
-			history.push('/jets/evento-online')
+			history.push('/jets/juego')
 		}
 	}, [autenticado, history])
 
