@@ -3,9 +3,6 @@ import { Link, useHistory } from "react-router-dom";
 
 import "../css/cronometro.css";
 
-//iconos
-import { BsArrowLeftShort } from "react-icons/bs";
-
 const Cronometro = () => {
 
   let history = useHistory()

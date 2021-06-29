@@ -8,6 +8,9 @@ import {
     CERRAR_SESION
 } from '../../types'
 
+import clienteAxios from '../../config/axios'
+import tokenAuth from '../../config/tokenAuth'
+
 
 const AuthState = props => {
     const initialState = {
@@ -20,7 +23,50 @@ const AuthState = props => {
     const [ state, dispatch ] = useReducer(AuthReducer, initialState)
 
     //las funciones
+    
+    //retornar el usuario autenticado
+    const usuarioAutenticado = async() => {
+        const token = localStorage.getItem('token')
+        if (token) {
+            //TODO: funcion para enviar el toke por headers
+            tokenAuth(token)
+        }
+        try {
+            const respuesta = await clienteAxios.get('/api/auth')
+            // console.log(respuesta)
+            dispatch({
+                type: OBTENER_USUARIO,
+                payload: respuesta.data.usuario
+            })
+        } catch (error) {
+            console.log(error)
+            dispatch({
+                type: LOGIN_ERROR
+            })
+        }
+    }
 
+    //cuando el usuario inicia sesion
+    const iniciarSesion = async datos => {
+        try {
+            const respuesta = await clienteAxios.post('/api/auth', datos)
+            
+            dispatch({
+                type: LOGIN_EXITOSO,
+                payload: respuesta.data
+            })
+
+            //obtener el usuario
+            usuarioAutenticado()
+        } catch (error) {
+            console.log(error.response.data.msg)
+            // console.log(error)
+            // alert('El usuario no existe')
+            dispatch({
+                type: LOGIN_ERROR
+            })
+        }
+    }
 
     return(
         <AuthContext.Provider
@@ -28,7 +74,8 @@ const AuthState = props => {
                 token: state.token,
                 autenticado: state.autenticado,
                 usuario: state.usuario,
-                mensaje: state.mensaje
+                mensaje: state.mensaje,
+                iniciarSesion
             }}
         >
             {props.children}

@@ -1,5 +1,6 @@
-import React, {useState} from 'react'
-import {Link} from 'react-router-dom'
+import React, {useState, useContext, useEffect} from 'react'
+import {Link, useHistory} from 'react-router-dom'
+import AuthContext from '../context/autenticacion/authContext'
 
 import '../css/login_juego.css'
 
@@ -8,14 +9,27 @@ import { BsArrowLeftShort } from 'react-icons/bs'
 
 
 const LoginJuego = () => {
+	let history = useHistory()
+
+	const authContext = useContext(AuthContext)
+	const { autenticado, iniciarSesion } = authContext
+
+	//en caso de que el password o usuario no exista
+	useEffect(() => {
+		if (autenticado) {
+			// history.push('/jets')
+			history.push('/jets/evento-online')
+		}
+	}, [autenticado, history])
+
 	//State para iniciar sesión
 	const [usuario, guardarUsuario] = useState({
-		user: '',
+		username: '',
 		password: '',
 	})
 
 	//extraer usuario
-	const {user, password} = usuario
+	const {username, password} = usuario
 
 	const onChange = (e) => {
 		guardarUsuario({
@@ -28,23 +42,30 @@ const LoginJuego = () => {
 	const onSubmit = (e) => {
 		e.preventDefault()
 		//validación de campos vacíos
-		const usu = document.getElementById("user")
+		const usu = document.getElementById("username")
 		const pass = document.getElementById("password")
 
-		if (user.trim() === "") {
+		if (username.trim() === "") {
 			usu.style.border = "3px solid #cf0a2c"
 			usu.style.borderRadius = "20px"
 			usu.placeholder = "Nombre de usuario obligatorio"
 		} else {
+			usu.style.border = "none"
+			usu.style.borderBottom = "3px solid rgb(76, 152, 196)"
+			usu.style.borderRadius = "0px"
 			if (password.trim() === "") {
 				pass.style.border = "3px solid #cf0a2c"
 				pass.style.borderRadius = "20px"
 				pass.placeholder = "Nombre de usuario obligatorio"
 			} else {
-				alert(`El usuario ${user} y la contraseña ${password} están logueados`)
+				pass.style.border = "none"
+				pass.style.borderBottom = "3px solid rgb(76, 152, 196)"
+				pass.style.borderRadius = "0px"
+				// alert(`El usuario ${user} y la contraseña ${password} están logueados`)
 			}
 		}
 		//pasar al action
+		iniciarSesion({ username, password })
 	}
 
 	return (
@@ -59,9 +80,9 @@ const LoginJuego = () => {
 						<input
 							className="campo-input"
 							type="text"
-							name="user"
-							id="user"
-							value={user}
+							name="username"
+							id="username"
+							value={username}
 							placeholder=" Ingresa tu nombre de usuario"
 							onChange={onChange}
 						/>
