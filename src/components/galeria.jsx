@@ -29,7 +29,7 @@ const Galeria = () => {
                   <div className="card-galeria">
                     <div className="img">
                       <img
-                        src="https://i.postimg.cc/SR9tq7vy/IMG-7758.jpg"
+                        src="https://i.postimg.cc/wxhvXh8q/DSC-0047.jpg"
                         alt=""
                       />
                     </div>
@@ -41,7 +41,7 @@ const Galeria = () => {
                   <div className="card-galeria">
                     <div className="img">
                       <img
-                        src="https://i.postimg.cc/fRCqwbB0/IMG-7763.jpg"
+                        src="https://i.postimg.cc/0ytr6Pg7/DSC-0057.jpg"
                         alt=""
                       />
                     </div>
@@ -53,7 +53,7 @@ const Galeria = () => {
                   <div className="card-galeria">
                     <div className="img">
                       <img
-                        src="https://i.postimg.cc/VLjHVgtg/IMG-7778.jpg"
+                        src="https://i.postimg.cc/qqXvpdXh/DSC-0071.jpg"
                         alt=""
                       />
                     </div>
@@ -67,7 +67,7 @@ const Galeria = () => {
                   <div className="card-galeria">
                     <div className="img">
                       <img
-                        src="https://i.postimg.cc/L8tvx8rb/IMG-7810.jpg"
+                        src="https://i.postimg.cc/kXq5fBqx/DSC-0075.jpg"
                         alt=""
                       />
                     </div>
@@ -79,7 +79,7 @@ const Galeria = () => {
                   <div className="card-galeria">
                     <div className="img">
                       <img
-                        src="https://i.postimg.cc/VkmHQtB8/IMG-7748.jpg"
+                        src="https://i.postimg.cc/4yT3C3tR/DSC-0083.jpg"
                         alt=""
                       />
                     </div>
@@ -91,7 +91,273 @@ const Galeria = () => {
                   <div className="card-galeria">
                     <div className="img">
                       <img
-                        src="https://i.postimg.cc/ZK31hZGr/IMG-7780.jpg"
+                        src="https://i.postimg.cc/pLdLM49r/DSC-0102.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span>
+                      <h3>Este es el titulo</h3>
+                      <p>Aqui va la descripción de la imagen</p>
+                    </span>
+                  </div>
+                </div>
+                <div className="cont-cards">
+                  <div className="card-galeria">
+                    <div className="img">
+                      <img
+                        src="https://i.postimg.cc/ZqCnp2Z2/DSC-0126.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span>
+                      <h3>Este es el titulo</h3>
+                      <p>Aqui va la descripción de la imagen</p>
+                    </span>
+                  </div>
+                  <div className="card-galeria">
+                    <div className="img">
+                      <img
+                        src="https://i.postimg.cc/5Ng2Gb2D/DSC-0130.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span>
+                      <h3>Este es el titulo</h3>
+                      <p>Aqui va la descripción de la imagen</p>
+                    </span>
+                  </div>
+                  <div className="card-galeria">
+                    <div className="img">
+                      <img
+                        src="https://i.postimg.cc/Qdnx8m5b/DSC-0139.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span>
+                      <h3>Este es el titulo</h3>
+                      <p>Aqui va la descripción de la imagen</p>
+                    </span>
+                  </div>
+                </div>
+                <div className="cont-cards">
+                  <div className="card-galeria">
+                    <div className="img">
+                      <img
+                        src="https://i.postimg.cc/bvDYsn9j/DSC-0140.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span>
+                      <h3>Este es el titulo</h3>
+                      <p>Aqui va la descripción de la imagen</p>
+                    </span>
+                  </div>
+                  <div className="card-galeria">
+                    <div className="img">
+                      <img
+                        src="https://i.postimg.cc/ZR6TLhQ7/DSC-0151.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span>
+                      <h3>Este es el titulo</h3>
+                      <p>Aqui va la descripción de la imagen</p>
+                    </span>
+                  </div>
+                  <div className="card-galeria">
+                    <div className="img">
+                      <img
+                        src="https://i.postimg.cc/hPDSV61s/DSC-0162.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span>
+                      <h3>Este es el titulo</h3>
+                      <p>Aqui va la descripción de la imagen</p>
+                    </span>
+                  </div>
+                </div>
+                <div className="cont-cards">
+                  <div className="card-galeria">
+                    <div className="img">
+                      <img
+                        src="https://i.postimg.cc/NFYQJzqg/DSC-0163.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span>
+                      <h3>Este es el titulo</h3>
+                      <p>Aqui va la descripción de la imagen</p>
+                    </span>
+                  </div>
+                  <div className="card-galeria">
+                    <div className="img">
+                      <img
+                        src="https://i.postimg.cc/h4bDzcTh/DSC-0169.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span>
+                      <h3>Este es el titulo</h3>
+                      <p>Aqui va la descripción de la imagen</p>
+                    </span>
+                  </div>
+                  <div className="card-galeria">
+                    <div className="img">
+                      <img
+                        src="https://i.postimg.cc/X7snLL2b/DSC-0170.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span>
+                      <h3>Este es el titulo</h3>
+                      <p>Aqui va la descripción de la imagen</p>
+                    </span>
+                  </div>
+                </div>
+                <div className="cont-cards">
+                  <div className="card-galeria">
+                    <div className="img">
+                      <img
+                        src="https://i.postimg.cc/4y5srQsp/DSC-0172.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span>
+                      <h3>Este es el titulo</h3>
+                      <p>Aqui va la descripción de la imagen</p>
+                    </span>
+                  </div>
+                  <div className="card-galeria">
+                    <div className="img">
+                      <img
+                        src="https://i.postimg.cc/rs8LCRxs/DSC-0187.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span>
+                      <h3>Este es el titulo</h3>
+                      <p>Aqui va la descripción de la imagen</p>
+                    </span>
+                  </div>
+                  <div className="card-galeria">
+                    <div className="img">
+                      <img
+                        src="https://i.postimg.cc/4NSrnSLm/DSC-0189.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span>
+                      <h3>Este es el titulo</h3>
+                      <p>Aqui va la descripción de la imagen</p>
+                    </span>
+                  </div>
+                </div>
+                <div className="cont-cards">
+                  <div className="card-galeria">
+                    <div className="img">
+                      <img
+                        src="https://i.postimg.cc/NGPNxr1n/DSC-0191.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span>
+                      <h3>Este es el titulo</h3>
+                      <p>Aqui va la descripción de la imagen</p>
+                    </span>
+                  </div>
+                  <div className="card-galeria">
+                    <div className="img">
+                      <img
+                        src="https://i.postimg.cc/xdR5Nkft/DSC-0198.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span>
+                      <h3>Este es el titulo</h3>
+                      <p>Aqui va la descripción de la imagen</p>
+                    </span>
+                  </div>
+                  <div className="card-galeria">
+                    <div className="img">
+                      <img
+                        src="https://i.postimg.cc/15kJkh7c/DSC-0200.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span>
+                      <h3>Este es el titulo</h3>
+                      <p>Aqui va la descripción de la imagen</p>
+                    </span>
+                  </div>
+                </div>
+                <div className="cont-cards">
+                  <div className="card-galeria">
+                    <div className="img">
+                      <img
+                        src="https://i.postimg.cc/Hxk2wpjH/DSC-0208.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span>
+                      <h3>Este es el titulo</h3>
+                      <p>Aqui va la descripción de la imagen</p>
+                    </span>
+                  </div>
+                  <div className="card-galeria">
+                    <div className="img">
+                      <img
+                        src="https://i.postimg.cc/s2yK2PrM/DSC-0217.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span>
+                      <h3>Este es el titulo</h3>
+                      <p>Aqui va la descripción de la imagen</p>
+                    </span>
+                  </div>
+                  <div className="card-galeria">
+                    <div className="img">
+                      <img
+                        src="https://i.postimg.cc/JnYQK9BX/DSC-0279.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span>
+                      <h3>Este es el titulo</h3>
+                      <p>Aqui va la descripción de la imagen</p>
+                    </span>
+                  </div>
+                </div>
+                <div className="cont-cards">
+                  <div className="card-galeria">
+                    <div className="img">
+                      <img
+                        src="https://i.postimg.cc/vT1tK3WN/DSC-0296.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span>
+                      <h3>Este es el titulo</h3>
+                      <p>Aqui va la descripción de la imagen</p>
+                    </span>
+                  </div>
+                  <div className="card-galeria">
+                    <div className="img">
+                      <img
+                        src="https://i.postimg.cc/7hpnr09Y/DSC-0300.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <span>
+                      <h3>Este es el titulo</h3>
+                      <p>Aqui va la descripción de la imagen</p>
+                    </span>
+                  </div>
+                  <div className="card-galeria">
+                    <div className="img">
+                      <img
+                        src="https://i.postimg.cc/Pfc4DnHs/DSC-0304.jpg"
                         alt=""
                       />
                     </div>

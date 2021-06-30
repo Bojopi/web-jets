@@ -27,7 +27,7 @@ function App() {
           <Route exact path="/jets/usuariosWeb" component={UsuariosWeb}></Route>
           <Route exact path="/jets/memorias" component={Memorias}></Route>
           <Route exact path="/jets/certificados" component={Certificados}></Route>
-          <Route path="/jets/evento" component={LogIn}></Route>
+          <Route exact path="/jets/evento" component={LogIn}></Route>
           <RutaPrivada exact path="/jets/juego" component={Online}></RutaPrivada>
           {/* <Route exact path="/jets/evento" component={Cronometro}></Route> */}
           <Route exact path="/jets/online" component={() => {

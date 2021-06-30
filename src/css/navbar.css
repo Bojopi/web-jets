@@ -35,9 +35,17 @@
   display: none;
 }
 
+.evento-nav {
+  display: block;
+}
+
 @media screen and (max-width: 768px) {
   .inscribir-nav {
     display: block;
+  }
+
+  .evento-nav {
+    display: none;
   }
 }
 /* .navbar {
