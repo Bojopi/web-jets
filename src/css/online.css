@@ -1,115 +1,177 @@
-
 .cont-juegoOnline {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .juego {
-    width: 100%;
-    height: 92%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 92%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .juego-capa {
-    width: 100%;
-    height: 95%;
+  width: 100%;
+  height: 95%;
 }
 
-.header-juego{
-    background-color: #cf0a2c;
-    color: white;
-    width: 100%;
-    height: 8%;
+.header-juego {
+  background-color: #cf0a2c;
+  color: white;
+  width: 100%;
+  height: 8%;
 }
 
 .cerrar {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cerrar li {
+  list-style: none;
 }
 
 .cerrar-sesion {
-    background-color: black;
-    color: white;
-    border-radius: 20px;
-    padding: 5px;
+  margin-right: 10px;
 }
 
-.header-juego .titulo-juego{
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: 20% 60% 20%;
+.header-juego .titulo-juego {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
 }
 
 .header-juego .titulo-juego .logo-juego {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header-juego .titulo-juego .logo-juego .icono-juego {
-    width: 55px;
-    height: 55px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header-juego .titulo-juego .logo-juego .icono-juego img {
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
-    transition: 1s;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transition: 1s;
 }
 
 .header-juego .titulo-juego .logo-juego .icono-juego img:hover {
-    transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
 .header-juego .titulo-juego .cont-tit-juego {
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
 }
 
 .header-juego .titulo-juego .cont-tit-juego .tit-jets-juego {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .header-juego .titulo-juego .cont-tit-juego .tit-jets-juego h1 {
-    font-family: 'NFL RedZone';
-    margin: 0;
-    font-size: 19px;
-    font-weight: 600;
+  font-family: "NFL RedZone";
+  margin: 0;
+  font-size: 19px;
+  font-weight: 600;
 }
 
 .header-juego .titulo-juego .cont-tit-juego .tit-texto-juego {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .header-juego .titulo-juego .tit-texto-juego h3 {
-    width: 70%;
-    text-align: center;
-    margin: 0;
-    font-size: 15px;
-    font-weight: 770;
+  width: 70%;
+  text-align: center;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 770;
 }
+
+.dropdown-menu li {
+  position: relative;
+}
+.dropdown-menu .dropdown-submenu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: -7px;
+}
+.dropdown-menu .dropdown-submenu-left {
+  right: 100%;
+  left: auto;
+}
+.dropdown-menu > li:hover > .dropdown-submenu {
+  display: block;
+}
+
+/* ventana modal */
+.modal-contenido {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .modal-contenido iframe {
+    width: 100%;
+  }
+  
+  .modal-contenido a {
+    text-decoration: none;
+    position: absolute;
+    font-size: 45px;
+    top: -10px;
+    right: 9px;
+    color: #fff;
+    padding: 0;
+  }
+  
+  .modal {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.5s;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+  }
+  
+  #foro1:target,
+  #foro2:target,
+  #foro3:target,
+  #foro4:target
+   {
+    opacity: 1;
+    pointer-events: auto;
+  }
