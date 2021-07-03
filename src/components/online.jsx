@@ -103,50 +103,18 @@ const Online = () => {
                     </li>
                   </ul>
                 </li>
-                {/* <li>
+                <li>
                   <a class="dropdown-item" href="#">
-                    Submenu
+                    Día 3
                   </a>
                   <ul class="dropdown-menu dropdown-submenu dropdown-submenu-left">
                     <li>
-                      <a class="dropdown-item" href="#">
-                        Submenu item 1
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        Submenu item 2
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        Submenu item 3
-                      </a>
-                      <ul class="dropdown-menu dropdown-submenu dropdown-submenu-left">
-                        <li>
-                          <a class="dropdown-item" href="#">
-                            Multi level 1
-                          </a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="#">
-                            Multi level 2
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        Submenu item 4
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        Submenu item 5
+                      <a class="dropdown-item" href="#foro5">
+                        "Emprender con un propósito"
                       </a>
                     </li>
                   </ul>
-                </li> */}
+                </li>
               </ul>
             </div>
 
@@ -200,6 +168,14 @@ const Online = () => {
             <IoMdCloseCircle />
           </a>
           <iframe src="https://drive.google.com/file/d/1ydEeY380_hAYft7JaXqkVJxPDLAIZHi2/preview" width="640" height="480"></iframe>
+        </div>
+      </div>
+      <div id="foro5" className="modal">
+        <div className="modal-contenido">
+          <a href="#">
+            <IoMdCloseCircle />
+          </a>
+          <iframe src="https://drive.google.com/file/d/1hszKEB9S22Y-qz2GWruHOj20Hpy76DU4/preview" width="640" height="480"></iframe>
         </div>
       </div>
     </div>

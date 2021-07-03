@@ -170,7 +170,8 @@
   #foro1:target,
   #foro2:target,
   #foro3:target,
-  #foro4:target
+  #foro4:target,
+  #foro5:target
    {
     opacity: 1;
     pointer-events: auto;
