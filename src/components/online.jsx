@@ -70,11 +70,6 @@ const Online = () => {
                   </a>
                   <ul class="dropdown-menu dropdown-submenu dropdown-submenu-left">
                     <li>
-                      <a class="dropdown-item" href="#">
-                        Acto de Inauguración
-                      </a>
-                    </li>
-                    <li>
                       <a class="dropdown-item" href="#foro1">
                         "Liderazgo y nuevos contextos"
                       </a>
@@ -101,6 +96,16 @@ const Online = () => {
                         "Liderazgo en emprendimiento global"
                       </a>
                     </li>
+                    <li>
+                      <a class="dropdown-item" href="#foro5-1">
+                        "Liderazgo transformacional" Parte 1
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#foro5-2">
+                        "Liderazgo transformacional" Parte 2
+                      </a>
+                    </li>
                   </ul>
                 </li>
                 <li>
@@ -109,8 +114,15 @@ const Online = () => {
                   </a>
                   <ul class="dropdown-menu dropdown-submenu dropdown-submenu-left">
                     <li>
-                      <a class="dropdown-item" href="#foro5">
+                      <a class="dropdown-item" href="#foro6">
                         "Emprender con un propósito"
+                      </a>
+                    </li>
+                  </ul>
+                  <ul class="dropdown-menu dropdown-submenu dropdown-submenu-left">
+                    <li>
+                      <a class="dropdown-item" href="#foro7">
+                        "Liderazgo e innovación"
                       </a>
                     </li>
                   </ul>
@@ -170,12 +182,36 @@ const Online = () => {
           <iframe src="https://drive.google.com/file/d/1ydEeY380_hAYft7JaXqkVJxPDLAIZHi2/preview" width="640" height="480"></iframe>
         </div>
       </div>
-      <div id="foro5" className="modal">
+      <div id="foro5-1" className="modal">
+        <div className="modal-contenido">
+          <a href="#">
+            <IoMdCloseCircle />
+          </a>
+          <iframe src="https://drive.google.com/file/d/1Fb1jM8IEER2CPzUwScBwBY5uUoKo-yPp/preview" width="640" height="480"></iframe>
+        </div>
+      </div>
+      <div id="foro5-2" className="modal">
+        <div className="modal-contenido">
+          <a href="#">
+            <IoMdCloseCircle />
+          </a>
+          <iframe src="https://drive.google.com/file/d/1PEvYC06mW2yZy--bKmx-UFa_0FUIAn_y/preview" width="640" height="480"></iframe>
+        </div>
+      </div>
+      <div id="foro6" className="modal">
         <div className="modal-contenido">
           <a href="#">
             <IoMdCloseCircle />
           </a>
           <iframe src="https://drive.google.com/file/d/1hszKEB9S22Y-qz2GWruHOj20Hpy76DU4/preview" width="640" height="480"></iframe>
+        </div>
+      </div>
+      <div id="foro7" className="modal">
+        <div className="modal-contenido">
+          <a href="#">
+            <IoMdCloseCircle />
+          </a>
+          <iframe src="https://drive.google.com/file/d/18clzO2aQyVChGbBcECgp6M8rgxYWYmDb/preview" width="640" height="480"></iframe>
         </div>
       </div>
     </div>
