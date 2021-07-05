@@ -171,7 +171,10 @@
   #foro2:target,
   #foro3:target,
   #foro4:target,
-  #foro5:target
+  #foro5-1:target,
+  #foro5-2:target,
+  #foro6:target,
+  #foro7:target
    {
     opacity: 1;
     pointer-events: auto;
