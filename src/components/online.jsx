@@ -118,8 +118,6 @@ const Online = () => {
                         "Emprender con un propósito"
                       </a>
                     </li>
-                  </ul>
-                  <ul class="dropdown-menu dropdown-submenu dropdown-submenu-left">
                     <li>
                       <a class="dropdown-item" href="#foro7">
                         "Liderazgo e innovación"
@@ -155,7 +153,11 @@ const Online = () => {
           <a href="#">
             <IoMdCloseCircle />
           </a>
-          <iframe src="https://drive.google.com/file/d/1qltBgLNUm-Tm1E-q_lhx-zCVl2J2atjQ/preview" width="640" height="480"></iframe>
+          <iframe
+            src="https://drive.google.com/file/d/1qltBgLNUm-Tm1E-q_lhx-zCVl2J2atjQ/preview"
+            width="640"
+            height="480"
+          ></iframe>
         </div>
       </div>
       <div id="foro2" className="modal">
@@ -163,7 +165,11 @@ const Online = () => {
           <a href="#">
             <IoMdCloseCircle />
           </a>
-          <iframe src="https://drive.google.com/file/d/1iU965MIJPPUyEaHcpMwlsQ2u-kcWs15f/preview" width="640" height="480"></iframe>
+          <iframe
+            src="https://drive.google.com/file/d/1iU965MIJPPUyEaHcpMwlsQ2u-kcWs15f/preview"
+            width="640"
+            height="480"
+          ></iframe>
         </div>
       </div>
       <div id="foro3" className="modal">
@@ -171,7 +177,11 @@ const Online = () => {
           <a href="#">
             <IoMdCloseCircle />
           </a>
-          <iframe src="https://drive.google.com/file/d/1F4bWBuYQYlUSXTu69ixadeJwgRISDmnr/preview" width="640" height="480"></iframe>
+          <iframe
+            src="https://drive.google.com/file/d/1F4bWBuYQYlUSXTu69ixadeJwgRISDmnr/preview"
+            width="640"
+            height="480"
+          ></iframe>
         </div>
       </div>
       <div id="foro4" className="modal">
@@ -179,7 +189,11 @@ const Online = () => {
           <a href="#">
             <IoMdCloseCircle />
           </a>
-          <iframe src="https://drive.google.com/file/d/1ydEeY380_hAYft7JaXqkVJxPDLAIZHi2/preview" width="640" height="480"></iframe>
+          <iframe
+            src="https://drive.google.com/file/d/1ydEeY380_hAYft7JaXqkVJxPDLAIZHi2/preview"
+            width="640"
+            height="480"
+          ></iframe>
         </div>
       </div>
       <div id="foro5-1" className="modal">
@@ -187,7 +201,11 @@ const Online = () => {
           <a href="#">
             <IoMdCloseCircle />
           </a>
-          <iframe src="https://drive.google.com/file/d/1Fb1jM8IEER2CPzUwScBwBY5uUoKo-yPp/preview" width="640" height="480"></iframe>
+          <iframe
+            src="https://drive.google.com/file/d/1Fb1jM8IEER2CPzUwScBwBY5uUoKo-yPp/preview"
+            width="640"
+            height="480"
+          ></iframe>
         </div>
       </div>
       <div id="foro5-2" className="modal">
@@ -195,7 +213,11 @@ const Online = () => {
           <a href="#">
             <IoMdCloseCircle />
           </a>
-          <iframe src="https://drive.google.com/file/d/1PEvYC06mW2yZy--bKmx-UFa_0FUIAn_y/preview" width="640" height="480"></iframe>
+          <iframe
+            src="https://drive.google.com/file/d/1PEvYC06mW2yZy--bKmx-UFa_0FUIAn_y/preview"
+            width="640"
+            height="480"
+          ></iframe>
         </div>
       </div>
       <div id="foro6" className="modal">
@@ -203,7 +225,11 @@ const Online = () => {
           <a href="#">
             <IoMdCloseCircle />
           </a>
-          <iframe src="https://drive.google.com/file/d/1hszKEB9S22Y-qz2GWruHOj20Hpy76DU4/preview" width="640" height="480"></iframe>
+          <iframe
+            src="https://drive.google.com/file/d/1hszKEB9S22Y-qz2GWruHOj20Hpy76DU4/preview"
+            width="640"
+            height="480"
+          ></iframe>
         </div>
       </div>
       <div id="foro7" className="modal">
@@ -211,7 +237,11 @@ const Online = () => {
           <a href="#">
             <IoMdCloseCircle />
           </a>
-          <iframe src="https://drive.google.com/file/d/18clzO2aQyVChGbBcECgp6M8rgxYWYmDb/preview" width="640" height="480"></iframe>
+          <iframe
+            src="https://drive.google.com/file/d/18clzO2aQyVChGbBcECgp6M8rgxYWYmDb/preview"
+            width="640"
+            height="480"
+          ></iframe>
         </div>
       </div>
     </div>
