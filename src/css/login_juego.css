@@ -142,3 +142,26 @@
 .login-juego .contenedor-login .formulario form input:focus {
     outline: none;
 }
+
+.login-juego .contenedor-login .formulario form .btn-generar {
+    border-radius: 20px;
+    box-shadow: 2px 5px 10px -4px #000;
+    width: 50%;
+    display: flex;
+    justify-self: flex-end;
+    justify-content: center;
+    background-color: #cf0a2c;
+    color: white;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.login-juego .contenedor-login .formulario form .btn-generar:hover {
+    background-color: white;
+    color: #cf0a2c;
+    transform: scale(1.1);
+}
+
+.login-juego .contenedor-login .formulario form .btn-generar:active {
+    transform: scale(.8);
+}

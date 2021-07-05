@@ -7,7 +7,7 @@ import Footer from '../components/footer'
 function Certificado() {
   return (
       <div className="container-memorias">
-        <Header/>
+        {/* <Header/> */}
         <Certificados/>
         {/* <Footer/> */}
       </div>
