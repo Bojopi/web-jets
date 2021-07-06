@@ -67,6 +67,50 @@ const AuthState = props => {
             })
         }
     }
+    
+    //retornar el usuario autenticado
+    const usuarioAutenticadoPdf = async() => {
+        const token = localStorage.getItem('token')
+        if (token) {
+            //TODO: funcion para enviar el toke por headers
+            tokenAuth(token)
+        }
+        try {
+            const respuesta = await clienteAxios.get('/api/pdf')
+            // console.log(respuesta)
+            dispatch({
+                type: OBTENER_USUARIO,
+                payload: respuesta.data.usuario
+            })
+        } catch (error) {
+            console.log(error)
+            dispatch({
+                type: LOGIN_ERROR
+            })
+        }
+    }
+
+    //cuando el usuario inicia sesion
+    const iniciarSesionPdf = async datos => {
+        try {
+            const respuesta = await clienteAxios.post('/api/pdf', datos)
+            
+            dispatch({
+                type: LOGIN_EXITOSO,
+                payload: respuesta.data
+            })
+
+            //obtener el usuario
+            usuarioAutenticadoPdf()
+        } catch (error) {
+            console.log(error.response.data.msg)
+            // console.log(error)
+            // alert('El usuario no existe')
+            dispatch({
+                type: LOGIN_ERROR
+            })
+        }
+    }
 
     //cerrar la sesion
     const cerrarSesion = () => {
@@ -85,6 +129,8 @@ const AuthState = props => {
                 mensaje: state.mensaje,
                 iniciarSesion,
                 usuarioAutenticado,
+                usuarioAutenticadoPdf,
+                iniciarSesionPdf,
                 cerrarSesion
             }}
         >

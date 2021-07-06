@@ -16,7 +16,7 @@
 
 import React, {useState, useContext, useEffect} from 'react'
 import {Link, useHistory} from 'react-router-dom'
-import AuthContext from '../context/autenticacion/authContext'
+import PdfContext from '../context/autenticacion/authContext'
 
 import '../css/login_juego.css'
 
@@ -27,16 +27,17 @@ import { BsArrowLeftShort } from 'react-icons/bs'
 const Certificado = () => {
 	let history = useHistory()
 
-	const authContext = useContext(AuthContext)
-	const { autenticado, iniciarSesion } = authContext
+	const pdfContext = useContext(PdfContext)
+	const { autenticado, iniciarSesionPdf } = pdfContext
 
 	//en caso de que el password o usuario no exista
 	useEffect(() => {
 		if (autenticado) {
-			history.push('/jets')
+			alert('autenticado')
+			// history.push('/jets')
 			// history.push('/jets/juego')
 		}
-	}, [autenticado, history])
+	}, [autenticado])
 
 	//State para iniciar sesión
 	const [usuario, guardarUsuario] = useState({
@@ -50,7 +51,7 @@ const Certificado = () => {
 	const onChange = (e) => {
 		guardarUsuario({
 			...usuario,
-			[e.target.name]: e.target.value,
+			[e.target.name]: e.target.value
 		})
 	}
 
@@ -81,7 +82,7 @@ const Certificado = () => {
 			}
 		}
 		//pasar al action
-		iniciarSesion({ username, password })
+		iniciarSesionPdf({ username, password })
 	}
 
 	return (

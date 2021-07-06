@@ -56,7 +56,7 @@ const LoginJuego = () => {
 			if (password.trim() === "") {
 				pass.style.border = "3px solid #cf0a2c"
 				pass.style.borderRadius = "20px"
-				pass.placeholder = "Nombre de usuario obligatorio"
+				pass.placeholder = "Contraseña obligatoria"
 			} else {
 				pass.style.border = "none"
 				pass.style.borderBottom = "3px solid rgb(76, 152, 196)"

@@ -70,6 +70,11 @@ const Online = () => {
                   </a>
                   <ul class="dropdown-menu dropdown-submenu dropdown-submenu-left">
                     <li>
+                      <a class="dropdown-item" href="#inauguracion">
+                        "Inauguración"
+                      </a>
+                    </li>
+                    <li>
                       <a class="dropdown-item" href="#foro1">
                         "Liderazgo y nuevos contextos"
                       </a>
@@ -121,6 +126,18 @@ const Online = () => {
                     <li>
                       <a class="dropdown-item" href="#foro7">
                         "Liderazgo e innovación"
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Día 4
+                  </a>
+                  <ul class="dropdown-menu dropdown-submenu dropdown-submenu-left">
+                    <li>
+                      <a class="dropdown-item" href="#clausura">
+                        "Clausura"
                       </a>
                     </li>
                   </ul>
@@ -242,6 +259,14 @@ const Online = () => {
             width="640"
             height="480"
           ></iframe>
+        </div>
+      </div>
+      <div id="inauguracion" className="modal">
+        <div className="modal-contenido">
+          <a href="#">
+            <IoMdCloseCircle />
+          </a>
+          <iframe width="900" height="506" src="https://www.youtube.com/embed/54hLTbF8VnE" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </div>
