@@ -111,6 +111,11 @@ const Online = () => {
                         "Liderazgo transformacional" Parte 2
                       </a>
                     </li>
+                    <li>
+                      <a class="dropdown-item" href="#foro6">
+                        "Perseverancia: Liderazgo Deportivo"
+                      </a>
+                    </li>
                   </ul>
                 </li>
                 <li>
@@ -119,13 +124,23 @@ const Online = () => {
                   </a>
                   <ul class="dropdown-menu dropdown-submenu dropdown-submenu-left">
                     <li>
-                      <a class="dropdown-item" href="#foro6">
+                      <a class="dropdown-item" href="#foro7">
+                        "Emprendimientos tecnológicos"
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#foro8">
                         "Emprender con un propósito"
                       </a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#foro7">
+                      <a class="dropdown-item" href="#foro9">
                         "Liderazgo e innovación"
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#foro10">
+                        "Emprendimiento Digital y la ruta del Emprendedor"
                       </a>
                     </li>
                   </ul>
@@ -243,7 +258,7 @@ const Online = () => {
             <IoMdCloseCircle />
           </a>
           <iframe
-            src="https://drive.google.com/file/d/1hszKEB9S22Y-qz2GWruHOj20Hpy76DU4/preview"
+            src="https://drive.google.com/file/d/1gkPAt4BlJ6sJs0FVyFCEZrREvPdyACm_/preview"
             width="640"
             height="480"
           ></iframe>
@@ -255,7 +270,43 @@ const Online = () => {
             <IoMdCloseCircle />
           </a>
           <iframe
+            src="https://drive.google.com/file/d/1a9YzTnJWIQKKJHswPKEKs4cYRr_JP6yO/preview"
+            width="640"
+            height="480"
+          ></iframe>
+        </div>
+      </div>
+      <div id="foro8" className="modal">
+        <div className="modal-contenido">
+          <a href="#">
+            <IoMdCloseCircle />
+          </a>
+          <iframe
+            src="https://drive.google.com/file/d/1hszKEB9S22Y-qz2GWruHOj20Hpy76DU4/preview"
+            width="640"
+            height="480"
+          ></iframe>
+        </div>
+      </div>
+      <div id="foro9" className="modal">
+        <div className="modal-contenido">
+          <a href="#">
+            <IoMdCloseCircle />
+          </a>
+          <iframe
             src="https://drive.google.com/file/d/18clzO2aQyVChGbBcECgp6M8rgxYWYmDb/preview"
+            width="640"
+            height="480"
+          ></iframe>
+        </div>
+      </div>
+      <div id="foro10" className="modal">
+        <div className="modal-contenido">
+          <a href="#">
+            <IoMdCloseCircle />
+          </a>
+          <iframe
+            src="https://drive.google.com/file/d/1gy_dKAL_N5rEzZIj6WELjluTtPdiJmZ9/preview"
             width="640"
             height="480"
           ></iframe>
@@ -266,7 +317,15 @@ const Online = () => {
           <a href="#">
             <IoMdCloseCircle />
           </a>
-          <iframe width="900" height="506" src="https://www.youtube.com/embed/54hLTbF8VnE" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe
+            width="900"
+            height="506"
+            src="https://www.youtube.com/embed/54hLTbF8VnE"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
       </div>
     </div>
