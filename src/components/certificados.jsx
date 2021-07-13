@@ -35,7 +35,7 @@ const Certificado = () => {
 		if (autenticado) {
 			alert('autenticado')
 			// history.push('/jets')
-			// history.push('/jets/juego')
+			history.push('/jets/descargar')
 		}
 	}, [autenticado])
 

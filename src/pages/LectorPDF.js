@@ -1,12 +1,12 @@
 import React, { Fragment } from 'react'
 
-import Lector from '../components/lectorPDF'
+import Descargar from '../components/lectorPDF'
 
 function Inicio() {
   return (
     <Fragment>
       <div className="container">
-        <Lector/>
+        <Descargar/>
       </div>
     </Fragment>
   );

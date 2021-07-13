@@ -1,38 +1,36 @@
-import React, { useState } from "react";
-import { Document, Page } from 'react-pdf'
+import React, { useContext, useEffect } from "react";
+import PdfContext from '../context/autenticacion/authContext'
+
+import { jsPDF } from 'jspdf'
 
 import "../css/lector.css";
 
-// import convocatoria1 from '../../public'
 
-const Lector = () => {
+const Descargar = () => {
 
-    const [numPages, setNumPages] = useState(null)
+  //Extraer la info del usuario
+  const pdfContext = useContext(PdfContext)
+	const { usuario, usuarioAutenticado } = pdfContext
 
-    const onDocumentLoadSuccess = ({numPages}) => {
-        setNumPages(numPages)
-    } 
+  useEffect(() => {
+    usuarioAutenticado()
+  }, [])
+
+  const doc = new jsPDF()
+  doc.html(document.body, {
+    callback: (doc) => {
+      doc.save()
+    },
+    x: 10,
+    y: 10
+  })
 
   return (
-    <div>
-        <Document
-        file="https://drive.google.com/file/d/1VOKb_H8s7Qwo74rQbJxzDEp2X9IApErj/view?usp=sharing"
-        >
-            <Page pageNumber={1} />
-        </Document>
+    <div className="fondo" id="fon">
+        <img className="imagen" />
+            {usuario ? <h1 className="nomUsuario">{usuario.name} {usuario.lastname}</h1> : null}
     </div>
-
-
-    // <div style={{ position: "absolute", width: "100%", height: "100%" }}>
-    //   <object
-    //     data={require("../assets/CONVOCATORIA DESAFIO EXTREMO 2021 (1).pdf")}
-    //     type="application/pdf"
-    //     width="100%"
-    //     height="100%"
-    //   ></object>
-      
-    // </div>
   );
 };
 
-export default Lector;
+export default Descargar;

@@ -120,6 +120,8 @@ const AuthState = props => {
         
     }
 
+    //descargar el pdf
+
     return(
         <AuthContext.Provider
             value={{

@@ -8,6 +8,7 @@ import Memorias  from './pages/Memorias'
 import Certificados  from './pages/Certificados'
 import UsuariosWeb  from '../src/components/usuariosWeb'
 import Online  from './pages/Juego'
+import Descargar  from './pages/LectorPDF'
 
 import AuthState from './context/autenticacion/authState'
 import tokenAuth from './config/tokenAuth';
@@ -28,6 +29,7 @@ function App() {
           <Route exact path="/jets/memorias" component={Memorias}></Route>
           <Route exact path="/jets/certificados" component={Certificados}></Route>
           <Route exact path="/jets/evento" component={LogIn}></Route>
+          <Route exact path="/jets/descargar" component={Descargar}></Route>
           <RutaPrivada exact path="/jets/juego" component={Online}></RutaPrivada>
           {/* <Route exact path="/jets/evento" component={Cronometro}></Route> */}
           <Route exact path="/jets/online" component={() => {
