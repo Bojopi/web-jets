@@ -18,13 +18,33 @@ const styles = StyleSheet.create({
   texto: {
     textAlign: "center",
     position: "absolute",
-    top: 500,
-    width: 100,
+    top: 400
   },
   imagen: {
-    width: 100,
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    width: '100%'
   },
 });
+
+const Doc = ({data}) => (
+  <Document>
+    <Page size="LETTER">
+      <View>
+        <Image
+          src="https://i.postimg.cc/PqB4H7RQ/CERTIFICADO-ESTUDIANTES.png"
+          style={styles.imagen}
+        ></Image>
+      </View>
+      <View>
+        <Text style={styles.texto}>
+          {data}
+        </Text>
+      </View>
+    </Page>
+  </Document>
+);
 
 const Descargar = () => {
   //Extraer la info del usuario
@@ -35,27 +55,18 @@ const Descargar = () => {
     usuarioAutenticado();
   }, []);
 
-  const Doc = () => (
-    <Document>
-      <Page size="LETTER">
-        <View>
-          <Image
-            src="https://i.postimg.cc/PqB4H7RQ/CERTIFICADO-ESTUDIANTES.png"
-            style
-          ></Image>
-          <Text style={styles.texto}>
-            {usuario.name} {usuario.lastname}
-          </Text>
-        </View>
-      </Page>
-    </Document>
-  );
+  let nombre = ''
+
+  if(usuario) {
+    nombre = `${usuario.name} ${usuario.lastname}`
+    // console.log(nombre)
+  }
 
   return (
     <div className="fondo">
-      <PDFDownloadLink document={<Doc />} fileName="certificado.pdf">
+      <PDFDownloadLink document={<Doc data={nombre}/>} fileName="Certificado JETS 2021.pdf">
         {({ blob, url, loading, error }) =>
-          loading ? "Loading document..." : "Download Now!"
+          loading ? "Cargando el documento..." : "¡Descárgalo aquí!"
         }
       </PDFDownloadLink>
     </div>

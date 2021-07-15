@@ -33,7 +33,6 @@ const Certificado = () => {
 	//en caso de que el password o usuario no exista
 	useEffect(() => {
 		if (autenticado) {
-			alert('autenticado')
 			// history.push('/jets')
 			history.push('/jets/descargar')
 		}
