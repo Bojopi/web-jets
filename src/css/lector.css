@@ -12,3 +12,10 @@
     font-weight: 500;
     margin-top: 70px;
 }
+
+@media screen and (max-width: 768px) {
+    .fondo {
+        font-size: 15px;
+        font-weight: 300;
+    }
+}
