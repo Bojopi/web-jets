@@ -33,7 +33,7 @@ const Doc = ({data}) => (
     <Page size="LETTER">
       <View>
         <Image
-          src="https://i.postimg.cc/Hn0k7cHx/CERTIFICADO-MODIFICAR-NOMBRE.png"
+          src="https://i.postimg.cc/Gmw6d5QG/CERTIFICADO-ESTUDIANTES.jpg"
           style={styles.imagen}
         ></Image>
       </View>
