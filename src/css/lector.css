@@ -13,6 +13,24 @@
     margin-top: 70px;
 }
 
+.boton {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #2c5f81;
+    box-shadow: 0px 0px 8px 8px #d1e6ee;
+    color: white;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.boton:active {
+    transform: scale(.8);
+    background-color: #d1e6ee;
+    box-shadow: 0px 0px 8px 8px  #2c5f81;
+    color: black;
+}
+
 @media screen and (max-width: 768px) {
     .fondo {
         font-size: 15px;
