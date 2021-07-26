@@ -34,6 +34,7 @@ const Certificado = () => {
 	useEffect(() => {
 		if (autenticado) {
 			// history.push('/jets')
+			alert('autenticado')
 			history.push('/jets/descargar')
 		}
 	}, [autenticado])
