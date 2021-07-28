@@ -131,8 +131,8 @@ const AuthState = props => {
                 mensaje: state.mensaje,
                 iniciarSesion,
                 usuarioAutenticado,
-                usuarioAutenticadoPdf,
-                iniciarSesionPdf,
+                // usuarioAutenticadoPdf,
+                // iniciarSesionPdf,
                 cerrarSesion
             }}
         >
