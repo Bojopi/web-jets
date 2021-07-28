@@ -98,7 +98,8 @@ const Doc = ({data}) => (
     <Page size="A4">
       <View>
         <Image
-          src={certificado}
+          // src={certificado}
+          src="https://res.cloudinary.com/utepsajets/image/upload/v1627495748/Asset_2_jvrmuz.png"
           style={styles.imagen}
         ></Image>
       </View>
