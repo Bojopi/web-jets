@@ -99,7 +99,7 @@ const Doc = ({data}) => (
       <View>
         <Image
           // src={certificado}
-          src="https://res.cloudinary.com/utepsajets/image/upload/v1627495748/Asset_2_jvrmuz.png"
+          src="https://res.cloudinary.com/utepsajets/image/upload/v1627569614/Asset_3_m1atv9.png"
           style={styles.imagen}
         ></Image>
       </View>
