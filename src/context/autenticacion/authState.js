@@ -76,7 +76,7 @@ const AuthState = props => {
             tokenAuth(token)
         }
         try {
-            const respuesta = await clienteAxios.get('/api/pdf')
+            const respuesta = await clienteAxios.get('/api/auth-pdf')
             // console.log(respuesta)
             dispatch({
                 type: OBTENER_USUARIO,
@@ -93,7 +93,7 @@ const AuthState = props => {
     //cuando el usuario inicia sesion
     const iniciarSesionPdf = async datos => {
         try {
-            const respuesta = await clienteAxios.post('/api/pdf', datos)
+            const respuesta = await clienteAxios.post('/api/auth-pdf', datos)
             
             dispatch({
                 type: LOGIN_EXITOSO,
@@ -131,8 +131,8 @@ const AuthState = props => {
                 mensaje: state.mensaje,
                 iniciarSesion,
                 usuarioAutenticado,
-                // usuarioAutenticadoPdf,
-                // iniciarSesionPdf,
+                usuarioAutenticadoPdf,
+                iniciarSesionPdf,
                 cerrarSesion
             }}
         >

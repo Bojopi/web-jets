@@ -28,7 +28,7 @@ const Certificado = () => {
 	let history = useHistory()
 
 	const pdfContext = useContext(PdfContext)
-	const { autenticado, iniciarSesion } = pdfContext
+	const { autenticado, iniciarSesionPdf } = pdfContext
 
 	//en caso de que el password o usuario no exista
 	useEffect(() => {
@@ -82,7 +82,7 @@ const Certificado = () => {
 			}
 		}
 		//pasar al action
-		iniciarSesion({ username, password })
+		iniciarSesionPdf({ username, password })
 	}
 
 	return (

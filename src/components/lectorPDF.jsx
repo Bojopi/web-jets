@@ -83,7 +83,7 @@ const styles = StyleSheet.create({
   texto: {
     textAlign: "center",
     position: "absolute",
-    top: 400
+    top: 390
   },
   imagen: {
     position: 'absolute',
@@ -91,9 +91,16 @@ const styles = StyleSheet.create({
     left: 0,
     width: '100%'
   },
+  codi: {
+    position: 'absolute',
+    textAlign: 'right',
+    fontSize: 10,
+    top: 800,
+    marginRight: 10
+  },
 });
 
-const Doc = ({data}) => (
+const Doc = ({data, cod}) => (
   <Document>
     <Page size="A4">
       <View>
@@ -108,6 +115,11 @@ const Doc = ({data}) => (
           {data}
         </Text>
       </View>
+      <View>
+        <Text style={styles.codi}>
+          {cod}
+        </Text>
+      </View>
     </Page>
   </Document>
 );
@@ -115,22 +127,26 @@ const Doc = ({data}) => (
 const Descargar = () => {
   //Extraer la info del usuario
   const pdfContext = useContext(PdfContext);
-  const { usuario, usuarioAutenticado } = pdfContext;
+  const { usuario, usuarioAutenticadoPdf } = pdfContext;
 
   useEffect(() => {
-    usuarioAutenticado();
+    usuarioAutenticadoPdf();
   }, []);
 
   let nombre = ''
+  let codigo = ''
 
   if(usuario) {
     nombre = `${usuario.name} ${usuario.lastname}`
     // console.log(nombre)
+    
+    codigo = `N° ${usuario.codigo}`
+    // console.log(codigo)
   }
 
   return (
     <div className="fondo">
-      <PDFDownloadLink document={<Doc data={nombre}/>} fileName="Certificado JETS 2021.pdf">
+      <PDFDownloadLink document={<Doc data={nombre} cod={codigo} />} fileName="Certificado JETS 2021.pdf">
         {({ blob, url, loading, error }) =>
           loading ? "Cargando el documento..." : "¡Descárgalo aquí!"
         }
